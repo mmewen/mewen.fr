@@ -1,0 +1,46 @@
+/* ===== Menu ==== */
+#conteneur_menu {
+	float: left;
+	position: fixed;
+	top: 40%;
+	background-color: green;
+	width: 50px;
+	height: 100px;
+}
+
+/* ===== Loading overlay ==== */
+#loading {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(100,100,100,0.5);
+	text-align: center;
+	display: none;
+}
+
+#loading span {
+	background-color: red;
+	top: 45%;
+	position: relative;
+}
+
+
+/* ===== General settings ==== */
+body, html {
+	margin: 0px;
+	top: 0px;
+}
+
+#page {
+	background-color: lightgray;
+	text-align: center;
+}
+
+.div_paralax_txt {
+	margin: auto;
+	text-align: left;
+	background-color: white;
+	width: 70%;
+}
