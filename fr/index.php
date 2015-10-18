@@ -23,34 +23,11 @@
 </head>
 <body>
 
-<script  type="text/javascript" >
-// fenetre(0);
-</script> <!-- penser à fancybox aussi : http://fancyapps.com/fancybox -->
-
-<div id='conteneur_menu'>
-	<div id='menu'>
-		<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_haut' style='border-left: solid 3px #007aa2;'>
-				Présentation
-			</div>
-		</a>
-
-		<!-- <div class='menu_item' id='menu_item_milieu1' > -->
-		<a href='projets.php' class='menu'>		<div class='menu_item' id='menu_item_bas' >
-				Projets
-			</div>
-		</a>
-
-		<!-- <div class='menu_item' id='menu_item_bas'>
-			Plus à venir...
-		</div> -->
-
-		<div id='langue'>
-			<a href="../en/" title="Change language to English">
-				<img src="../inc/img/flag.jpg" alt="Change language to English" width='40px'>
-			</a>
-		</div>
-	</div>
-</div>
+<?php
+	$page = "index";
+	$lang = "fr";
+	include('../inc/parts/menu.php');
+?>
 
 <div id='loading'>
 	<span>
@@ -68,7 +45,7 @@
 	<div id="presentation" class="div_paralax_txt">	
 		<a name="presentation"></a>
 		<div class="div_inside">
-			<img src='../inc/img/id.jpg' height="200px" style="margin: auto 5%; position:inherit; float:left; padding: 0;" id="photoid">
+			<img src='../inc/img/id.jpg' height="150px" style="margin: auto 5%; position:inherit; float:left; padding: 0;" id="photoid">
 			<h1>Mewen MICHEL</h1>
 			<div class='identite'>
 				<p>

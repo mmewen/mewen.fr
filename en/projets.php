@@ -19,32 +19,11 @@
 </head>
 <body>
 
-<script  type="text/javascript" >
-// fenetre(0);
-</script> <!-- penser à fancybox aussi: http://fancyapps.com/fancybox -->
-
-<div id='menu'>
-	<a href='index.php' class='menu'>		<div class='menu_item' id='menu_item_haut' >
-			Résumé
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_milieu1' style='border-left: solid 3px #e46b00;'> -->
-	<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_bas' style='border-left: solid 3px #e46b00;'>
-			Projects
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_bas'>
-		Plus à venir...
-	</div> -->
-
-	<div id='langue'>
-		<a href="../fr/projets.php" title="Passer à la version française">
-			<img src="../inc/img/drapeau.jpg" alt="Passer à la version française" width='40px'>
-		</a>
-	</div>
-</div>
+<?php
+	$page = "projets";
+	$lang = "en";
+	include('../inc/parts/menu.php');
+?>
 
 <div id='loading'>
 	<span>
@@ -52,6 +31,10 @@
 		Loading, please wait...<br><br>
 		<a href="#" id="skip_loading">Skip loading</a>
 	</span>
+</div>
+
+<div  id="backgroundDiv">
+	<canvas id="background" width="100" height="100"></canvas>
 </div>
 
 <div id='page'>
@@ -251,6 +234,7 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="../inc/scripts/jquery.parallax-1.1.js"></script>
+<script  type="text/javascript"  src="../inc/scripts/StackBlur.js"></script>
 
 <!-- <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js'></script> <!-- nécessaire pr le draggable -->
 <!-- <script type='text/javascript' src='../inc/scripts/blur1.js'></script> -->
@@ -259,9 +243,7 @@
 <script src="../inc/scripts/jquery.scrollTo.js"></script>
 <script src="../inc/scripts/jquery.localscroll.js"></script>
 
-<script  type="text/javascript"  src="../inc/scripts/load.js"></script> <!-- pour la page de chargement -->
 <script  type="text/javascript"  src="../inc/scripts/ready.js"></script> <!-- pour le JQuery -->
-<script  type="text/javascript"  src="../inc/scripts/ready_projets.js"></script> <!-- pour le JQuery -->
 
 </body>
 </html>

@@ -22,6 +22,7 @@ canvasBackground.onload = function() {
 	// This blurs the contents of the entire canvas
 	blurCanvas(100);
 	canvasReady = true;
+	$('#backgroundDiv').fadeIn();
 }
 
 function blurCanvas(percent) {
