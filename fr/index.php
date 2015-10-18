@@ -5,6 +5,7 @@
 	J'ai réalisé ce site à partir de zéro, avec l'aide du tutoriel parallaxe d'Alsa Création
 	(http://www.alsacreations.com/tuto/lire/1417-zoom-sur-effet-parallaxe.html)
 	et la bibliothèque jquery.parallax-1.1.js basée sur jQuery.
+	Merci à Mario Klingemann pour sa fonction de flou du canvas !
 	Ce sont pour le moment des essais, j'apprend à manipuler ce genre de chose !
 
 	Mewen MICHEL - 26/08/2014
@@ -27,28 +28,29 @@
 </script> <!-- penser à fancybox aussi : http://fancyapps.com/fancybox -->
 
 <div id='conteneur_menu'>
-<div id='menu'>
-	<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_haut' style='border-left: solid 3px #007aa2;'>
-			Présentation
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_milieu1' > -->
-	<a href='projets.php' class='menu'>		<div class='menu_item' id='menu_item_bas' >
-			Projets
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_bas'>
-		Plus à venir...
-	</div> -->
-
-	<div id='langue'>
-		<a href="../en/" title="Change language to English">
-			<img src="../inc/img/flag.jpg" alt="Change language to English" width='40px'>
+	<div id='menu'>
+		<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_haut' style='border-left: solid 3px #007aa2;'>
+				Présentation
+			</div>
 		</a>
+
+		<!-- <div class='menu_item' id='menu_item_milieu1' > -->
+		<a href='projets.php' class='menu'>		<div class='menu_item' id='menu_item_bas' >
+				Projets
+			</div>
+		</a>
+
+		<!-- <div class='menu_item' id='menu_item_bas'>
+			Plus à venir...
+		</div> -->
+
+		<div id='langue'>
+			<a href="../en/" title="Change language to English">
+				<img src="../inc/img/flag.jpg" alt="Change language to English" width='40px'>
+			</a>
+		</div>
 	</div>
-</div></div>
+</div>
 
 <div id='loading'>
 	<span>
@@ -58,17 +60,9 @@
 	</span>
 </div>
 
-<!-- <div id='form'>
-	<div id='formbox'>
-	Si vous souhaitez m'envoyer un SMS, merci de remplir le formulaire suivant :<br>
-	<form method="POST" action="message.php">
-	<textarea id='message' name='message' rows="6" cols="70" maxlength='1000' placeholder='Saisissez ici votre message'></textarea>
-		<input type="submit" value="Envoyer" onsubmit="if(document.getElementById('message').value==NULL){alert('Veuillez taper un message !'); return false;};">
-	</form>
-	<button onclick="fenetre(0)" style="cursor:pointer;">Fermer</button>
-	</div>
-</div> -->
-
+<div  id="backgroundDiv">
+	<canvas id="background" width="100" height="100"></canvas>
+</div>
 
 <div id='page'>
 	<div id="presentation" class="div_paralax_txt">	
@@ -81,17 +75,10 @@
 					Passionné d'informatique, étudiant ingénieur à l'UTC, intéressé par la robotique et le traitement d'images.<br>
 					Découvrez mon parcours et mes projets !<br>
 				</p>
-				<a href="../inc/CV_fr.pdf" download="CV Mewen MICHEL.pdf"><div class="mBouton" id="down">Téléchargez mon CV (pdf)</div></a><br><br>
-					<a href="https://github.com/mmewen" target="_blank"><div class="mBouton" id="github">Aller voir mon Github</div></a>
+				<a href="../inc/CV_fr.pdf" download="CV Mewen MICHEL.pdf"><button id="down">Téléchargez mon CV (pdf)</button></a><br><br>
+					<a href="https://github.com/mmewen" target="_blank"><button id="github">Aller voir mon Github</button></a>
 			</div>
 		</div>
-	</div>
-
-
-	<div id="img1" class="div_paralax_img">
-		<a href='#cursus' title='Cliquez ou scrollez pour descendre'>
-			<img src="../inc/img/scroll.gif" alt='Cliquez pour descendre !' width='40'   class='bouton_ascenceur' style="margin-top: 10px;">
-		</a>
 	</div>
 
 	<div id="cursus" class="div_paralax_txt">
@@ -183,12 +170,6 @@
 		</div>
 	</div>
 
-	<div id="img2" class="div_paralax_img">
-		<a href='#etudes' title='Cliquez ou scrollez pour descendre'>
-			<img src="../inc/img/scroll.gif" alt='Cliquez pour descendre !' width='40'   class='bouton_ascenceur' style="margin-top: 10px;">
-		</a>
-	</div>
-
 	<div id="etudes" class="div_paralax_txt">
 		<div class="div_inside">
 		<h1>Formation</h1>
@@ -225,12 +206,6 @@
 			</tr> -->
 		</table>
 		</div>
-	</div>
-
-	<div id="img3" class="div_paralax_img">
-		<a href='#atouts' title='Cliquez ou scrollez pour descendre'>
-			<img src="../inc/img/scroll.gif" alt='Cliquez pour descendre !' width='40'   class='bouton_ascenceur' style="margin-top: 10px;">
-		</a>
 	</div>
 
 	<div id="atouts" class="div_paralax_txt">
@@ -310,12 +285,6 @@
 		</div>
 	</div>
 
-	<div id="img4" class="div_paralax_img">
-		<a href='#foot' title='Cliquez ou scrollez pour descendre'>
-			<img src="../inc/img/scroll.gif" alt='Cliquez pour descendre !' width='40'   class='bouton_ascenceur' style="margin-top: 10px;">
-		</a>
-	</div>
-
 	<div id="foot" class="div_paralax_foot div_paralax_txt">
 		<div class="div_inside" style='text-align: center;'>
 	<h1>Intéressé(e) ?</h1>
@@ -361,15 +330,13 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="../inc/scripts/jquery.parallax-1.1.js"></script>
+<script  type="text/javascript"  src="../inc/scripts/StackBlur.js"></script>
 
 <script src="../inc/scripts/jquery.browser.min.js"></script>
 <script src="../inc/scripts/jquery.scrollTo.js"></script>
 <script src="../inc/scripts/jquery.localscroll.js"></script>
 
-<script  type="text/javascript"  src="../inc/scripts/form.js"></script> <!-- pour la fenêtre volante -->
-<script  type="text/javascript"  src="../inc/scripts/load.js"></script> <!-- pour la page de chargement -->
-<script  type="text/javascript"  src="../inc/scripts/ready.js"></script> <!-- pour le JQuery -->
-<script  type="text/javascript"  src="../inc/scripts/ready_resume.js"></script> <!-- pour le JQuery -->
+<script  type="text/javascript"  src="../inc/scripts/ready.js"></script>
 
 </body>
 </html>

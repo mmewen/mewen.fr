@@ -79,7 +79,7 @@
 					<td class="exp_descr"> <h2>Member of my university team, "UTCoupe"</h2> &bull; <i>2 semesters</i> <br>
 						<h4>Summary:</h4>
 							<p>The aim of the cup is to give a challenge to students in order to make them lead a project in teams.</p>
-							<p>This year, the theme was "Robotmoives": the robot had to close the clapper boards, light up the scene, gather pop-corns and
+							<p>This year, the theme was "Robotmovies": the robot had to close the clapper boards, light up the scene, gather pop-corns and
 							finally unroll the red carpet to climb the stairs !</p>
 							<p>We reached the 5th place, beating our own previous record !</p>
 						<h4>Software and hardware used:</h4>

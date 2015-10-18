@@ -2,6 +2,7 @@
 #conteneur_menu {
 	float: left;
 	position: fixed;
+	z-index: 2;
 	top: 40%;
 	background-color: green;
 	width: 50px;
@@ -11,6 +12,7 @@
 /* ===== Loading overlay ==== */
 #loading {
 	position: fixed;
+	z-index: 1000;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
@@ -34,8 +36,28 @@ body, html {
 }
 
 #page {
-	background-color: lightgray;
+	position: relative;
 	text-align: center;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+canvas#background {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#backgroundDiv{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	top: 0px;
+	left: 0px;
 }
 
 .div_paralax_txt {
@@ -43,4 +65,26 @@ body, html {
 	text-align: left;
 	background-color: white;
 	width: 70%;
+	margin-bottom: 50px;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 5px #aaa;
+}
+
+/* ===== General controls ===== */
+button{
+	background-color: #00C0F3;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
+	border-style: none;
+	float: right;
+	box-shadow: 0px 2px 5px #aaa;
+	transition-property: all;
+	transition-duration: 400ms;
+}
+
+button:hover {
+	box-shadow: 0px 5px 10px #aaa;
+	background-color: #7CD7EF;
 }

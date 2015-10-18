@@ -14,6 +14,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Mewen MICHEL | Personnal page</title>
+	<meta http-equiv="Content-Language" content="en-US" />
 	<link rel="stylesheet" type="text/css" href="../inc/style.css">
 	<link rel="stylesheet" type="text/css" href="../inc/style_index.css">
 	<link rel="icon" type="image/png" href="../inc/img/favicon.png" >
@@ -24,26 +25,28 @@
 // fenetre(0);
 </script> <!-- penser à fancybox aussi : http://fancyapps.com/fancybox -->
 
-<div id='menu'>
-	<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_haut' style='border-left: solid 3px #007aa2;'>
-			Résumé
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_milieu1' > -->
-	<a href='projets.php' class='menu'>		<div class='menu_item' id='menu_item_bas' >
-			Projects
-		</div>
-	</a>
-
-	<!-- <div class='menu_item' id='menu_item_bas'>
-		Plus à venir...
-	</div> -->
-
-	<div id='langue'>
-		<a href="../fr/" title="Passer à la version française">
-			<img src="../inc/img/drapeau.jpg" alt="Passer à la version française" width='40px'>
+<div id='conteneur_menu'>
+	<div id='menu'>
+		<a href='#presentation' class='menu'>		<div class='menu_item' id='menu_item_haut' style='border-left: solid 3px #007aa2;'>
+				Résumé
+			</div>
 		</a>
+
+		<!-- <div class='menu_item' id='menu_item_milieu1' > -->
+		<a href='projets.php' class='menu'>		<div class='menu_item' id='menu_item_bas' >
+				Projects
+			</div>
+		</a>
+
+		<!-- <div class='menu_item' id='menu_item_bas'>
+			Plus à venir...
+		</div> -->
+
+		<div id='langue'>
+			<a href="../fr/" title="Passer à la version française">
+				<img src="../inc/img/drapeau.jpg" alt="Passer à la version française" width='40px'>
+			</a>
+		</div>
 	</div>
 </div>
 
@@ -55,16 +58,9 @@
 	</span>
 </div>
 
-<!-- <div id='form'>
-	<div id='formbox'>
-	If you wish to send me a message, please fill this form :<br>
-	<form method="POST" action="message.php">
-	<textarea id='message' name='message' rows="6" cols="70" maxlength='1000' placeholder='Type your message here'></textarea>
-		<input type="submit" value="Send" onsubmit="if(document.getElementById('message').value==NULL){alert('Please write something !'); return false;};">
-	</form>
-	<button onclick="fenetre(0)" style="cursor:pointer;">Close</button>
-	</div>
-</div> -->
+<div  id="backgroundDiv">
+	<canvas id="background" width="100" height="100"></canvas>
+</div>
 
 <div id='page'>
 	<div id="presentation" class="div_paralax_txt">	
@@ -78,8 +74,8 @@
 						I would like to do a 6 month internship abroad during my engineering studies. <br>
 						Discover my background and my projects !<br>
 					</p>
-					<a href="../inc/CV_en.pdf" download="Resume Mewen MICHEL.pdf"><div class="mBouton" id="down">Download my resume (pdf)</div></a><br><br>
-					<a href="https://github.com/mmewen" target="_blank"><div class="mBouton" id="github">Take a look at my Github</div></a>
+					<a href="../inc/CV_en.pdf" download="Resume Mewen MICHEL.pdf"><button id="down">Download my resume (pdf)</button></a><br><br>
+					<a href="https://github.com/mmewen" target="_blank"><button id="github">Take a look at my Github</button></a>
 				</div>
 			</div>
 
@@ -333,16 +329,13 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="../inc/scripts/jquery.parallax-1.1.js"></script>
+<script  type="text/javascript"  src="../inc/scripts/StackBlur.js"></script>
 
-<!-- <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js'></script> <!-- nécessaire pr le draggable -->
-<!-- <script type='text/javascript' src='../inc/scripts/blur1.js'></script> -->
 
 <script src="../inc/scripts/jquery.browser.min.js"></script>
 <script src="../inc/scripts/jquery.scrollTo.js"></script>
 <script src="../inc/scripts/jquery.localscroll.js"></script>
 
-<script  type="text/javascript"  src="../inc/scripts/form.js"></script> <!-- pour la fenêtre volante -->
-<script  type="text/javascript"  src="../inc/scripts/load.js"></script> <!-- pour la page de chargement -->
 <script  type="text/javascript"  src="../inc/scripts/ready.js"></script> <!-- pour le JQuery -->
 
 
