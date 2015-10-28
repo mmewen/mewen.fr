@@ -42,7 +42,7 @@
 </div>
 
 <div id='page'>
-	<div id="presentation" class="div_paralax_txt">	
+	<div id="presentation" class="div_paralax_txt bigger">	
 		<a name="presentation"></a>
 		<div class="div_inside">
 			<img src='../inc/img/id.jpg' height="150px" style="margin: auto 5%; position:inherit; float:left; padding: 0;" id="photoid">

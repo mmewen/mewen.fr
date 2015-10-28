@@ -39,7 +39,7 @@
 </div>
 
 <div id='page'>
-	<div id="presentation" class="div_paralax_txt">	
+	<div id="presentation" class="div_paralax_txt bigger">	
 		<a name="presentation"></a>
 		<div class="div_inside">
 			<h1>Projets</h1>

@@ -32,6 +32,7 @@ function blurCanvas(percent) {
 var previous_scroll;
 
 $(window).on('scroll', function() {
+	// // Blurs the background when going down the page
 	// if (canvasReady) {
 	//     var scroll = $(window).scrollTop();
 	//     var wHeight = $(window).innerHeight();
@@ -44,4 +45,20 @@ $(window).on('scroll', function() {
 	// 		blurCanvas(scroll / wHeight);
 	//     }	  
 	// }
+
+	// Puts a div_paralax_txt on the foreground
+	var scrollPos = $(window).scrollTop();
+	var windowMiddle = $(window).innerHeight()/2;
+	var divs = $(".div_paralax_txt");
+	var isBiggerDivFound = false;
+
+	for (var i = divs.length-1; i >= 0 ; i--) {
+		$(divs[i]).removeClass("bigger");
+
+		if (!isBiggerDivFound && (divs[i].offsetTop - scrollPos)< windowMiddle) {
+			// Top of this div is in the top half of the browser window
+			$(divs[i]).addClass("bigger");
+			isBiggerDivFound = true;
+		}
+	}
 });
