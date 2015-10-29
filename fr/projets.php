@@ -14,6 +14,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Mewen MICHEL | Projets</title>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../inc/style.css">
 	<link rel="stylesheet" type="text/css" href="../inc/style_projets.css">
 	<link rel="icon" type="image/png" href="../inc/img/favicon.png" >
@@ -83,7 +84,10 @@
 						<br>La Ferté-Bernard</a></td>
 				</tr>
 			</table>
+			
+			<img src="../inc/img/backgroundtest.png">
 		</div>
+		<!-- <div class="div_img_inside"></div> -->
 	</div>
 
 	<div id="img5" class="div_paralax_img">

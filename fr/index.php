@@ -17,6 +17,7 @@
 	<title>Mewen MICHEL | Site personnel</title>
 	<meta name="description" content="Passionné d'informatique, étudiant ingénieur à l'UTC, intéressé par la robotique et le traitement d'images. Découvrez mon parcours et mes projets !" />
 	<meta http-equiv="Content-Language" content="fr-FR" />
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../inc/style.css">
 	<link rel="stylesheet" type="text/css" href="../inc/style_index.css">
 	<link rel="icon" type="image/png" href="../inc/img/favicon.png" >
