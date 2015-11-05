@@ -43,7 +43,7 @@
 	<div id="presentation" class="div_paralax_txt bigger">	
 		<a name="presentation"></a>
 			<div class="div_inside">
-				<img src='../inc/img/id.jpg' height="150px" style="margin: auto 5%; position:inherit; float:left; padding: 0;" id="photoid">
+				<img src='../inc/img/id.jpg' id="photoid">
 				<h1>Mewen MICHEL</h1>
 				<div class='identite'>
 					<p>
@@ -51,8 +51,9 @@
 						I would like to do a 6 month internship abroad during my engineering studies. <br>
 						Discover my background and my projects !<br>
 					</p>
-					<a href="../inc/CV_en.pdf" download="Resume Mewen MICHEL.pdf"><button id="down">Download my resume (pdf)</button></a><br><br>
-					<a href="https://github.com/mmewen" target="_blank"><button id="github">Take a look at my Github</button></a>
+
+				<a href="../inc/CV_en.pdf" class="button" download="CV Mewen MICHEL.pdf">Download my resume (pdf)</a>
+				<a href="https://github.com/mmewen" class="button" target="_blank">Take a look at my Github</a>
 				</div>
 			</div>
 

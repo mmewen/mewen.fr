@@ -46,15 +46,15 @@
 	<div id="presentation" class="div_paralax_txt bigger">	
 		<a name="presentation"></a>
 		<div class="div_inside">
-			<img src='../inc/img/id.jpg' height="150px" style="margin: auto 5%; position:inherit; float:left; padding: 0;" id="photoid">
+			<img src='../inc/img/id.jpg' id="photoid">
 			<h1>Mewen MICHEL</h1>
 			<div class='identite'>
 				<p>
 					Passionné d'informatique, étudiant ingénieur à l'UTC, intéressé par la robotique et le traitement d'images.<br>
 					Découvrez mon parcours et mes projets !<br>
 				</p>
-				<a href="../inc/CV_fr.pdf" download="CV Mewen MICHEL.pdf"><button id="down">Téléchargez mon CV (pdf)</button></a><br><br>
-					<a href="https://github.com/mmewen" target="_blank"><button id="github">Aller voir mon Github</button></a>
+				<a href="../inc/CV_fr.pdf" class="button" download="CV Mewen MICHEL.pdf">Téléchargez mon CV (pdf)</a>
+				<a href="https://github.com/mmewen" class="button" target="_blank">Aller voir mon Github</a>
 			</div>
 		</div>
 	</div>
