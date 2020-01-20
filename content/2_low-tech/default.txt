@@ -14,6 +14,8 @@ Je travaille selon trois axes :
 - Je partage la philosophie low tech et ses solutions. J'étudie également comment la mettre en œuvre à l'échelle collective ou d'une entreprise.
 - J'imagine une société future souhaitable et soutenable.
 
+(image: ble.png)
+
 #### Contact
 
 Vous souhaitez sensibiliser aux enjeux environnementaux 🌍 ? Découvrir l'univers des low tech 💡 ? Envisager votre organisation en version durable 🌱 ?
