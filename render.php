@@ -43,13 +43,17 @@ foreach ($kirby->site()->index() as $page) {
 
     F::write($file, $html);
 
+    // Copy the page files
+    foreach ($page->files() as $file) {
+        $dst = $kirby->root('static') . $file->url();
+        mkdir(dirname($dst), 0744, TRUE);
+        copy($kirby->root() . $file->url(), $dst); 
+    }
+
 }
 
 // Copy the assets
 recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
-
-// Copy the medias
-recurse_copy($kirby->root('media'), $kirby->root('static') . '/media');
 
 // End
 echo 'Your static site has been generated in ' . $kirby->root('static');
