@@ -44,10 +44,14 @@ foreach ($kirby->site()->index() as $page) {
     F::write($file, $html);
 
     // Copy the page files
-    foreach ($page->files() as $file) {
-        $dst = $kirby->root('static') . $file->url();
-        mkdir(dirname($dst), 0744, TRUE);
-        copy($kirby->root() . $file->url(), $dst); 
+    foreach ($page->files() as $page_file) {
+        $page_file->publish();
+        $dst = $kirby->root('static') . $page_file->url();
+        $dst_dir = dirname($dst);
+        if (!is_dir($dst_dir)) {
+            mkdir($dst_dir, 0744, TRUE);
+        }
+        copy($kirby->root() . $page_file->url(), $dst); 
     }
 
 }
