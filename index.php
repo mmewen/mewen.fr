@@ -1,4 +1,5 @@
-<?php    
-  header('Status: 301 Moved Permanently', false, 301);      
-  header('Location: fr/');      
-?>
+<?php
+
+require 'kirby/bootstrap.php';
+
+echo (new Kirby)->render();
