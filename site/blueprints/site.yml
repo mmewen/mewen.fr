@@ -1,3 +1,26 @@
 title: Site
-preset: pages
-unlisted: true
+
+tabs:
+  pages:
+    label: Pages
+    icon: home
+    preset: pages
+    unlisted: true
+  info:
+    label: Informations générales
+    icon: tag
+    fields:
+      description:
+        label: Description
+        type: textarea
+      author:
+        label: Auteur
+        type: text
+      phone:
+        label: Téléphone 
+        type: tel
+      email:
+        label: Email
+        type: text
+        validate:
+          email

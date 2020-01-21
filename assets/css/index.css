@@ -69,7 +69,7 @@ img {
 }
 
 .menu a[aria-current] {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid;
 }
 
 @media screen and (min-width: 40rem) {
@@ -136,7 +136,7 @@ main {
   font-weight: 500;
   z-index: 1;
   display: inline-block;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid;
 }
 .text figure {
   padding-top: 1.5rem;
@@ -173,4 +173,27 @@ main {
 .social a:hover {
   background: #000;
   color: #fff;
+}
+
+/* Custom */
+
+body {
+  background-color: #202225;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fffdf5;
+    color: #3f3f5a;
+  }
+}
+
+.note {
+  font-size: small;
+  font-style: italic;
+}
+
+address {
+  font-style: normal;
 }

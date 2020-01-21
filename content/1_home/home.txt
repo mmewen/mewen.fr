@@ -1,12 +1,9 @@
-Title: Présentation
+Title: À propos
 
 ----
 
-Text:
+Quote:
 
-MW Mewen
-
-Ingénieur et vidéaste
-pour un futur souhaitable et durable
-
-Mon intention est d'inventer et partager des solutions durables et un nouveau récit de futur stable et résilient.
+Mon intention est d'inventer et partager
+des solutions durables et un nouveau récit
+de futur stable et résilient.
