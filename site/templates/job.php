@@ -9,7 +9,7 @@
 
     <?php if(!empty(trim($page->presentation()->kt()))): ?>
     <div class="cover-shade"></div>
-    <div class="cover-text-container flex vertical-flex">
+    <div class="cover-text-container flex">
       <div class="cover-text">
         <?= $page->presentation()->kt() ?>
       </div>
