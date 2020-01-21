@@ -47,7 +47,7 @@ img {
 }
 
 .page {
-  padding: 2vh 5vw 10vh;
+  padding: 2vh 5vw 5vh;
 }
 .page > * {
   max-width: var(--content-width);
