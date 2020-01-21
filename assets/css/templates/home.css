@@ -16,11 +16,11 @@ main {
 blockquote {
   font-weight: 100;
   font-size: 1.5rem;
+  width: max-content;
   max-width: 500px;
   line-height: 1.4;
   position: relative;
   margin: 2rem;
-  margin-top: 4rem;
 }
 
 blockquote:before,
@@ -42,8 +42,8 @@ blockquote:before {
 
 blockquote:after {
   content: '”';
-  right: -1rem;
-  bottom: 1rem;
+  right: -3rem;
+  bottom: 0.8rem;
 }
 
 cite {
