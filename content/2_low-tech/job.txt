@@ -2,11 +2,19 @@ Title: Low tech
 
 ----
 
-Text:
+Presentation:
 
 Nous sommes dans l’Anthropocène : l'ère d'un décalage délétère/préoccupant entre l'impact des activités humaines et la capacité écologique d’absorption de notre planète.
 
 Ingénieur, optimiste, curieux et acteur de la transition, je veux m'engager et collaborer pour que l'humain réduise son empreinte et devienne plus résilient, plus résistant aux chocs, face aux défis à venir.
+
+----
+
+Cover: 
+
+----
+
+Text:
 
 Je travaille selon trois axes :
 
@@ -14,13 +22,23 @@ Je travaille selon trois axes :
 - Je partage la philosophie low tech et ses solutions. J'étudie également comment la mettre en œuvre à l'échelle collective ou d'une entreprise.
 - J'imagine une société future souhaitable et soutenable.
 
-#### Contact
+----
+
+Contact-text:
 
 Vous souhaitez sensibiliser aux enjeux environnementaux 🌍 ? Découvrir l'univers des low tech 💡 ? Envisager votre organisation en version durable 🌱 ?
 
 Parlez-moi de votre intention !
 
-#### Citations
+----
 
-- Vitibot
-- La Bascule
+Quotes:
+
+- 
+  text: -
+  person: -
+  company: Vitibot
+- 
+  text: -
+  person: -
+  company: La Bascule

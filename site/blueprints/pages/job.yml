@@ -1,0 +1,32 @@
+title: Job Page
+preset: page
+fields:
+  presentation:
+    label: Présentation
+    type: textarea
+  cover:
+    label: Couverture
+    type: files
+    multiple: false
+    query: page.images
+    search: false
+  text:
+    label: Texte
+    type: textarea
+    size: large
+  contact_text:
+    label: Texte pour contact
+    type: textarea
+  quotes:
+    label: Citations
+    type: structure
+    fields:
+      text:
+        label: Texte
+        type: text
+      person:
+        label: Personne
+        type: text
+      company:
+        label: Entreprise
+        type: text
