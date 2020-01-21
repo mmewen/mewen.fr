@@ -1,0 +1,93 @@
+.cover-container {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+.cover-text {
+	font-weight: lighter;
+	font-size: larger;
+}
+
+.contact-container {
+	margin: 3em 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.contact {
+	background-color: var(--secondary-background-color);
+	padding: 1em 1em;
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.contact > a {
+	background-color: var(--background-color);
+	padding: 0.75em 1.5em;
+	margin: 0.5em;
+	display: inline-block;
+	position: relative;
+	transition-property: color;
+	transition-duration: 0.2s;
+	z-index: 0;
+}
+
+.contact > a:hover,
+.contact > a:focus,
+.contact > a:active {
+	color: white;
+}
+
+.contact > a::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--highlight-color);
+	transform: scaleY(0);
+	transform-origin: 0 100%;
+	transition-property: transform;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-out;
+}
+
+
+.contact > a:hover::before,
+.contact > a:focus::before,
+.contact > a:active::before {
+	transform: scaleY(1);
+}
+
+@media screen and (min-width: 48em) {
+
+	.cover-text-container {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.cover-text {
+		max-width: 50%;
+		padding: 1em;
+	}
+
+	.cover-shade {
+		width: 50%;
+		height: 100%;
+		background-color: var(--background-color); 
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+	}
+
+	.contact {
+		flex-basis: 70%;
+		padding: 1.5em 3em 2em 3em;
+	}
+}

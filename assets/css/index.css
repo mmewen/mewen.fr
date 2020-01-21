@@ -1,3 +1,22 @@
+/* Colors */
+
+body {
+  --background-color: #202225;
+  --secondary-background-color: rgba(255, 253, 245, 0.1);
+  --color: rgba(255, 255, 255, 0.87);
+  --highlight-color: #2875BB;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --background-color: #fffdf5;
+    --secondary-background-color: rgba(32, 34, 37, 0.1);
+    --color: #3f3f5a;
+  }
+}
+
+/* End colors */
+
 :root {
   --content-width: 65rem;
 }
@@ -5,8 +24,8 @@
 *,
 *:after,
 *:before{
-  margin: 0;
-  padding: 0;
+/*  margin: 0;
+  padding: 0;*/
   box-sizing: border-box;
 }
 
@@ -14,25 +33,21 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   color: currentColor;
   text-decoration: none;
 }
 
-strong, b {
+/*strong, b {
   font-weight: 500;
-}
+}*/
 
 img {
   width: 100%;
 }
 
 .page {
-  padding: 5vh 5vw 10vh;
+  padding: 2vh 5vw 10vh;
 }
 .page > * {
   max-width: var(--content-width);
@@ -69,7 +84,7 @@ img {
 }
 
 .menu a[aria-current] {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid var(--highlight-color);
 }
 
 @media screen and (min-width: 40rem) {
@@ -120,13 +135,6 @@ main {
 .text ol {
   margin-bottom: 1.5em;
 }
-.text h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
 .text > *:first-child {
   margin-top: 0;
 }
@@ -136,7 +144,7 @@ main {
   font-weight: 500;
   z-index: 1;
   display: inline-block;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid var(--highlight-color);
 }
 .text figure {
   padding-top: 1.5rem;
@@ -178,15 +186,9 @@ main {
 /* Custom */
 
 body {
-  background-color: #202225;
-  color: rgba(255, 255, 255, 0.87);
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #fffdf5;
-    color: #3f3f5a;
-  }
+  background-color: var(--background-color);
+  color: var(--color);
+  margin: 0;
 }
 
 .note {
@@ -196,4 +198,19 @@ body {
 
 address {
   font-style: normal;
+}
+
+/* Markdown styles */
+.text h1, .text h2, .text h3 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.text h4, .text h5, .text h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding: 0 2em;
 }

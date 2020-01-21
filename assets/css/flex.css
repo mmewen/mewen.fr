@@ -1,6 +1,11 @@
 .flex {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+}
+
+.vertical-flex {
+	flex-direction: vertical;
 }
 
 .center {
@@ -17,10 +22,12 @@
 	.d4 {
 		flex-basis: 33%;
 		max-width: 33%;
+		margin: unset;
 	}
 
 	.d6 {
 		flex-basis: 50%;
 		max-width: 50%;
+		margin: unset;
 	}
 }

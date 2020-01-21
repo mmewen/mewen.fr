@@ -1,0 +1,14 @@
+[class*="o-"] img {
+	mix-blend-mode: hard-light;
+	display: block;
+}
+
+@media (prefers-color-scheme: light) {
+    [class*="o-"] img {
+		mix-blend-mode: hard-light;
+    }
+}
+
+.o-blue {
+	background-color: #2875BB;
+}

@@ -10,7 +10,9 @@ Ingénieur, optimiste, curieux et acteur de la transition, je veux m'engager et 
 
 ----
 
-Cover: 
+Cover:
+
+- fresque.png
 
 ----
 

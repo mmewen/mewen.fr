@@ -1,5 +1,6 @@
 .headline {
   text-align: center;
+  line-height: 1.5;
 }
 
 main {
@@ -18,7 +19,6 @@ blockquote {
   max-width: 500px;
   line-height: 1.4;
   position: relative;
-  padding: .5rem;
   margin: 2rem;
   margin-top: 4rem;
 }
@@ -36,8 +36,8 @@ blockquote:after {
 
 blockquote:before {
   content: '“';
-  left: -2.5rem;
-  top: -5rem;
+  left: -3rem;
+  top: -5.5rem;
 }
 
 blockquote:after {
