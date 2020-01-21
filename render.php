@@ -5,6 +5,8 @@ require __DIR__ . '/kirby/bootstrap.php';
 $kirby = new Kirby([
     'roots' => [
         'index'  => __DIR__,
+        'assets' => __DIR__ . '/assets',
+        'media' => __DIR__ . '/media',
         'static' => __DIR__ . '/static'
     ],
     'urls' => [
@@ -12,7 +14,23 @@ $kirby = new Kirby([
     ]
 ]);
 
+function recurse_copy($src,$dst) { 
+    $dir = opendir($src); 
+    @mkdir($dst); 
+    while(false !== ( $file = readdir($dir)) ) { 
+        if (( $file != '.' ) && ( $file != '..' )) { 
+            if ( is_dir($src . '/' . $file) ) { 
+                recurse_copy($src . '/' . $file,$dst . '/' . $file); 
+            } 
+            else { 
+                copy($src . '/' . $file,$dst . '/' . $file); 
+            } 
+        } 
+    } 
+    closedir($dir); 
+}
 
+// Render all the pages
 foreach ($kirby->site()->index() as $page) {
 
     $html = $page->render();
@@ -25,6 +43,21 @@ foreach ($kirby->site()->index() as $page) {
 
     F::write($file, $html);
 
+    // Copy the page files
+    foreach ($page->files() as $page_file) {
+        $page_file->publish();
+        $dst = $kirby->root('static') . $page_file->url();
+        $dst_dir = dirname($dst);
+        if (!is_dir($dst_dir)) {
+            mkdir($dst_dir, 0744, TRUE);
+        }
+        copy($kirby->root() . $page_file->url(), $dst); 
+    }
+
 }
 
+// Copy the assets
+recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
+
+// End
 echo 'Your static site has been generated in ' . $kirby->root('static');
