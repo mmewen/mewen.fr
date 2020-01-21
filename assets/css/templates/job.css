@@ -1,6 +1,6 @@
 .cover-container {
 	position: relative;
-	margin-bottom: 3em;
+	margin-bottom: 1.5em;
 }
 
 .cover-text {
@@ -20,6 +20,7 @@
 	padding: 1em 1em;
 	flex-basis: 100%;
 	text-align: center;
+	box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
 }
 
 .contact > a {

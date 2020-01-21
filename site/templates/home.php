@@ -14,7 +14,7 @@
 
 <main class="flex">
 
-  <div class="center">
+  <div class="center flex vertical-flex">
     <h1 class="headline">
       <?= $site->description()->kt() ?>
     </h1>

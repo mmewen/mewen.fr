@@ -18,11 +18,15 @@ Cover:
 
 ----
 
-Text: Basé à Rouen, mobile dans toute la France.
+Text: 
 
 ----
 
-Contact-text: Entrons en contact !
+Contact-text:
+
+Je suis basé à Rouen et mobile dans toute la France.
+
+Entrons en contact !
 
 ----
 
