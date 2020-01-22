@@ -2,8 +2,4 @@ Title: À propos
 
 ----
 
-Quote:
-
-Mon intention est d'inventer et partager
-des solutions durables et un nouveau récit
-de futur stable et résilient.
+Quote: Mon intention est d'inventer et partager des solutions durables et un nouveau récit de futur stable et résilient.

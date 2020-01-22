@@ -30,3 +30,35 @@ fields:
       company:
         label: Entreprise
         type: text
+  project_title:
+    label: Titre des projets
+    type: text
+    default: Projets
+  projects:
+    label: Projets
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      description:
+        label: Description
+        type: textarea
+      published:
+        label: Publié le
+        type: date
+      client:
+        label: Client
+        type: text
+      thumbnail:
+        label: Vignette
+        type: files
+        multiple: false
+        query: page.images
+        search: false
+      youtube:
+        label: Youtube ID
+        type: text
+      peertube:
+        label: Peertube ID
+        type: text

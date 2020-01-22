@@ -31,3 +31,30 @@ Entrons en contact !
 ----
 
 Quotes: 
+
+----
+
+Project-title: Portfolio
+
+----
+
+Projects:
+
+- 
+  title: Noël en Alsace
+  description: "Entre la Forêt Noire et les Vosges, le début de l'hiver sent le pain d'épices et le vin chaud..."
+  published: 2020-01-23
+  client: ""
+  thumbnail:
+    - vignette-noel-en-alsace.png
+  youtube: ""
+  peertube: b09639ef-e128-4dd8-aa23-4fe56c47dbb6
+- 
+  title: 'Lyon & la Fête des Lumières'
+  description: "Quand arrive l'hiver, les bouchons et traboules du centre de Lyon s'animent à la tombée de la nuit : les lumières sont revenues faire la fête !"
+  published: 2020-01-23
+  client: ""
+  thumbnail:
+    - lyon-et-la-fete-des-lumieres.png
+  youtube: T7gXaIk55s0
+  peertube: ""
