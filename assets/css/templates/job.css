@@ -98,18 +98,23 @@
 }
 
 .player::before {
-	content: "⯈";
+	content: " ";
 	opacity: 1.0;
 	position: absolute;
 	z-index: 1;
-	font-size: 6rem;
+	border-top: 3rem transparent solid;
+	border-bottom: 3rem transparent solid;
+	border-left: 5rem var(--color) solid;
+	width: 0;
+	height: 0;
 	top: calc(50%);
 	left: calc(50%);
 	margin-top: -3rem;
-	margin-left: -3rem;
+	margin-left: -2rem;
+/*	font-size: 6rem;
 	height: 6rem;
 	width: 6rem;
-	line-height: 6rem;
+	line-height: 6rem;*/
 	text-align: center;
 	transition-property: opacity;
 	transition-duration: 1s;
