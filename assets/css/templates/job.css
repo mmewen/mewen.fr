@@ -95,7 +95,13 @@
 .player {
 	position: relative;
 	margin-right: 1rem;
+	cursor: pointer;
 }
+
+.player.resource-loaded {
+	cursor: auto;
+}
+
 
 .player::before {
 	content: " ";
@@ -104,17 +110,13 @@
 	z-index: 1;
 	border-top: 3rem transparent solid;
 	border-bottom: 3rem transparent solid;
-	border-left: 5rem var(--color) solid;
+	border-left: 5rem rgba(255, 255, 255, 0.87) solid;
 	width: 0;
 	height: 0;
 	top: calc(50%);
 	left: calc(50%);
 	margin-top: -3rem;
 	margin-left: -2rem;
-/*	font-size: 6rem;
-	height: 6rem;
-	width: 6rem;
-	line-height: 6rem;*/
 	text-align: center;
 	transition-property: opacity;
 	transition-duration: 1s;

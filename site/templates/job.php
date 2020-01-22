@@ -37,7 +37,7 @@
     $projects = $page->projects()->toStructure();
     foreach ($projects as $project): ?>
     <article class="project flex strech">
-      <div class="player d4 m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>">
+      <div class="player d8 m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>">
         <img src="<?= $project->thumbnail()->toFile()->url() ?>">
       </div>
       <div class="fill project-description">
