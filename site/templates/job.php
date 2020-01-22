@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <main>
-  <div class="cover-container">
+  <section class="cover-container">
     <?php if($image = $page->cover()->toFile()): ?>
       <div class="o-blue">
         <img src="<?= $image->url() ?>"></div>
@@ -15,20 +15,82 @@
       </div>
     </div>
     <?php endif ?>
-  </div>
+  </section>
 
-  <div class="text">
+  <section class="text">
     <?= $page->text()->kt() ?>
-  </div>
+  </section>
 
-  <div class="contact-container">
+  <section class="contact-container">
     <div class="contact">
       <?= $page->contact_text()->kt() ?>
 
       <?= html::email($site->email()) ?>
       <?= html::tel($site->phone()) ?>
     </div>
-  </div>
+  </section>
+
+
+  <section class="projects">
+    <h1><?= $page->project_title()->html() ?></h1>
+    <?php
+    $projects = $page->projects()->toStructure();
+    foreach ($projects as $project): ?>
+    <article class="project flex strech">
+      <div class="player d4 m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>">
+        <img src="<?= $project->thumbnail()->toFile()->url() ?>">
+      </div>
+      <div class="fill project-description">
+        <h2><?= $project->title() ?></h2>
+        <?= $project->description()->kt() ?>
+        <div class="project-info note"><?= $project->client() ?></div>
+        <time class="project-info note"><?= $project->published()->toDate('m/Y') ?></time>
+      </div>
+    </article>
+    <?php endforeach ?>
+  </section>
 </main>
+
+<script type="text/javascript">
+function loadResource(e) {
+  let resourceType = null;
+  let resourceSource = "";
+  let resourceElement = null;
+  if (!!e.target.getAttribute('data-youtube-id')) {
+    resourceType = "youtube";
+    resourceSource = e.target.getAttribute('data-youtube-id');
+  } else if (!!e.target.getAttribute('data-peertube-id')) {
+    resourceType = "peertube";
+    resourceSource = e.target.getAttribute('data-peertube-id');
+  }
+
+  if (resourceType === "youtube" || resourceType === "peertube") {
+    resourceElement = document.createElement("iframe");
+    resourceElement.classList.add("video");
+    let url = "";
+    if (resourceType === "youtube") {
+      url = "https://www.youtube.com/embed/" + resourceSource;
+      resourceElement.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+    } else if (resourceType === "peertube") {
+      url = "https://peertube.social/videos/embed/" + resourceSource;
+      resourceElement.setAttribute("sandbox", "allow-same-origin allow-scripts");
+    }
+    url += "?autoplay=1";
+    resourceElement.setAttribute("src", url);
+    resourceElement.setAttribute("frameborder", "0");
+    resourceElement.setAttribute("allowfullscreen", null);
+  }
+
+  if (!!resourceElement) {
+    e.target.appendChild(resourceElement);
+    e.target.onclick = null;
+    resourceElement.onload = () => {
+      e.target.classList.add("resource-loaded");
+    };
+  }
+}
+
+document.querySelectorAll(".load-resource").forEach(item => item.onclick = loadResource);
+</script>
 
 <?php snippet('footer') ?>
