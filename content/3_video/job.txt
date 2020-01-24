@@ -56,5 +56,5 @@ Projects:
   client: ""
   thumbnail:
     - lyon-et-la-fete-des-lumieres.png
-  youtube: Rb5umGtQSXg
+  youtube: BGg8_icCP_4
   peertube: ""
