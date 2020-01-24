@@ -23,7 +23,7 @@
     </div>
 
     <div class="d4 m12 text">
-      <a href="mentions-legales">Mentions légales</a>
+      <a href="/mentions-legales">Mentions légales</a>
     </div>
 
 <!--     <section>
