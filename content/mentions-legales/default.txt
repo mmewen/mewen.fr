@@ -1,0 +1,28 @@
+Title: Mentions légales
+
+----
+
+Text:
+
+# Identification
+
+## Responsable
+
+Mewen MICHEL
+32 avenue du Cabellou, 29900 Concarneau
+06 01 79 23 98
+bonjour@mewen.fr
+
+## Hébergeur
+
+Netlify
+2325 3rd Street, Suite 215, 94107 San Francisco, CA, USA
++1.4156911573
+
+# Activité
+
+SIRET : 880 066 741 00013
+
+# Cookies et données personnelles
+
+Ce site n'utilise pas de cookies et ne collecte pas de données personnelles.

@@ -11,20 +11,20 @@
   </div>
 
   <footer class="footer flex">
-    <div class="d6 m12">
+    <div class="d4 m12">
       <address class="text">
           <?= html::email($site->email()) ?> <br>
           <?= html::tel($site->phone()) ?>
       </address>
     </div>
 
-    <div class="d6 m12 text">
+    <div class="d4 m12 text">
       <span class="note">Afin de réduire son empreinte environnementale, ce site a été conçu selon les principes du numérique low tech.</span>
     </div>
 
-    <!-- <div class="d4 m12 text">
-      Mentions légales
-    </div> -->
+    <div class="d4 m12 text">
+      <a href="mentions-legales">Mentions légales</a>
+    </div>
 
 <!--     <section>
       <h2>On the web</h2>
