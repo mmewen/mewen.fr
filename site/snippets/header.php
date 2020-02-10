@@ -23,7 +23,7 @@
   <!-- Social media meta data -->
   <meta property="og:site_name" content="<?= $site->title() ?> - <?= $page->title() ?>" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/assets/images/default.jpg" />
+  <meta property="og:image" content="assets/images/default.jpg" />
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:fb:admins" content="105057877735885" />
   <meta property="og:url" content="<?= $page->url() ?>" />
