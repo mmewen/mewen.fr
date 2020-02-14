@@ -16,7 +16,16 @@
 
   <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
 
-  <title><?= $site->title() ?> <?= $page->title() ?></title>
+  <?php
+  if ($page->id() == "home") {
+    $title = $site->title();
+  } else {
+    $title = $site->title()." - ".$page->title();
+  }
+
+  $title = html($title);
+  ?>
+  <title><?= $title ?></title>
   <meta property="description" content="<?= $site->description() ?>" />
 
   <!-- Social media meta data -->
@@ -27,9 +36,9 @@
   <meta property="og:fb:admins" content="105057877735885" />
   <meta property="fb:app_id" content="251220228247710" />
   <meta property="og:url" content="<?= Url::makeAbsolute(Url::path($page->url(), false, true)) ?>" />
-  <meta property="og:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
+  <meta property="og:title" content="<?= $title ?>" />
   <meta property="og:description" content="<?= $site->description() ?>" />
-  <meta name="twitter:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
+  <meta name="twitter:title" content="<?= $title ?>" />
   <meta name="twitter:card" content="<?= $site->description() ?>" />
 
   <?= css(['assets/css/index.css', 'assets/css/flex.css', 'assets/css/overlay.css', '@auto']) ?>
