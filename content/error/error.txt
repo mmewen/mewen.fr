@@ -1,1 +1,5 @@
-Title: Error
+Title: Erreur
+
+----
+
+Text: Désolé, cette page est introuvable 😕
