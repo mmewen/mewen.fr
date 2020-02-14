@@ -3,3 +3,13 @@ Title: À propos
 ----
 
 Quote: Mon intention est d'inventer et partager des solutions durables et un nouveau récit de futur stable et résilient.
+
+----
+
+Presentation:
+
+Jeune **ingénieur**, je voulais faire rêver et avoir un **impact clairement positif** sur la société. J'ai travaillé dans les hautes technologies : c'était passionnant et enrichissant, mais ça n'avait pas l'impact que j'espérais. J'ai donc quitté ce monde-là.
+
+Je me suis formé à la réalisation de vidéos, aux enjeux que nous réserve l'avenir et aux pistes de solutions.
+
+Je suis maintenant **vidéaste indépendant** et **ingénieur low-tech** pour à la fois faire rêver et construire un futur confortable et durable.

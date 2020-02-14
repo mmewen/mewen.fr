@@ -2,7 +2,10 @@ title: Home
 preset: page
 fields:
   quote:
-    label: Quote
+    label: Citation
     type: textarea
     size: large
-
+  presentation:
+    label: Présentation
+    type: textarea
+    size: large

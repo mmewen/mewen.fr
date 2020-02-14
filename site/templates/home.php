@@ -12,17 +12,21 @@
 
 <?php snippet('header') ?>
 
+
 <main class="flex">
-
-  <div class="center flex vertical-flex">
-    <h1 class="headline">
-      <?= $site->description()->kt() ?>
-    </h1>
-    <blockquote>
-      <?= $page->quote()->kt() ?>
-    </blockquote>
-  </div>
-
+    <div class="center flex vertical-flex">
+      <h1 class="headline">
+        <?= $site->description()->kt() ?>
+      </h1>
+      <blockquote>
+        <?= $page->quote()->kt() ?>
+      </blockquote>
+    </div>
 </main>
+
+<section class="text">
+  <h1>Mon histoire</h1>
+  <?= $page->presentation()->kt() ?>
+</section>
 
 <?php snippet('footer') ?>
