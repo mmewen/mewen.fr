@@ -6,9 +6,8 @@ $kirby = new Kirby([
     'roots' => [
         'index'  => __DIR__,
         'assets' => __DIR__ . '/assets',
-        'media' => __DIR__ . '/media',
         'static' => $static = __DIR__ . '/static',
-        'assets' => $static . '/assets'
+        'media' => $static . '/media',
     ],
     'urls' => [
         'index' => '/'
@@ -47,18 +46,12 @@ foreach ($kirby->site()->index() as $page) {
     // Copy the page files
     foreach ($page->files() as $page_file) {
         $page_file->publish();
-        $dst = $kirby->root('static') . $page_file->url();
-        $dst_dir = dirname($dst);
-        if (!is_dir($dst_dir)) {
-            mkdir($dst_dir, 0744, TRUE);
-        }
-        // copy($kirby->root() . $page_file->url(), $dst); 
     }
 
 }
 
 // Copy the assets
-// recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
+recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
 
 // End
 echo 'Your static site has been generated in ' . $kirby->root('static');
