@@ -26,7 +26,7 @@
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:fb:admins" content="105057877735885" />
   <meta property="fb:app_id" content="251220228247710" />
-  <meta property="og:url" content="<?= Url::makeAbsolute($page->url()) ?>" />
+  <meta property="og:url" content="<?= Url::makeAbsolute(Url::path($page->url(), false, true)) ?>" />
   <meta property="og:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
   <meta property="og:description" content="<?= $site->description() ?>" />
   <meta name="twitter:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
