@@ -10,6 +10,12 @@ fields:
     multiple: false
     query: page.images
     search: false
+  share_image:
+    label: Image de partage
+    type: files
+    multiple: false
+    query: page.images
+    search: false
   text:
     label: Texte
     type: textarea

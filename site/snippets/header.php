@@ -17,13 +17,23 @@
   <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
 
   <?php
+  // Prepare title
   if ($page->id() == "home") {
     $title = $site->title();
   } else {
     $title = $site->title()." - ".$page->title();
   }
-
   $title = html($title);
+
+  // Prepare image
+  if ($page->share_image()->toFile()) {
+    $image = $page->share_image()->toFile()->url();
+  } else if ($page->cover()->toFile()) {
+    $image = $page->cover()->toFile()->url();
+  } else {
+    $image = 'assets/images/default.jpg';
+  }
+  $image = Url::makeAbsolute($image);
   ?>
   <title><?= $title ?></title>
   <meta property="description" content="<?= $site->description() ?>" />
@@ -31,7 +41,7 @@
   <!-- Social media meta data -->
   <meta property="og:site_name" content="<?= $site->title() ?>" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="<?= Url::makeAbsolute('assets/images/default.jpg') ?>" />
+  <meta property="og:image" content="<?= $image ?>" />
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:fb:admins" content="105057877735885" />
   <meta property="fb:app_id" content="251220228247710" />
