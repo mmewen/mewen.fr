@@ -21,12 +21,14 @@
   <meta property="description" content="<?= $site->description() ?>" />
 
   <!-- Social media meta data -->
-  <meta property="og:site_name" content="<?= $site->title() ?> - <?= $page->title() ?>" />
+  <meta property="og:site_name" content="<?= $site->title() ?>" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/images/default.jpg" />
+  <meta property="og:image" content="<?= Url::makeAbsolute('assets/images/default.jpg') ?>" />
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:fb:admins" content="105057877735885" />
+  <meta property="og:fb:app_id" content="251220228247710" />
   <meta property="og:url" content="<?= $page->url() ?>" />
+  <meta property="og:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
   <meta property="og:description" content="<?= $site->description() ?>" />
   <meta name="twitter:title" content="<?= $site->title() ?> - <?= $page->title() ?>" />
   <meta name="twitter:card" content="<?= $site->description() ?>" />
