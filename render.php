@@ -7,7 +7,8 @@ $kirby = new Kirby([
         'index'  => __DIR__,
         'assets' => __DIR__ . '/assets',
         'media' => __DIR__ . '/media',
-        'static' => __DIR__ . '/static'
+        'static' => $static = __DIR__ . '/static',
+        'assets' => $static . '/assets'
     ],
     'urls' => [
         'index' => '/'
@@ -51,13 +52,13 @@ foreach ($kirby->site()->index() as $page) {
         if (!is_dir($dst_dir)) {
             mkdir($dst_dir, 0744, TRUE);
         }
-        copy($kirby->root() . $page_file->url(), $dst); 
+        // copy($kirby->root() . $page_file->url(), $dst); 
     }
 
 }
 
 // Copy the assets
-recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
+// recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
 
 // End
 echo 'Your static site has been generated in ' . $kirby->root('static');
