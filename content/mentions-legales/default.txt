@@ -26,3 +26,7 @@ SIRET : 880 066 741 00013
 # Cookies et données personnelles
 
 Ce site n'utilise pas de cookies et ne collecte pas de données personnelles.
+
+# Conditions générales de vente
+
+(file: conditions-generales-de-vente.pdf) (57 Ko)
