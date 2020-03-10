@@ -49,7 +49,7 @@ for chapter_file in chapter_files:
 		with chapter_file.open("w") as f:
 			file_content = [ field_name + ": " + field_value for field_name, field_value in chapter_content.items() ]
 			file_content = KIRBY_SEPARATOR.join(file_content)
-			os.chmod(chapter_file, 0o644)
+			os.chmod(str(chapter_file), 0o644)
 			f.write(file_content)
 
 		item_index = item_index + 1
