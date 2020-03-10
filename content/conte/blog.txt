@@ -43,3 +43,11 @@ Les hypothèses que j'ai prises, rappelées dans l'introduction, sont :
 - *Vers des technologies sobres et résilientes – Pourquoi et comment développer l’innovation « low »tech » ?* — groupe de travail présidé par Philippe Bihouix, La Fabrique Ecologique, *14/04/2019*, [🔗](https://www.lafabriqueecologique.fr/vers-des-technologies-sobres-et-resilientes-pourquoi-et-comment-developper-linnovation-low-tech/)
 
 D'autres sources vont être intégrées au conte dans le futur...
+
+## Licence de diffusion
+
+[Creative Commons Attribution - Utilisation non commerciale 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)
+
+## Texte brut
+
+Vous pouvez retrouver les textes bruts au format [Markdown](https://fr.wikipedia.org/wiki/Markdown) sur le dépôt Github [mmewen/conte-d-un-futur-souhaitable](https://github.com/mmewen/conte-d-un-futur-souhaitable).
