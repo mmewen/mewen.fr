@@ -1,0 +1,17 @@
+#previous-post, #next-post {
+	font-style: italic;
+}
+
+.blog-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#previous-post::before {
+	content: '←';
+}
+
+#next-post::after {
+	content: '→';
+}

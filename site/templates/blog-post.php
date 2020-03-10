@@ -12,10 +12,38 @@
 <?php snippet('header') ?>
 
 <main>
-	
-  <div class="text">
-    <?= $page->text()->kt() ?>
-  </div>
+  <section class="intro">
+    <h2><?= $page->title()->html() ?></h2>
+  </section>
+
+  <section class="text">
+    <div class="text">
+      <?= $page->text()->kt() ?>
+    </div>
+
+    <div class="blog-nav">
+      <?php if ($page->hasPrevListed()): ?>
+        <div id="previous-post">
+          <a href="<?= $page->prevListed()->url() ?>"><?= $page->prevListed()->title() ?></a>
+        </div>
+      <?php else: ?>
+        <div></div>
+      <?php endif ?>
+
+      <div>
+        <a href="<?= $page->parent()->url() ?>">Sommaire</a>
+      </div>
+
+      <?php if ($page->hasNextListed()): ?>
+        <div id="next-post">
+          <a href="<?= $page->nextListed()->url() ?>"><?= $page->nextListed()->title() ?></a>
+        </div>
+      <?php else: ?>
+        <div></div>
+      <?php endif ?>
+    </div>
+
+  </section>
 </main>
 
 <?php snippet('footer') ?>

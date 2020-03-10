@@ -3,7 +3,7 @@ preset: page
 fields:
   title:
     label: Titre
-    type: textarea
+    type: text
   text:
     label: Texte
     type: textarea

@@ -1,6 +1,9 @@
 title: Blog page
 preset: page
 fields:
+  subtitle:
+    label: Sous-titre
+    type: text
   presentation:
     label: Présentation
     type: textarea
