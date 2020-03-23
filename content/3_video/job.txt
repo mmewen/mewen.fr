@@ -18,6 +18,10 @@ Cover:
 
 ----
 
+Share-image: 
+
+----
+
 Text: 
 
 ----
@@ -57,4 +61,18 @@ Projects:
   thumbnail:
     - lyon-et-la-fete-des-lumieres.png
   youtube: BGg8_icCP_4
+  peertube: ""
+- 
+  title: "30' pour présenter Green Motor"
+  description: |
+    🌱 Présenter une idée nouvelle
+    ⏱ en 30 secondes chrono
+    🚷 sans pouvoir filmer
+    
+    Défi relevé !
+  published: 2020-03-23
+  client: Green Motor
+  thumbnail:
+    - green-motor.png
+  youtube: YHBer3tTdDQ
   peertube: ""
