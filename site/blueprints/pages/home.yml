@@ -1,6 +1,12 @@
 title: Home
 preset: page
 fields:
+  profile_picture:
+    label: Photo de profil
+    type: files
+    multiple: false
+    query: page.images
+    search: false
   quote:
     label: Citation
     type: textarea

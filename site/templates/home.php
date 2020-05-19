@@ -15,6 +15,9 @@
 
 <main class="flex">
     <div class="center flex vertical-flex">
+      <?php if($image = $page->profile_picture()->toFile()): ?>
+          <img src="<?= $image->url() ?>" id="profile-picture">
+      <?php endif ?>
       <h1 class="headline">
         <?= $site->description()->kt() ?>
       </h1>

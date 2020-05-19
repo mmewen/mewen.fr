@@ -2,6 +2,12 @@ Title: À propos
 
 ----
 
+Profile-picture:
+
+- imgp1530-2e.jpg
+
+----
+
 Quote: Mon intention est d'inventer et partager des solutions durables et un nouveau récit de futur stable et résilient.
 
 ----
