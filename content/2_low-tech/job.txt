@@ -16,13 +16,24 @@ Cover:
 
 ----
 
+Share-image: 
+
+----
+
 Text:
 
 Je travaille selon trois axes :
 
-- Je diffuse les connaissances scientifiques sur les enjeux climat, énergie et ressources. Dans ce but, je suis animateur de la Fresque du Climat et je développe des ateliers originaux et participatifs.
-- Je partage la philosophie low tech et ses solutions. J'étudie également comment la mettre en œuvre à l'échelle collective ou d'une entreprise.
-- J'imagine une société future souhaitable et soutenable.
+- Diffuser les connaissances scientifiques sur les enjeux climat, énergie et ressources. Dans ce but, je suis animateur de la Fresque du Climat et je développe des ateliers originaux et participatifs.
+- Partager la philosophie low-tech et ses solutions et étudier comment la mettre en œuvre à l'échelle collective ou d'une entreprise. Cela peut prendre la forme de conférences, d'ateliers d'intelligence collective ou de sessions de travail avec les équipes sur site.
+- Imaginer une société future souhaitable et soutenable que je partage sous forme de talks inspirants.
+
+Nous pouvons coopérer si vous voulez :
+
+- Faire infuser des idées nouvelles pour susciter l'engagement et sensibiliser vos équipes.
+- Développer avec une approche ingénieur low-tech des produits ou services en accord avec la finitude de notre monde : plus simples, plus sobres et plus accessibles.
+- Améliorer la résilience de votre organisation ou de votre territoire.
+- Basculer votre activité en mode durable par des actions concrètes et valorisables.
 
 ----
 
@@ -44,3 +55,11 @@ Quotes:
   text: -
   person: -
   company: La Bascule
+
+----
+
+Project-title: 
+
+----
+
+Projects: 
