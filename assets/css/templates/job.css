@@ -82,6 +82,9 @@
 	transition-property: opacity;
 	transition-duration: 1s;
 	opacity: 1.0;
+	width: auto;
+	max-width: 100%;
+	height: 100%;
 }
 
 .player.resource-loaded img {
@@ -100,6 +103,10 @@
 .player {
 	position: relative;
 	cursor: pointer;
+	height: 30vh;
+}
+
+.project:nth-child(odd) .player {
 }
 
 @media screen and (max-width: 48em) {
@@ -107,6 +114,14 @@
 		gap: 0;
 	}
 
+	.player img {
+		width: 100%;
+		height: auto;
+	}
+
+	.player {
+		height: auto;
+	}
 }
 
 .player.resource-loaded {

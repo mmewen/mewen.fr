@@ -24,28 +24,28 @@
 	flex: 1;
 }
 
-.m12 {
-	flex-basis: 100%;
-	max-width: 100%;
-	margin: 0.5em 0;
+.d4 {
+	flex-basis: 33%;
+	max-width: 33%;
+	margin: unset;
 }
 
-@media screen and (min-width: 48em) {
-	.d4 {
-		flex-basis: 33%;
-		max-width: 33%;
-		margin: unset;
-	}
+.d6 {
+	flex-basis: 50%;
+	max-width: 50%;
+	margin: unset;
+}
 
-	.d6 {
-		flex-basis: 50%;
-		max-width: 50%;
-		margin: unset;
-	}
+.d8 {
+	flex-basis: 66%;
+	max-width: 66%;
+	margin: unset;
+}
 
-	.d8 {
-		flex-basis: 66%;
-		max-width: 66%;
-		margin: unset;
+@media screen and (max-width: 48em) {
+	.m12 {
+		flex-basis: 100%;
+		max-width: 100%;
+		margin: 0.5em 0;
 	}
 }
