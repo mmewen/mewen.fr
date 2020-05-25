@@ -69,7 +69,7 @@ Projects:
     ⏱ en 30 secondes chrono
     🚷 sans pouvoir filmer
     
-    Défi relevé !
+    Défi relevé avec cette vidéo en motion design !
   published: 2020-03-23
   client: Green Motor
   thumbnail:
