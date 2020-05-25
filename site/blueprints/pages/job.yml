@@ -68,3 +68,6 @@ fields:
       peertube:
         label: Peertube ID
         type: text
+      facebook:
+        label: Facebook ID
+        type: text

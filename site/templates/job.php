@@ -37,7 +37,7 @@
     $projects = $page->projects()->toStructure();
     foreach ($projects as $project): ?>
     <article class="project flex strech">
-      <div class="player d8 m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>">
+      <div class="player m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>" data-facebook-id="<?= $project->facebook() ?>">
         <img src="<?= $project->thumbnail()->toFile()->url() ?>">
       </div>
       <div class="fill project-description">
@@ -62,23 +62,30 @@ function loadResource(e) {
   } else if (!!e.target.getAttribute('data-peertube-id')) {
     resourceType = "peertube";
     resourceSource = e.target.getAttribute('data-peertube-id');
+  } else if (!!e.target.getAttribute('data-facebook-id')) {
+    resourceType = "facebook";
+    resourceSource = e.target.getAttribute('data-facebook-id');
   }
 
-  if (resourceType === "youtube" || resourceType === "peertube") {
+  if (resourceType === "youtube" || resourceType === "peertube" || resourceType === "facebook") {
     resourceElement = document.createElement("iframe");
     resourceElement.classList.add("video");
     let url = "";
     if (resourceType === "youtube") {
-      url = "https://www.youtube.com/embed/" + resourceSource;
+      url = "https://www.youtube.com/embed/" + resourceSource + "?autoplay=1";
       resourceElement.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     } else if (resourceType === "peertube") {
-      url = "https://peertube.social/videos/embed/" + resourceSource;
+      url = "https://peertube.social/videos/embed/" + resourceSource + "?autoplay=1";
       resourceElement.setAttribute("sandbox", "allow-same-origin allow-scripts");
+    } else if (resourceType === "facebook") {
+      url = "https://www.facebook.com/plugins/video.php?href=" + resourceSource + "&show_text=0&autoplay=1";
+      resourceElement.setAttribute("allowTransparency", "true");
+      resourceElement.setAttribute("allowFullScreen", "true");
+      resourceElement.setAttribute("scrolling", "no");
     }
-    url += "?autoplay=1";
     resourceElement.setAttribute("src", url);
     resourceElement.setAttribute("frameborder", "0");
-    resourceElement.setAttribute("allowfullscreen", null);
+    resourceElement.setAttribute("allowfullscreen", "true");
   }
 
   if (!!resourceElement) {

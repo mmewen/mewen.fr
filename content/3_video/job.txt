@@ -53,6 +53,7 @@ Projects:
     - vignette-noel-en-alsace.png
   youtube: ""
   peertube: 13b59cb1-2c32-44ac-9a2e-990a3092f020
+  facebook: ""
 - 
   title: 'Lyon & la Fête des Lumières'
   description: "Quand arrive l'hiver, les bouchons et traboules du centre de Lyon s'animent à la tombée de la nuit : les lumières sont revenues faire la fête !"
@@ -62,6 +63,7 @@ Projects:
     - lyon-et-la-fete-des-lumieres.png
   youtube: BGg8_icCP_4
   peertube: ""
+  facebook: ""
 - 
   title: "30' pour présenter Green Motor"
   description: |
@@ -76,3 +78,18 @@ Projects:
     - green-motor.png
   youtube: YHBer3tTdDQ
   peertube: ""
+  facebook: ""
+- 
+  title: La résilience alimentaire
+  description: |
+    L'association (link: https://www.triticum.fr/ text: Triticum) tire la sonnette d'alarme : la sécurité alimentaire de Rouen, comme toutes les métropoles françaises, est compromise.
+    
+    Petit récapitulatif en motion design
+  published: 2020-04-20
+  client: Triticum
+  thumbnail:
+    - boom1.jpg
+  youtube: ""
+  peertube: ""
+  facebook: >
+    https://www.facebook.com/associationtriticum/videos/234863244238173
