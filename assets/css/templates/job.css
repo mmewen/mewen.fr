@@ -66,6 +66,11 @@
 	border-bottom: 2px solid var(--highlight-color);
 	margin-top: 2em;
 	padding-bottom: 2em;
+	gap: 1rem;
+}
+
+.project:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
 .project:last-child {
@@ -94,8 +99,14 @@
 
 .player {
 	position: relative;
-	margin-right: 1rem;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 48em) {
+	.project {
+		gap: 0;
+	}
+
 }
 
 .player.resource-loaded {
