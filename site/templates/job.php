@@ -91,9 +91,22 @@ function loadResource(e) {
   if (!!resourceElement) {
     e.target.appendChild(resourceElement);
     e.target.onclick = null;
+    let loaded = false;
+    e.target.classList.add("resource-loading");
     resourceElement.onload = () => {
+      loaded = true;
       e.target.classList.add("resource-loaded");
     };
+    setTimeout(() => {
+      // In case it didn't load, show error
+      let errorTextElement = document.createElement("p");
+      errorTextElement.textContent = "Impossible de se connecter à " + resourceType + ". Vérifiez votre connexion et réessayez.";
+      if (!loaded) {
+        e.target.appendChild(errorTextElement);
+      } else {
+        e.target.classList.remove("resource-loading");
+      }
+    }, 10000);
   }
 }
 
