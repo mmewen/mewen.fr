@@ -17,19 +17,6 @@
     <?php endif ?>
   </section>
 
-  <section class="text">
-    <?= $page->text()->kt() ?>
-  </section>
-
-  <section class="contact-container">
-    <div class="contact">
-      <?= $page->contact_text()->kt() ?>
-
-      <?= html::email($site->email()) ?>
-      <?= html::tel($site->phone()) ?>
-    </div>
-  </section>
-
 
   <section class="projects">
     <h1><?= $page->project_title()->html() ?></h1>
@@ -48,6 +35,19 @@
       </div>
     </article>
     <?php endforeach ?>
+  </section>
+
+  <section class="text">
+    <?= $page->text()->kt() ?>
+  </section>
+
+  <section class="contact-container">
+    <div class="contact">
+      <?= $page->contact_text()->kt() ?>
+
+      <?= html::email($site->email()) ?>
+      <?= html::tel($site->phone()) ?>
+    </div>
   </section>
 </main>
 
