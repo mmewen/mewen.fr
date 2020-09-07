@@ -1,0 +1,76 @@
+title: Job Page
+preset: page
+fields:
+  presentation:
+    label: Présentation
+    type: textarea
+  cover:
+    label: Couverture
+    type: files
+    multiple: false
+    query: page.images
+    search: false
+  video-cover:
+    label: Couverture vidéo
+    type: text
+  share_image:
+    label: Image de partage
+    type: files
+    multiple: false
+    query: page.images
+    search: false
+  text:
+    label: Texte
+    type: textarea
+    size: large
+  contact_text:
+    label: Texte pour contact
+    type: textarea
+  quotes:
+    label: Citations
+    type: structure
+    fields:
+      text:
+        label: Texte
+        type: text
+      person:
+        label: Personne
+        type: text
+      company:
+        label: Entreprise
+        type: text
+  project_title:
+    label: Titre des projets
+    type: text
+    default: Projets
+  projects:
+    label: Projets
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      description:
+        label: Description
+        type: textarea
+      published:
+        label: Publié le
+        type: date
+      client:
+        label: Client
+        type: text
+      thumbnail:
+        label: Vignette
+        type: files
+        multiple: false
+        query: page.images
+        search: false
+      youtube:
+        label: Youtube ID
+        type: text
+      peertube:
+        label: Peertube ID
+        type: text
+      facebook:
+        label: Facebook ID
+        type: text
