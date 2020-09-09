@@ -25,6 +25,25 @@
 
   <section class="projects">
     <h1><?= $page->project_title()->html() ?></h1>
+    <div class="flex strech">
+      <?php
+      $projects = $page->projects()->toStructure();
+      foreach ($projects as $project): ?>
+      <article class="project d6 m12">
+        <div class="player load-resource img-hover-zoom" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>" data-facebook-id="<?= $project->facebook() ?>">
+          <img src="<?= $project->thumbnail()->toFile()->url() ?>">
+        </div>
+        <div class="project-description">
+          <?= $project->title() ?> <?php if ($project->client() != "") { ?> · <?= $project->client() ?><?php } ?>  · <?= $project->published()->toDate('m/Y') ?>
+          <!-- <?= $project->description()->kt() ?>
+          <div class="project-info note"></div>
+          <time class="project-info note"></time> -->
+        </div>
+      </article>
+      <?php endforeach ?>
+    </div>
+  </section>
+
     <?php
     $projects = $page->projects()->toStructure();
     foreach ($projects as $project): ?>
@@ -77,7 +96,7 @@ function loadResource(e) {
     resourceElement.classList.add("video");
     let url = "";
     if (resourceType === "youtube") {
-      url = "https://www.youtube.com/embed/" + resourceSource + "?autoplay=1";
+      url = "https://www.youtube.com/embed/" + resourceSource + "?controls=1&autoplay=1&disablekb=1&fs=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0";
       resourceElement.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     } else if (resourceType === "peertube") {
       url = "https://peertube.social/videos/embed/" + resourceSource + "?autoplay=1";

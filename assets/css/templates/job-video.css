@@ -63,10 +63,7 @@
 }
 
 .project {
-	border-bottom: 2px solid var(--highlight-color);
-	margin-top: 2em;
-	padding-bottom: 2em;
-	gap: 1rem;
+	position: relative;
 }
 
 .project:nth-child(odd) {
@@ -78,13 +75,13 @@
 }
 
 .player img {
-	filter: blur(3px);
+	/*filter: blur(3px);*/
 	transition-property: opacity;
 	transition-duration: 1s;
 	opacity: 1.0;
-	width: auto;
+	/*width: auto;
 	max-width: 100%;
-	height: 100%;
+	height: 100%;*/
 }
 
 .player.resource-loaded img {
@@ -111,10 +108,7 @@
 .player {
 	position: relative;
 	cursor: pointer;
-	height: 30vh;
-}
-
-.project:nth-child(odd) .player {
+	/*height: 30vh;*/
 }
 
 @media screen and (max-width: 48em) {
@@ -136,21 +130,37 @@
 	cursor: auto;
 }
 
+.img-hover-zoom {
+	overflow: hidden;
+	/*background-color: #2875BB;*/
+}
+
+.img-hover-zoom img {
+	transition: transform .5s, filter .5s, mix-blend-mode .5s ease;
+	filter: grayscale(100%);
+	/*mix-blend-mode: hard-light;*/
+}
+
+.img-hover-zoom:hover img {
+	filter: grayscale(0%);
+	transform: scale(1.05);
+	/*mix-blend-mode: unset;*/
+}
 
 .player::before {
 	content: " ";
 	opacity: 1.0;
 	position: absolute;
 	z-index: 1;
-	border-top: 3rem transparent solid;
-	border-bottom: 3rem transparent solid;
-	border-left: 5rem rgba(255, 255, 255, 0.87) solid;
+	border-top: 1.5rem transparent solid;
+	border-bottom: 1.5rem transparent solid;
+	border-left: 2.5rem rgba(255, 255, 255, 0.87) solid;
 	width: 0;
 	height: 0;
 	top: calc(50%);
 	left: calc(50%);
-	margin-top: -3rem;
-	margin-left: -2rem;
+	margin-top: -1.5rem;
+	margin-left: -1rem;
 	text-align: center;
 	transition-property: opacity;
 	transition-duration: 1s;
@@ -205,8 +215,9 @@
 }
 
 .project-description {
-	position: relative;
-	padding-bottom: 2rem;
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
 }
 
 .project-info {

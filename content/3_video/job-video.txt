@@ -54,7 +54,7 @@ Projects:
   published: 2020-01-23
   client: ""
   thumbnail:
-    - vignette-noel-en-alsace.png
+    - vignette-noel-en-alsace-l.jpg
   youtube: ""
   peertube: 13b59cb1-2c32-44ac-9a2e-990a3092f020
   facebook: ""
@@ -64,7 +64,7 @@ Projects:
   published: 2020-01-23
   client: ""
   thumbnail:
-    - lyon-et-la-fete-des-lumieres.png
+    - lyon-et-la-fete-des-lumieres-l.jpg
   youtube: BGg8_icCP_4
   peertube: ""
   facebook: ""
@@ -79,7 +79,7 @@ Projects:
   published: 2020-03-23
   client: Green Motor
   thumbnail:
-    - green-motor.png
+    - green-motor-l.jpg
   youtube: YHBer3tTdDQ
   peertube: ""
   facebook: ""
@@ -92,7 +92,7 @@ Projects:
   published: 2020-04-20
   client: Triticum
   thumbnail:
-    - boom1.jpg
+    - moulin-l.jpg
   youtube: ""
   peertube: ""
   facebook: >
