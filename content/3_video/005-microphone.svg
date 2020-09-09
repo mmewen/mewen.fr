@@ -7,7 +7,7 @@
 	.st1{display:none;fill:#FFFDF5;}
 	.st2{display:none;}
 	.st3{display:inline;fill:#2875BB;}
-	.st4{fill:none;stroke:#2875BB;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#2875BB;stroke-width:14;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <rect class="st0" width="512" height="512"/>
 <rect class="st1" width="512" height="512"/>

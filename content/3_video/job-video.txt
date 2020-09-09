@@ -45,8 +45,10 @@ Quotes:
 Skills:
 
 - 
-  title: Écriture
-  description: Histoire, objectifs, cible et style
+  title: Scénario
+  description: >
+    Histoire, objectifs, cible et style de
+    la vidéo
   picture:
     - 001-script.svg
 - 
@@ -65,7 +67,7 @@ Skills:
   title: Bande son
   description: >
     Bruitages, musique dédiée ou voix-off
-    pour une ambiance impeccable
+    pour une ambiance immersive
   picture:
     - 005-microphone.svg
 
