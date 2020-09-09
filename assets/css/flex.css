@@ -24,6 +24,12 @@
 	flex: 1;
 }
 
+.d3 {
+	flex-basis: 25%;
+	max-width: 25%;
+	margin: unset;
+}
+
 .d4 {
 	flex-basis: 33%;
 	max-width: 33%;
@@ -43,6 +49,12 @@
 }
 
 @media screen and (max-width: 48em) {
+	.m6 {
+		flex-basis: 50%;
+		max-width: 50%;
+		/*margin: 0.5em 0;*/
+	}
+
 	.m12 {
 		flex-basis: 100%;
 		max-width: 100%;
