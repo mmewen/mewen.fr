@@ -274,6 +274,22 @@ time.project-info {
 	margin-top: 100vh;
 }
 
+.center {
+	text-align: center;
+}
+
+.skills {
+	margin: 3em 0;
+}
+
+.skills img {
+	width: 50%;
+}
+
+.skill {
+	padding: 0.5em;
+}
+
 @media screen and (min-width: 48em) {
 
 	.cover-text-container {

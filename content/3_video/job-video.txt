@@ -26,7 +26,7 @@ Share-image:
 
 ----
 
-Text: Préparation, tournage, montage, motion design, bande son ou voix-off, je vous accompagne tout au long de votre projet de production vidéo.
+Text: 
 
 ----
 
@@ -39,6 +39,35 @@ Entrons en contact !
 ----
 
 Quotes: 
+
+----
+
+Skills:
+
+- 
+  title: Écriture
+  description: Histoire, objectifs, cible et style
+  picture:
+    - 001-script.svg
+- 
+  title: Tournage
+  description: "Souplesse et qualité d'un matériel professionnel léger"
+  picture:
+    - 002-movie-clapper-open.svg
+- 
+  title: Montage et motion design
+  description: >
+    Mise en valeur du sujet par une finition
+    soignée
+  picture:
+    - 004-video-edition-1.svg
+- 
+  title: Bande son
+  description: >
+    Bruitages, musique dédiée ou voix-off
+    pour une ambiance impeccable
+  picture:
+    - 005-microphone.svg
 
 ----
 
