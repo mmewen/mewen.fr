@@ -63,10 +63,42 @@
 }
 
 .project {
-	border-bottom: 2px solid var(--highlight-color);
 	margin-top: 2em;
-	padding-bottom: 2em;
-	gap: 1rem;
+	padding: 0 2em 2em 2em;
+	position: relative;
+}
+
+.project::before {
+    left: -1.3em;
+    top: -0.3em;
+    position: absolute;
+    color: #2875BB;
+    font-size: 4rem;
+    opacity: 0.5;
+    display: block;
+    text-align: right;
+    width: 2em;
+    z-index: -1;
+}
+
+.project:nth-child(1)::before {
+    content: "I"
+}
+
+.project:nth-child(2)::before {
+    content: "II"
+}
+
+.project:nth-child(3)::before {
+    content: "III"
+}
+
+.project:nth-child(4)::before {
+    content: "IV"
+}
+
+.project:nth-child(5)::before {
+    content: "V"
 }
 
 .project:nth-child(odd) {

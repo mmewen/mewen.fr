@@ -17,25 +17,24 @@
     <?php endif ?>
   </section>
 
-
+  <?php
+  $project_lists = [[$page->project_list_1_title(), $page->project_list_1()],[$page->project_list_2_title(), $page->project_list_2()]];
+  foreach ($project_lists as [$project_title, $project_list]): ?>
   <section class="projects">
-    <h1><?= $page->project_title()->html() ?></h1>
-    <?php
-    $projects = $page->projects()->toStructure();
-    foreach ($projects as $project): ?>
-    <article class="project flex strech">
-      <div class="player m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>" data-facebook-id="<?= $project->facebook() ?>">
-        <img src="<?= $project->thumbnail()->toFile()->url() ?>">
-      </div>
-      <div class="fill project-description">
+    <h1><?= $project_title ?></h1>
+    <div class="flex align-start space-around">
+      <?php
+      $projects = $project_list->toStructure();
+      foreach ($projects as $project): ?>
+      <article class="project d6 m12 text">
         <h2><?= $project->title() ?></h2>
-        <?= $project->description()->kt() ?>
-        <div class="project-info note"><?= $project->client() ?></div>
-        <time class="project-info note"><?= $project->published()->toDate('m/Y') ?></time>
-      </div>
-    </article>
-    <?php endforeach ?>
+        <i><?= $project->subtitle() ?></i>
+        <p><?= $project->details()->kt() ?></p>
+      </article>
+      <?php endforeach ?>
+    </div>
   </section>
+  <?php endforeach ?>
 
   <section class="text">
     <?= $page->text()->kt() ?>

@@ -36,38 +36,37 @@ fields:
       company:
         label: Entreprise
         type: text
-  project_title:
-    label: Titre des projets
+  project_list_1_title:
+    label: Titre de la liste 1
     type: text
-    default: Projets
-  projects:
-    label: Projets
+    default: Axes de travail
+  project_list_1:
+    label: Liste de projets 1
     type: structure
     fields:
       title:
         label: Titre
         type: text
-      description:
-        label: Description
+      subtitle:
+        label: Sous-titre
+        type: text
+      details:
+        label: Détails
         type: textarea
-      published:
-        label: Publié le
-        type: date
-      client:
-        label: Client
+  project_list_2_title:
+    label: Titre de la liste 2
+    type: text
+    default: Axes de travail
+  project_list_2:
+    label: Liste de projets 2
+    type: structure
+    fields:
+      title:
+        label: Titre
         type: text
-      thumbnail:
-        label: Vignette
-        type: files
-        multiple: false
-        query: page.images
-        search: false
-      youtube:
-        label: Youtube ID
+      subtitle:
+        label: Sous-titre
         type: text
-      peertube:
-        label: Peertube ID
-        type: text
-      facebook:
-        label: Facebook ID
-        type: text
+      details:
+        label: Détails
+        type: textarea

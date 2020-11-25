@@ -6,7 +6,7 @@ Presentation:
 
 Nous sommes dans l’Anthropocène : l'ère d'un décalage préoccupant entre l'impact des activités humaines et la capacité écologique d’absorption de notre planète.
 
-Ingénieur, optimiste, curieux et acteur de la transition, je veux m'engager et collaborer pour que l'humain réduise son empreinte et devienne plus résilient, plus résistant aux chocs, face aux défis à venir.
+Ingénieur, optimiste, curieux et acteur de la transition, je m'engage pour que les humains réduisent leur empreinte et deviennent plus résilients, plus résistants aux chocs, face aux défis à venir.
 
 ----
 
@@ -20,30 +20,13 @@ Share-image:
 
 ----
 
-Text:
-
-Je travaille selon trois axes :
-
-- Diffuser les connaissances scientifiques sur les enjeux climat, énergie et ressources. Dans ce but, je suis animateur de la Fresque du Climat et je développe des ateliers originaux et participatifs.
-- Partager la philosophie low-tech et ses solutions et étudier comment la mettre en œuvre à l'échelle collective ou d'une entreprise. Cela peut prendre la forme de conférences, d'ateliers d'intelligence collective ou de sessions de travail avec les équipes sur site.
-- Imaginer une société future souhaitable et soutenable que je partage sous forme de talks inspirants.
-
-Nous pouvons coopérer si vous voulez :
-
-- Faire infuser des idées nouvelles pour susciter l'engagement et sensibiliser vos équipes.
-- Développer avec une approche ingénieur low-tech des produits ou services en accord avec la finitude de notre monde : plus simples, plus sobres et plus accessibles.
-- Améliorer la résilience de votre organisation ou de votre territoire.
-- Basculer votre activité en mode durable par des actions concrètes et valorisables.
-
-Co-organisateur de la [1ère Rencontre des Acteurs de la Low Tech](https://rencontres-acteurs-low-tech.gitlab.io/)
-Co-organisateur de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
-Membre d'[Ingénieurs Engagés](https://www.ingenieurs-engages.org/) et de [Triticum](https://www.triticum.fr)
+Text: 
 
 ----
 
 Contact-text:
 
-Vous souhaitez sensibiliser aux enjeux environnementaux 🌍 ? Découvrir l'univers des low tech 💡 ? Envisager votre organisation en version durable 🌱 ?
+Vous souhaitez sensibiliser aux enjeux environnementaux 🌍 ? Découvrir l'univers de la low tech 💡 ? Envisager votre organisation en version durable 🌱 ?
 
 Parlez-moi de votre intention !
 
@@ -62,8 +45,64 @@ Quotes:
 
 ----
 
-Project-title: 
+Project-list-1-title: Mes axes de travail
 
 ----
 
-Projects: 
+Project-list-1:
+
+- 
+  title: >
+    Diffuser les connaissances scientifiques
+    sur les enjeux et les solutions
+  subtitle: "Bien connaître le climat, l'énergie, la biodiversité et/ou les ressources rares pour pouvoir agir correctement"
+  details: |
+    - (link: https://www.fresqueduclimat.org/ text: Fresque du Climat) ((link: https://vitibot.fr/ text: Vitibot), (link: https://www.rentreeclimat.org/ text: Rentrée Climat 2020))
+    - (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité) ((link: https://neoma-bs.com/ text: Neoma))
+    - Mini-conférence "Quelles limites planétaires pour l'ingénieur du XXIe siècle ?" *(en création)*
+- 
+  title: >
+    Partager la philosophie low-tech et ses
+    solutions
+  subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
+  details: |
+    - Articles pour un numérique low tech ((link: http://www.notrecop21.fr/ text: Notre COP21 Métropole Rouen Normandie), coalition "Numérique Responsable")
+    - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/) et de la [1re Rencontre des Acteurs de la Low Tech](https://rencontres-acteurs-low-tech.gitlab.io/)
+    - Atelier participatif "*Utiliser la low tech dans mon organisation*" *(en création)*
+- 
+  title: >
+    Imaginer une société future
+    souhaitable et soutenable
+  subtitle: "... pour se projeter et savoir vers quoi l'on veut tendre."
+  details: "- Conte d'un futur souhaitable"
+
+----
+
+Project-list-2-title: Travaillons ensemble si vous voulez...
+
+----
+
+Project-list-2:
+
+- 
+  title: >
+    Améliorer votre résilience et être
+    plus sobre
+  subtitle: "Mieux résister aux chocs, à l'échelle de votre organisation ou de votre territoire."
+  details: ""
+- 
+  title: >
+    Innover avec une approche ingénieur low
+    tech
+  subtitle: 'Développer des produits ou  services en accord avec la finitude de notre monde : plus simples, plus  sobres et plus accessibles.'
+  details: ""
+- 
+  title: Faire infuser des idées nouvelles
+  subtitle: "... pour susciter l'engagement et sensibiliser vos équipes."
+  details: ""
+- 
+  title: Basculer votre activité en mode durable
+  subtitle: >
+    ... par des actions concrètes et
+    valorisables.
+  details: ""

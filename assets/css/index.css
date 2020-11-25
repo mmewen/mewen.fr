@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: larger;
+}
+
 /*strong, b {
   font-weight: 500;
 }*/
@@ -144,11 +148,16 @@ main {
 }
 .text a {
   position: relative;
-  white-space: nowrap;
+  /*white-space: nowrap;
+  display: inline-block;*/
+  white-space: wrap;
   font-weight: 500;
   z-index: 1;
-  display: inline-block;
   border-bottom: 2px solid var(--highlight-color);
+  transition: border-width 0.1s linear;
+}
+.text a:hover {
+  border-bottom: 4px solid var(--highlight-color);
 }
 .text figure {
   padding-top: 1.5rem;
