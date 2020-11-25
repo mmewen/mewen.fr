@@ -9,7 +9,7 @@
  */
 return [
     'debug' => true,
-    'url' => 'http://192.168.0.17',
+    'url' => 'http://192.168.1.40',
     'panel' =>[
         'install' => true
     ]
