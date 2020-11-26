@@ -55,10 +55,10 @@ Project-list-1:
   title: >
     Diffuser les connaissances scientifiques
     sur les enjeux et les solutions
-  subtitle: "Bien connaître le climat, l'énergie, la biodiversité et/ou les ressources rares pour pouvoir agir correctement"
+  subtitle: "Bien connaître le climat, l'énergie, la biodiversité et/ou les ressources rares pour pouvoir agir efficacement."
   details: |
     - (link: https://www.fresqueduclimat.org/ text: Fresque du Climat) ((link: https://vitibot.fr/ text: Vitibot), (link: https://www.rentreeclimat.org/ text: Rentrée Climat 2020))
-    - (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité) ((link: https://neoma-bs.com/ text: Neoma))
+    - (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité) ((link: https://neoma-bs.com/ text: Neoma Business School))
     - Mini-conférence "Quelles limites planétaires pour l'ingénieur du XXIe siècle ?" *(en création)*
 - 
   title: >
@@ -66,15 +66,18 @@ Project-list-1:
     solutions
   subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
   details: |
-    - Articles pour un numérique low tech ((link: http://www.notrecop21.fr/ text: Notre COP21 Métropole Rouen Normandie), coalition "Numérique Responsable")
+    - Articles sur le thème du numérique low tech ((link: http://www.notrecop21.fr/ text: Notre COP21 Métropole Rouen Normandie), coalition "Numérique Responsable")
     - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/) et de la [1re Rencontre des Acteurs de la Low Tech](https://rencontres-acteurs-low-tech.gitlab.io/)
     - Atelier participatif "*Utiliser la low tech dans mon organisation*" *(en création)*
 - 
   title: >
     Imaginer une société future
     souhaitable et soutenable
-  subtitle: "... pour se projeter et savoir vers quoi l'on veut tendre."
-  details: "- Conte d'un futur souhaitable"
+  subtitle: >
+    ... pour se projeter et se mettre à la
+    construire.
+  details: |
+    - "*Conte d'un futur souhaitable*"
 
 ----
 
