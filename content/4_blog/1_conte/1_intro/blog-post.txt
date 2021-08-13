@@ -2,10 +2,6 @@ Title: Intro
 
 ----
 
-Authors: Mewen Michel
-
-----
-
 Text: *Intention, hypothèses et leurs conséquences, ancrage temporel et spatial*
 
 Il sera une fois un monde...

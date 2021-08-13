@@ -2,10 +2,6 @@ Title: Travailler
 
 ----
 
-Authors: Mewen Michel
-
-----
-
 Text: Je ne vous ai pas dit ce que je fais dans la vie !
 
 **Je suis ingénieur !** J'invente ou j'améliore des low tech. Même si ces technologies durables et utiles, ces basses technologies, sont accessibles, il faut bien trouver un gars qui s'amusera à faire des calculs de rendement, d'empreinte écologique ou de consommation d'énergie. Le gars en question, c'est moi !

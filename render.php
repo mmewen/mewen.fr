@@ -3,6 +3,7 @@
 require __DIR__ . '/kirby/bootstrap.php';
 
 $kirby = new Kirby([
+    'locale' => 'fr_FR.utf-8',
     'roots' => [
         'index'  => __DIR__,
         'assets' => __DIR__ . '/assets',
@@ -11,6 +12,9 @@ $kirby = new Kirby([
     ],
     'urls' => [
         'index' => '/'
+    ],
+    'markdown' => [
+        'extra' => true
     ]
 ]);
 

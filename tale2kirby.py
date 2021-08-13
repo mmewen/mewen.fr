@@ -38,7 +38,6 @@ for chapter_file in chapter_files:
 		# Make chapter
 		chapter_content = {
 			'Title': title,
-			'Authors': "Mewen Michel",
 			'Text': markdown_text
 		}
 

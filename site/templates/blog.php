@@ -9,16 +9,21 @@
     <?= $page->presentation()->kt() ?>
   </section>
 
-  <section class="text">
-    <h2>Articles</h2>
-    <ul>
-      <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
-      <li><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></li>
-      <?php endforeach ?>
-    </ul>
+  <section class="articles">
+    <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
+      <div class="article text">
+        <h3><?= $article->title()->link() ?></h3>
+        <?php if ($article->published()->toDate() != 0): ?>
+          <span>
+            <?= strftime("%d %B %Y", $article->published()->toDate()) ?>
+          </span>
+        <?php endif ?>
+        <p><?= $article->subtitle().html() ?></p>
+      </div>
+    <?php endforeach ?>
   </section>
 
-  <section class="text">
+  <section class="text" id="outro">
     <?= $page->outro()->kt() ?>
   </section>
 </main>

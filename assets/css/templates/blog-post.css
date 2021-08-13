@@ -15,6 +15,11 @@
 	font-style: italic;
 }
 
+.intro span+span:before {
+	padding: 0.2em;
+	content: "\0000B7";
+}
+
 #previous-post, #next-post {
 	font-style: italic;
 }

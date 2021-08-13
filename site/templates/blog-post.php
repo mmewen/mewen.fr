@@ -30,6 +30,17 @@
     <?php endif ?>
     <h1><?= $page->title()->html() ?></h1>
     <h2 class="subtitle"><?= $page->subtitle()->html() ?></h2>
+    <p>
+      <?php if ($page->authors() != ""): ?>
+        <span><?= $page->authors()->html() ?></span>
+      <?php endif ?>
+      <?php if ($page->published()->toDate() != 0): ?>
+        <span> <?= strftime("%d %B %Y", $page->published()->toDate()) ?></span>
+      <?php endif ?>
+      <?php if ($page->updated()->toDate() != 0): ?>
+        <span> mis à jour le <?= strftime("%d %B %Y", $page->published()->toDate()) ?></span>
+      <?php endif ?>
+    </p>
   </section>
 
   <section class="text">
