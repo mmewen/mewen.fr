@@ -13,35 +13,50 @@
 
 <main>
   <section class="intro">
-    <h2><?= $page->title()->html() ?></h2>
+    <h1><?= $page->title()->html() ?></h1>
+    <h2><?= $page->subtitle()->html() ?></h2>
+  </section>
+
+  <section class="text">
   </section>
 
   <section class="text">
     <div class="text">
+      <?= $page->introduction()->kt() ?>
+
+      <h2>Chapitres</h2>
+      <ul>
+        <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
+        <li><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></li>
+        <?php endforeach ?>
+      </ul>
+
       <?= $page->text()->kt() ?>
     </div>
 
-    <div class="blog-nav">
-      <?php if ($page->hasPrevListed()): ?>
-        <div id="previous-post">
-          <a href="<?= $page->prevListed()->url() ?>"><?= $page->prevListed()->title() ?></a>
-        </div>
-      <?php else: ?>
-        <div></div>
-      <?php endif ?>
+    <?php if ($page->parent()->template() != "blog"): ?>
+      <div class="blog-nav">
+        <?php if ($page->hasPrevListed()): ?>
+          <div id="previous-post">
+            <a href="<?= $page->prevListed()->url() ?>"><?= $page->prevListed()->title() ?></a>
+          </div>
+        <?php else: ?>
+          <div></div>
+        <?php endif ?>
 
-      <div>
-        <a href="<?= $page->parent()->url() ?>">Sommaire</a>
+        <div>
+          <a href="<?= $page->parent()->url() ?>">Sommaire</a>
+        </div>
+
+        <?php if ($page->hasNextListed()): ?>
+          <div id="next-post">
+            <a href="<?= $page->nextListed()->url() ?>"><?= $page->nextListed()->title() ?></a>
+          </div>
+        <?php else: ?>
+          <div></div>
+        <?php endif ?>
       </div>
-
-      <?php if ($page->hasNextListed()): ?>
-        <div id="next-post">
-          <a href="<?= $page->nextListed()->url() ?>"><?= $page->nextListed()->title() ?></a>
-        </div>
-      <?php else: ?>
-        <div></div>
       <?php endif ?>
-    </div>
 
   </section>
 </main>

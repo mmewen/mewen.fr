@@ -1,19 +1,10 @@
 title: Blog page
 preset: page
 fields:
-  subtitle:
-    label: Sous-titre
-    type: text
   presentation:
     label: Présentation
     type: textarea
-  share_image:
-    label: Image de partage
-    type: files
-    multiple: false
-    query: page.images
-    search: false
-  text:
-    label: Texte
+  outro:
+    label: Texte de fin
     type: textarea
     size: large

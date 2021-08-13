@@ -2,8 +2,7 @@
 
 <main>
   <section class="intro">
-    <h1><?= $page->title()->html() ?></h1>
-    <h2><?= $page->subtitle()->html() ?></h2>
+    <h1>Blog</h1>
   </section>
 
   <section class="text">
@@ -11,7 +10,7 @@
   </section>
 
   <section class="text">
-    <h2>Chapitres</h2>
+    <h2>Articles</h2>
     <ul>
       <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
       <li><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></li>
@@ -20,7 +19,7 @@
   </section>
 
   <section class="text">
-    <?= $page->text()->kt() ?>
+    <?= $page->outro()->kt() ?>
   </section>
 </main>
 

@@ -1,5 +1,0 @@
-Title: Blog
-
-----
-
-Text: Billets de blog

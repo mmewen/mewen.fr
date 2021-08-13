@@ -1,11 +1,29 @@
 title: Blog post
 preset: page
 fields:
-  title:
-    label: Titre
+  published:
+    label: Publié le
+    type: date
+  updated:
+    label: Mise à jour le
+    type: date
+  authors:
+    label: Auteur(s)
     type: text
-  text:
-    label: Texte
+  subtitle:
+    label: Sous-titre
+    type: text
+  share_image:
+    label: Image de partage
+    type: files
+    multiple: false
+    query: page.images
+    search: false
+  introduction:
+    label: Introduction
     type: textarea
     size: large
-
+  text:
+    label: Contenu
+    type: textarea
+    size: large

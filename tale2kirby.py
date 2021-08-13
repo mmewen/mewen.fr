@@ -3,7 +3,7 @@
 from pathlib import Path
 import re, unicodedata, os
 
-KIRBY_TALE_ROOT = Path("content/conte")
+KIRBY_TALE_ROOT = Path("content/4_blog/1_conte")
 RAW_TALE_ROOT = Path("tale")
 KIRBY_SEPARATOR = """
 
@@ -38,6 +38,7 @@ for chapter_file in chapter_files:
 		# Make chapter
 		chapter_content = {
 			'Title': title,
+			'Authors': "Mewen Michel",
 			'Text': markdown_text
 		}
 
