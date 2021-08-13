@@ -1,4 +1,4 @@
-Title: Vidéo
+Title: Vidéaste
 
 ----
 
@@ -12,9 +12,7 @@ Capturez ces émotions dans un film ! Je le réalise pour vous.
 
 ----
 
-Cover:
-
-- img_20200512_181055_hdr-edit.png
+Cover: - img_20200512_181055_hdr-edit.png
 
 ----
 

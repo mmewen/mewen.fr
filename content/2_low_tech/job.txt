@@ -1,12 +1,12 @@
-Title: Low tech
+Title: Ambassadeur low tech
 
 ----
 
 Presentation:
 
-Nous sommes dans l’Anthropocène : l'ère d'un décalage préoccupant entre l'impact des activités humaines et la capacité écologique d’absorption de notre planète.
+Nous sommes à l'ère d'un décalage préoccupant entre l'impact des activités humaines et la capacité écologique d’absorption de notre planète.
 
-Ingénieur, optimiste, curieux et acteur de la transition, je m'engage pour que les humains réduisent leur empreinte et deviennent plus résilients, plus résistants aux chocs, face aux défis à venir.
+Ingénieur, optimiste, curieux et acteur de la transition, je m'engage pour que les humains réduisent leur empreinte avant d'y être contraints et deviennent plus résilients, plus résistants aux chocs, face aux défis à venir.
 
 ----
 
@@ -52,32 +52,30 @@ Project-list-1-title: Mes axes de travail
 Project-list-1:
 
 - 
-  title: >
-    Diffuser les connaissances scientifiques
-    sur les enjeux et les solutions
-  subtitle: "Bien connaître le climat, l'énergie, la biodiversité et/ou les ressources rares pour pouvoir agir efficacement."
+  title: Sensibiliser aux enjeux environnementaux
+  subtitle: "Diffuser les connaissances scientifiques pour bien connaître le climat, l'énergie, la biodiversité et les ressources rares afin de pouvoir agir efficacement."
   details: |
-    - (link: https://www.fresqueduclimat.org/ text: Fresque du Climat) ((link: https://vitibot.fr/ text: Vitibot), (link: https://www.rentreeclimat.org/ text: Rentrée Climat 2020))
-    - (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité) ((link: https://neoma-bs.com/ text: Neoma Business School))
-    - Mini-conférence "Quelles limites planétaires pour l'ingénieur du XXIe siècle ?" *(en création)*
+    - Conférence *"Face aux limites planétaires : pensez low tech !"*
+    - Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
+    - Atelier (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité)
+    - Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
 - 
-  title: >
-    Partager la philosophie low-tech et ses
-    solutions
+  title: Partager la philosophie low-tech
   subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
   details: |
-    - Articles sur le thème du numérique low tech ((link: http://www.notrecop21.fr/ text: Notre COP21 Métropole Rouen Normandie), coalition "Numérique Responsable")
-    - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/) et de la [1re Rencontre des Acteurs de la Low Tech](https://rencontres-acteurs-low-tech.gitlab.io/)
-    - Atelier participatif "*Utiliser la low tech dans mon organisation*" *(en création)*
+    - Atelier participatif "*Transition vers des technologies sobres et durables*" *(en création)*
+    - Projets [vidéo](/video) pour des projets à impact positif
+    - Écrits sur le thème du numérique low tech : (link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)
+    - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
 - 
-  title: >
-    Imaginer une société future
-    souhaitable et soutenable
+  title: Imaginer et construire
   subtitle: >
-    ... pour se projeter et se mettre à la
-    construire.
+    ... une société future souhaitable et
+    soutenable.
   details: |
-    - "*Conte d'un futur souhaitable*"
+    - [*« Conte d'un futur souhaitable »*](/blog/conte)
+    - Chantiers participatifs : production de semences céréalière, bâtiments durables, ...
+    - Transformation alimentaire locale, bio et à l'énergie solaire avec [Neoloco](https://neoloco.fr/)
 
 ----
 
