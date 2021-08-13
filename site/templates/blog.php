@@ -18,7 +18,7 @@
             <?= strftime("%d %B %Y", $article->published()->toDate()) ?>
           </span>
         <?php endif ?>
-        <p><?= $article->subtitle().html() ?></p>
+        <p><?= $article->subtitle()->html() ?></p>
       </div>
     <?php endforeach ?>
   </section>
