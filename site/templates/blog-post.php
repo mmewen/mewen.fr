@@ -11,10 +11,25 @@
 ?>
 <?php snippet('header') ?>
 
+<!-- <nav class="breadcrumb text" aria-label="breadcrumb">
+  <ol>
+    <?php foreach($site->breadcrumb()->offset(1) as $crumb): ?>
+    <li>
+      <a href="<?= $crumb->url() ?>" <?= e($crumb->isActive(), 'aria-current="page"') ?>>
+        <?= html($crumb->title()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ol>
+</nav> -->
+
 <main>
   <section class="intro">
+    <?php if ($page->parent()->template() != "blog"): ?>
+      <h2><?= $page->parent()->title()->html() ?></h2>
+    <?php endif ?>
     <h1><?= $page->title()->html() ?></h1>
-    <h2><?= $page->subtitle()->html() ?></h2>
+    <h2 class="subtitle"><?= $page->subtitle()->html() ?></h2>
   </section>
 
   <section class="text">
@@ -24,12 +39,14 @@
     <div class="text">
       <?= $page->introduction()->kt() ?>
 
-      <h2>Chapitres</h2>
-      <ul>
-        <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
-        <li><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></li>
-        <?php endforeach ?>
-      </ul>
+      <?php if ($page->children()->count() > 0): ?>
+        <h2>Chapitres</h2>
+        <ul>
+          <?php foreach($page->children()->listed()/*->flip()*/ as $article): ?>
+          <li><a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a></li>
+          <?php endforeach ?>
+        </ul>
+      <?php endif ?>
 
       <?= $page->text()->kt() ?>
     </div>
@@ -56,7 +73,7 @@
           <div></div>
         <?php endif ?>
       </div>
-      <?php endif ?>
+    <?php endif ?>
 
   </section>
 </main>

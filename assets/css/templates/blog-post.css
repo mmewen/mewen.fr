@@ -1,3 +1,20 @@
+.breadcrumb ol {
+	list-style: none;
+}
+
+.breadcrumb ol li {
+	display: inline;
+}
+
+.breadcrumb ol li+li:before {
+  padding: 8px;
+  content: "\2192";
+}
+
+.subtitle {
+	font-style: italic;
+}
+
 #previous-post, #next-post {
 	font-style: italic;
 }
