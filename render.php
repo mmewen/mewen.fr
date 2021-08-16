@@ -3,7 +3,6 @@
 require __DIR__ . '/kirby/bootstrap.php';
 
 $kirby = new Kirby([
-    'locale' => 'fr_FR.utf-8',
     'roots' => [
         'index'  => __DIR__,
         'assets' => __DIR__ . '/assets',
@@ -33,6 +32,8 @@ function recurse_copy($src,$dst) {
     } 
     closedir($dir); 
 }
+
+setlocale(LC_ALL, 'fr_FR.UTF-8'); // because of some weird bug with strftime at render.
 
 // Render all the pages
 foreach ($kirby->site()->index() as $page) {

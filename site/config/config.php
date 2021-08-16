@@ -10,7 +10,7 @@
 return [
     'debug' => false,
     'url' => 'https://www.mewen.fr',
-    'locale' => 'fr_FR.utf-8',
+    'locale' => 'fr_FR.UTF-8',
     'panel' =>[
         'install' => true
     ],
