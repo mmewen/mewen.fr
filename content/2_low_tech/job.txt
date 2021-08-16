@@ -57,14 +57,14 @@ Project-list-1:
   details: |
     - Conférence *"Face aux limites planétaires : pensez low tech !"*
     - Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
-    - Atelier (link: https://www.linkedin.com/company/fresquedelabiodiversité/ text: Fresque de la Biodiversité)
+    - Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
     - Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
 - 
   title: Partager la philosophie low-tech
   subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
   details: |
     - Atelier participatif "*Transition vers des technologies sobres et durables*" *(en création)*
-    - Projets [vidéo](/video) pour des projets à impact positif
+    - Projets [vidéo](/video) pour des initiatives à impact positif
     - Écrits sur le thème du numérique low tech : (link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)
     - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
 - 

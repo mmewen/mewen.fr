@@ -277,7 +277,7 @@ time.project-info {
 		width: 50%;
 		height: 100%;
 		background-color: var(--background-color); 
-		opacity: 0.8;
+		opacity: 0.85;
 		position: absolute;
 		top: 0;
 	}
