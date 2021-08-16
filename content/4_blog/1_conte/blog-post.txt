@@ -51,5 +51,5 @@ Les hypothèses que j'ai prises, rappelées dans l'introduction, sont :
 
 ## Sources
 
-- [🔗](https://theconversation.com/extinction-rebellions-car-free-streets-showcase-the-possibility-of-a-beautiful-safe-and-green-future-124924) *Extinction rebellion's car free streets showcase the possibility of a beautiful safe and green future* — Paul Chatterton, The Conversation, *16/10/2019*
-- [🔗](https://www.lafabriqueecologique.fr/vers-des-technologies-sobres-et-resilientes-pourquoi-et-comment-developper-linnovation-low-tech/) *Vers des technologies sobres et résilientes – Pourquoi et comment développer l’innovation « low »tech » ?* — groupe de travail présidé par Philippe Bihouix, La Fabrique Ecologique, *14/04/2019*
+- [*« Extinction rebellion's car free streets showcase the possibility of a beautiful safe and green future »*](https://theconversation.com/extinction-rebellions-car-free-streets-showcase-the-possibility-of-a-beautiful-safe-and-green-future-124924) — Paul Chatterton, The Conversation, *16/10/2019*
+- [*« Vers des technologies sobres et résilientes – Pourquoi et comment développer l’innovation « low »tech » ? »*](https://www.lafabriqueecologique.fr/vers-des-technologies-sobres-et-resilientes-pourquoi-et-comment-developper-linnovation-low-tech/) — groupe de travail présidé par Philippe Bihouix, La Fabrique Ecologique, *14/04/2019*
