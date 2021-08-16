@@ -58,5 +58,8 @@ foreach ($kirby->site()->index() as $page) {
 // Copy the assets
 recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
 
+// Copy robots.txt
+copy("robots.txt", "static/robots.txt"); 
+
 // End
 echo 'Your static site has been generated in ' . $kirby->root('static');
