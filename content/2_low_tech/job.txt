@@ -56,7 +56,7 @@ Project-list-1:
   subtitle: "Diffuser les connaissances scientifiques pour bien connaître le climat, l'énergie, la biodiversité et les ressources rares afin de pouvoir agir efficacement."
   details: |
     - Conférence *"Face aux limites planétaires : pensez low tech !"*
-    - Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
+    - Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat) dont la (link: https://www.rentreeclimat.org/ text: Rentrée Climat) (NEOMA, ENSICAEN, IFE et UFR Santé Rouen...)
     - Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
     - Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
 - 
