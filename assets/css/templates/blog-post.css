@@ -37,3 +37,12 @@
 #next-post::after {
 	content: '→';
 }
+
+.footnote-ref {
+	margin: 0 0.2em;
+}
+
+blockquote {
+	border-left: double 3px var(--highlight-color);
+	padding-left: 1.5em;
+}
