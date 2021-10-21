@@ -1,0 +1,529 @@
+Title: À quoi bon travailler ?
+
+----
+
+Published: 2021-10-21
+
+----
+
+Updated: 
+
+----
+
+Authors: Mewen Michel
+
+----
+
+Subtitle: Réflexions sur la place du travail dans notre monde contemporain et pistes pour une meilleure "hygiène du travail".
+
+----
+
+Share-image: 
+
+----
+
+Introduction:
+
+Quel sens donner au travail ? Est-ce que j'ai le droit de travailler moins ? Comment réduire notre impact sur l'environnement et vivre correctement ? Quel rôle pourrais-je avoir en tant qu'ingénieur dans un monde durable ? Que serait un travail dans une démarche low tech ? 
+
+Ces questions me préoccupent depuis quelques années sans vraiment que j'y trouve de réponse satisfaisante. Tentons donc de rassembler les limites que je vois au travail tel qu'il est actuellement souvent pratiqué dans l'occident pour en tirer des enseignements et des actions que je puisse mettre en place à ma petite échelle. Il faudra pour cela revoir quelques mots dont le sens a glissé et que j'aimerais redéfinir.
+
+(Comme précisé en ouverture de [ce blog](/blog/), je n'ai pas l'intention de donner des vérités absolues et figées, mais d'offrir des pistes de réflexions. J'adorerais entendre les vôtres !)
+
+----
+
+Text:
+
+## Les challenges du travail
+
+### La place de l'ingénieur
+
+*« Pour vous, qu'est-ce qu'un ingénieur ? »* Voilà une question qu'on m'a posée à 18 ans pour intégrer le supérieur. *« L'ingénieur est un inventeur qui permet de faire du profit. »* C'est la réponse à laquelle j'ai abouti. Autrement dit, le but de ces inventions est de permettre de gagner de l'argent. Tant mieux si, dans la bataille, on a résolu plein de problèmes, facilité la vie des gens, évité des morts, donné du travail aux habitants de notre ville, favorisé une faune et une flore riche, utilisé peu de ressources, ... Ou pas. Finalement peu importe, tant que ça permet de faire du profit.
+
+Si l'on souhaite cesser le consumérisme (cf. [*Toujours croître ?*](#croissance)), il faudra créer moins de nouveaux produits, faire fonctionner de moins grandes usines, produire moins, ... Il y aurait donc moins besoin d'ingénieurs qu'actuellement et il y aurait besoin de les mobiliser, non sur une nouvelle strate de solutions techniques, mais à travailler la sobriété, le côté low tech[^1].
+
+En janvier 2020, je suis retourné dans mon école d'ingénieur pour participer à un séminaire sur le thème *« Le low-tech est-il l'avenir de l'ingénierie ? »* mené par Clément Mabi. Voilà un extrait de la synthèse du travail des participants au terme de la semaine ((file: si90_poster_v3.pdf text: voir le poster complet)) : 
+
+(image: si90_poster_v3-extrait.svg)
+
+### La richesse de la diversité
+
+Si je n'ai pas besoin d'être ingénieur à temps plein, est-ce que je pourrais en profiter pour avoir plusieurs métiers ? Est-ce que le pays gagnerait à avoir un ou une président·e qui soit également menuisier, ou professeur ? Des paysans philosophes et des chirurgiens chanteurs de rocks ?
+
+Cette idée loufoque m'accompagne depuis plusieurs années. Bien sûr, elle apporte son lot de questionnements : comment gérer les agendas ? Gérer la multiplication des outils de travail ? Comment faire évoluer l'éducation pour permettre cela ? Mais elle a également des avantages : un propriétaire d'entreprise ou une personnalité politique haut placée resterait bien ancrée dans le réel, une personne traditionnellement affectée à une tâche difficile aurait l'opportunité de penser à autre chose, de prendre du recul, un paysan pourrait améliorer ses revenus en développant des activités de transformation, plus rémunératrices. Je suis persuadé qu'une diversité d'activités pour chaque personne, à la manière d'une biodiversité sauvage ou cultivée pour un écosystème, permettrait de trouver une vie plus équilibrée.
+
+Bien sûr, cela remet en question la hiérarchie sociale basée sur les diplômes (cf. [*Utilité sociétale et reconnaissance*](#utilite-societale)), mais est-ce qu'un ouvrier éclairé ne pourrait pas faire aussi bien qu'un politicien ? Est-ce qu'un citadin travaillant dans les champs, en apprenant à aimer les champs qui le nourrissent, n'encouragerait pas une agriculture vertueuse ?
+
+### Résilience individuelle{#resilience}
+
+Le terme de résilience est très présent dans les médias depuis quelque temps, j'ai l'impression que son sens est mal compris, voire dévoyé. Reprenons ce qu'on entend par résilience, pour des systèmes socioécologiques :
+
+> *« La résilience d'un système peut être vue comme sa capacité à faire plusieurs choses. D'abord, **évoluer continuellement**. Ensuite, en cas de crise, **résister** d'abord. Si le choc est trop important, l'**absorber** en basculant en mode dégradé tout en préservant ses fonctions essentielles et son identité. Puis, **rebondir** et **s'adapter** pour être moins vulnérable face aux crises ultérieures.*
+>
+> ***La résilience [...] c'est une démarche, un processus d'apprentissage et d'adaptation continue**. C'est aussi une stratégie complémentaire à [l'habituelle] prévention des risques. »*[^2]
+>
+> — Arthur Keller
+
+(image: resilience.svg)
+
+> *« **La résilience est cette capacité qu’a un système de maintenir ses principales fonctions malgré les chocs, y compris au prix d’une réorganisation interne.** Que le système soit la société, la ville, la maison ou nous-mêmes, les principes sont sensiblement les mêmes. La résilience peut être collective (territoriale) ou individuelle (psychologique). Il est certes trop tard pour bâtir un « développement durable », mais il n’est jamais trop tard pour construire des « petits systèmes résilients » à l’échelle locale qui permettront de mieux endurer les chocs économiques, sociaux et écologiques à venir.* » [^3]
+>
+> — Agnès Sinaï, Raphaël Stevens, Hugo Carton, Pablo Servigne
+
+À l'échelle individuelle, la résilience serait donc la capacité d'assurer au mieux ses besoins[^4] en cas de choc.
+
+L'idéologie dominante (cf. [piste de réflexion à creuser #1 : utilitarisme et économie du bien être](#pistes)) me semble indiquer que la manière la plus efficace de maximiser son bonheur est de maximiser ses revenus. Autrement dit, c'est **en dédiant son temps à un travail spécifique** (application à l'individu de l'avantage comparatif[^5], me semble-t-il) qu'**on obtient une masse d'argent** permettant d'acheter ce **qui remplira tous nos besoins**. C'est en quelque sorte de **la délocalisation de ce qu'on pourrait faire soi-même** à l'échelle individuelle.
+
+On ne produit rien de ce qu'on mange et on ne stocke plus puisque les magasins disposent de tout toute l'année. On ne construit rien soi-même, de son logement à de petits objets, puisque c'est plus simple, plus efficace d'acheter. On se repose ainsi entièrement sur le système économique et un grain de sable peut bloquer notre vie individuelle. **L'efficacité est de ce point de vue le contraire de la résilience.**
+
+Un licenciement ou la disparition de mon métier coupent les rentrées d'argent. Un manque de pétrole, une grève dans un grand centre logistique ou un événement climatique extrême paralysent le système alimentaire[^6]. Les exemples de dépendances ne manquent pas. Sans viser l'autarcie, on pourrait gagner en résilience en allant vers une autonomie : être lié aux autres sans en être totalement dépendant.
+
+Cela demande donc de réfléchir au but qu'on donne au salaire : pour quoi est-ce que je veux l'utiliser ? De quoi ai-je besoin que j'aime faire ? Ou que je peux faire moi-même ?
+
+Très concrètement : j'aime faire du potager et cuisiner. Et pourtant, je travaille pour avoir de l'argent pour m'acheter de la sauce tomate cuisinée. Je dois changer ça !
+
+### Vivre pour travailler ?{#vivre-pour-travailler}
+
+Ou travailler pour vivre ?
+
+(video: https://www.youtube-nocookie.com/embed/orthdDsEgfw)
+
+*Dominique Rongvaux*[^7]
+
+Quand on se présente, la première chose qu'on dit, après notre prénom, c'est notre métier, ce qu'on fait pour vivre. Le travail fait partie de notre identité.
+
+Mais le travail est-il le but qu'on donne à notre vie ? A-t-on besoin de travailler 40 h par semaine pour vivre comme le mexicain de l'histoire ? Ou bien est-ce que ça nous permet juste d'avoir une réponse simple à la question *« qu'est-ce que tu fais dans la vie »* ?
+
+Prenons peut-être le problème dans l'autre sens : si l'on n'est pas en autarcie, nous continuons d'échanger, souvent de manière pécuniaire, avec les autres, voisins, artisans ou commerçants, et avec la communauté, via les impôts, taxes et cotisations. Il nous faut donc une source de revenus, de l'ordre de cette dépendance plus ou moins choisie. Pas beaucoup plus.
+
+Je préfère donc voir le travail comme étant un moyen plutôt qu'une fin. Une occupation plutôt qu'une valeur. En bref : travailler pour vivre, et non l'inverse. Mais cela demande de s'affranchir de la construction historique qu'est la semaine à 35 ou 40h[^10].
+
+Actuellement, en étant 0% autonome et en ayant un loyer à payer à deux, j'ai besoin de moins de 1000 € par mois, d'un naturel économe, mais sans me restreindre. Grâce aux deux ans que j'ai passées à travailler 40 heures par semaine en tant qu'ingénieur "classique" ainsi qu'à de l'héritage, j'ai la chance de pouvoir acheter bientôt une petite maison à la campagne ou en périphérie d'une petite ville. Que je compte rapidement équiper d'un potager pour être autonome en légumes, comme le fait Joseph Chauffrey[^8]. Et mille autres idées low tech pour gagner en indépendance et réduire les factures.
+
+**Employé à temps plein, 40h par semaine ? J'aurais trop d'argent !**
+
+De plus, je trouve absurde de se définir par ce pour quoi on est payé pour répondre à *« Qu'est-ce que tu fais dans la vie ? »*. Nous sommes beaucoup plus que ça : je connais un prof de math excellent en botanique et apiculteur à ses heures, un photographe musicien de jazz et (partiellement) constructeur de sa maison, une ingénieure également apprentie boulangère, ... *« L'exaltation du travail moderne [...] estime l'accomplissement de chacun à l'aune de la profession et de la carrière. »*[^9] Ce que c'est réducteur !
+
+> *« Le capitalisme [a entrepris] de convaincre les salariés que la vraie vie, c'est la vie au travail. Que c'est au travail qu'on s'accomplit réellement. Que la réalisation de soi, c'est la réalisation de soi dans et par le travail. »* — Frédéric Lordon[^10]
+
+Le travail salarié à temps plein est donc une habitude, une construction, dans laquelle rentre en jeux une pression sociale forte : *« travaille bien à l'école »*, *« fais des études pour bien gagner ta vie »*, *« ok, tu peux être musicien/chanteuse/acteur/écrivaine/athlète, mais d'abord passe un vrai diplôme »*, ... À partir du moment où cette pression sociale dessert notre épanouissement, je pense qu'il est bon de la remettre en question.
+
+### Les paradoxes de la mécanisation
+
+À l'écoute des médias au sujet de l'emploi, nous semblons mener un unique combat : la réduction du chômage. Cependant, le combat mené dans la plupart des entreprises est inverse : réduire le nombre de personnes nécessaires pour éviter d'être "surstaffé", quand bien même l'entreprise est parfaitement rentable. Les deux catégories de moyens à disposition sont de faire augmenter l'efficacité par employé et de remplacer les employés par des machines, des robots.
+
+Pour sortir de ce paradoxe, de ce bras de fer par le haut, je me dis qu'on pourrait décider de ne pas robotiser pour garantir les emplois. Ou bien décider qu'on peut chacun travailler moins pour permettre à tout le monde d'avoir un travail rémunérateur.
+
+Une question qui reste pour moi difficile à répondre est l'utilité des robots pour réduire la pénibilité du travail. C'est la justification commune pour mécaniser. Mais avons-nous, grâce aux machines, beaucoup réduit la pénibilité du travail en France dans les dernières dizaines d'années ?
+
+> *« Quel monde est-on en train de construire ? Il y a eu deux réponses possibles.*
+>
+> *La réponse qui a gagné historiquement [...] [est que] cet assujettissement à un travail privé de sens est le prix à payer pour la modernité technique. Il y a une science dans l'organisation du travail qui nous oblige à traiter les être humains comme des rouages et donc à les priver de l'expérience du sens dans ce qu'ils font. »*[^10]
+>
+> — Alain Supiot
+
+La mécanisation est censée ne pas faire disparaître d'emploi en permettant la création d'emplois plus qualifiés, de conception et de réparation des machines. J'ai l'impression que ce raisonnement est faussé : si le capitaliste mécanise, c'est qu'il y voit un intérêt économique. Et je ne vois pas comment il pourrait y avoir une économie à fabriquer des robots et à les alimenter en énergie sans destruction d'emplois.
+
+Mais admettons qu'il n'y ait pas destruction d'emplois : un faible nombre de personnes qualifiées permettent de fabriquer et d'entretenir lesdits robots, mais il faut toujours des conducteurs d'installations. Les ouvriers (et, d'après l'étymologie, l'œuvre qu'ils exécutaient) ont disparu. Les paysans sont devenus exploitants agricoles. Les menuisiers ont été remplacés par des pilotes de lignes de production de meubles. Les traiteurs ont été remplacés par des opérateurs en usine agroalimentaire. Des inégalités se sont créées entre employés qualifiés et non qualifiés mais, pire, on a perdu en savoir-faire. Au niveau de la production alimentaire, par exemple : seul 1% de la population française totale[^11] produit la nourriture des 99 autres pourcents[^6]. Ce chiffre était de 20% en 1900 et de 12% en 1954[^12]. Dans le même temps, la part de personnes possédant des compétences numériques est passé de 0% à 83%[^13]. C'est, de mon point de vue, prendre un gros risque pour la résilience alimentaire du pays (cf. [*Résilience*](#resilience)).
+
+Sans mécanisation, sommes-nous condamnés à avoir une légion de postes inintéressants, durs, mécaniques, sans intérêt intellectuel ou créatif ? Comme Alain Supiot, je pense que c'est dû à la division technique du travail qui a été un choix d'organisation du travail. Mais il est possible de choisir autrement, j'y reviendrai plus loin ([*Qu'est-ce qu'un bon travail ?*](#bon-travail)).
+
+Pour terminer, il y a le problème de l'énergie : remplacer des humains par des machines implique d'alimenter celles-ci. L'énergie étant à 50% fossile et à 90% non renouvelable en France[^14], il est irresponsable d'aggraver le changement climatique et notre dépendance à des ressources finies de cette manière. Et l'effet rebond[^15], qui accompagne souvent cette mécanisation, empire le résultat.
+
+### Toujours croître ?{#croissance}
+
+Un mythe tenace, me semble-t-il, notamment en France, est celui de la croissance : elle serait toujours à rechercher, amenant santé, bien-être et confort. C'est faux, comme on le sait depuis plusieurs dizaines d'années :
+
+> *Le PIB ne permet pas de mesurer le bien-être de nos sociétés.* — Guy Roustang[^17]
+
+Les accidents de la route, le naufrage de l'Erika, une catastrophe naturelle ou la pollution aux particules fines (47 000 morts par an en France[^18], plus de 15 fois plus que le nombre de morts sur les routes) augmentent le PIB[^16]. À l'inverse, les activités bénévoles comme faire garder des enfants par leur grand parents, aller ramasser des déchets, faire sa confiture ou servir aux Restaus du Cœur font baisser le PIB.
+
+> *Notre société, malgré ses déclarations de principe, facilite beaucoup plus le "lucra-volat", la volonté lucrative, que le bénévolat, la volonté bonne ; et il arrive trop souvent que ce que l'on pourrait appeler le "male-volat" ou volonté mauvaise, sous ses formes diverses, bénéficie de l'argent des contribuables.* — Guy Roustang[^16]
+
+De plus, il y a une forte corrélation entre le PIB et l'énergie utilisée, aujourd'hui à 84% fossile[^19], la croissance de l'un alimentant probablement la croissance de l'autre. La croissance verte, ou découplage, est aujourd'hui toujours une hypothèse non vérifiée dans les faits[^20] et, de mon point de vue, un pari dangereux, tant les enjeux contemporains demandent un action forte et urgente.
+
+Il faudrait donc arrêter de chercher la croissance économique, arrêter d'estimer la qualité de vie d'un pays en comptant les euros échangés. Attention, je n'ai pas dit "retour à la bougie" ni "il faut un confinement 365 jours par an" ! Il ne s'agit pas de subir une régression, une récession forcée mais bien de choisir, planifier, discuter ensemble d'un *« ralentissement et un rétrécissement de la vie économique au nom de la soutenabilité, de la justice sociale, et du bien-être »*[^21] (cf. [Pour aller plus loin](#plus)).
+
+La décroissance a plusieurs implications dans le travail :
+
+> *Il faudrait **moins travailler** pour réduire le chômage, les émissions, et pour libérer du temps libre. Moins, mais aussi **mieux**. Nous devons nous assurer que le travail participe au bien commun, que les tâches ingrates soient équitablement réparties, que le travail ne dégrade jamais la dignité des travailleurs, qu’il soit rémunéré de façon juste, et qu’il soit démocratiquement organisé. Le troisième aspect est le plus important : nous devons **changer notre [vision du travail](https://en.wikipedia.org/wiki/The_Abolition_of_Work)**. Parce que certaines activités humaines sont créatrices de valeur même si cette valeur n’est pas monétaire, le travail ne devrait pas être défini seulement par le salaire. Évaluons l’utilité du travail de manière concrète en termes de satisfaction des besoins.*[^21]
+>
+> — Timothée Parrique
+
+### Sous quelle forme travailler ?{#forme}
+
+Si je veux revoir ma conception du travail, travailler "low tech", est-ce que je peux rester salarié ? Est-ce que je me lance dans l'entreprenariat ? Autoentrepreneur ? Et que faire du bénévolat ?
+
+Historiquement[^10], le capitalisme est né dans un monde majoritairement composé d'autoentrepreneurs : petits paysans propriétaires, petits commerçants, artisans... Les lois de la concurrence ont balayé ces indépendants pour les remplacer par des salariés. Récemment, la relation patron-salarié a commencé à se transformer en une relation commerciale, l'ubérisation. Quelle serait une forme souhaitable du travail, à l'avenir ?
+
+Si l'on a été privé de ses moyens de travail, de l'accès à la terre ou aux moyens de production, il n'y a pas d'autre choix que le louage de services que représente le salariat[^22]. À ce propos, un définition de la production capitaliste m'a marquée : **« si j'ai un marteau et que je plante un clou, la planche avec le clou dedans ne m'appartient pas à moi, elle appartient à celui qui est propriétaire du marteau »**[^30]. Dis comme ça, c'est absurde, non ?
+
+Le schéma classique du salariat laisse cependant peu de degrés de liberté pour redéfinir son rapport au travail. Le choix d'un contrat à temps partiel ou la recherche d'un métier à impact, sans dissonance cognitive[^23], peuvent faire partie de ces degrés de liberté.
+
+Si l'on n'est pas salarié·e (et qu'on n'a pas peur de se lancer), est-ce que l'entreprenariat est la voie rêvée ? On peut effectivement y trouver beaucoup de sens, revoir son lien au travail, travailler à la fois avec ses mains et avec sa tête, créer des alternatives. Mais, comme le fait remarquer le mouvement Ingénieur·es Engagé·es dans un article[^24], on risque de rapidement faire face à l'effet rebond[^15] (encore lui) et à une doxa de la croissance, condition sine qua non pour les investisseurs, incubateurs et autres business angels.
+
+L'autoentreprenariat permet à première vue une certaine liberté. Pourtant, il constitue très souvent du salariat déguisé[^10] et libéralisé à l'extrême : pas de salaire minimum, protection sociale réduite, relation employeur-entrepreneur non équilibrée par la force collective et le code du travail, précarité, ... Bien que ça soit mon statut actuel, il ne me semble pas être un avenir enviable pour la majeure partie des travailleurs. Les autoentrepreneurs font pour moi partie, au même titre que les chômeurs et salariés en contrat précaire, de l'armée de réserve tristement nécessaire au capitalisme[^22].
+
+D'un autre côté, il existe des activités utiles, voire indispensables, qui rentrent mal dans le modèle entrepreneurial et salarial. Certaines sont estampillées "bénévolat" (soutiens aux aides alimentaires, sensibilisation aux enjeux environnementaux à tous les publics, ...)  mais il faut également compter le travail domestique (prendre soin des enfants, produire sa nourriture, réaliser les tâches ménagères, ...) et beaucoup de métiers artistiques ou culturels. Une activité non (ou mal) rémunérée doit tout de même être reconnue comme un travail.
+
+### Utilité sociétale et reconnaissance {#utilite-societale}
+
+> *Il y a un problème très étrange : **plus votre travail aide les autres, moins on vous paye**. Les personnes faisant un travail clairement utile, comme un conducteur de bus, un infirmier, un prof, sont payés beaucoup moins que les gens dont on ne comprend même pas ce qu'ils font.*[^22]
+>
+> — David Graeber
+
+L'anthropologue américain pointe ici un paradoxe : comment se fait-il que des personnes dont la valeur sociale du travail est durable et essentielle, tels un agriculteur ou un éboueur, soient moins payés et, au-delà, reçoivent moins de reconnaissance pour leur travail, que des "responsables du développement de la marque" ? Responsables qui, toujours selon Graeber, « sont payés beaucoup et ne contribuent pas à grand-chose, et parfois même sont nuisibles ».
+
+Rien n'explique que les hauts cadres soient payés plusieurs centaines de fois plus que les employés en bas de la pyramide[^25]. Montant qui augmente d'ailleurs bien plus rapidement que le SMIC ou que le salaire moyen.
+
+La réponse qu'apporte le macroéconomiste togolais Kako Nubukpo me semble assez juste :
+
+> *Ils sont rares sur le marché mondial, ils sont très rares. Donc on produit un discours qui nous fait croire que ces gens sont exceptionnels. C'est quelque chose qui est de l'ordre de la construction d'un récit, le récit de la création des surhommes. Et ça, c'est quelque chose qu'il faut démasquer.*[^26]
+>
+> — Kako Nubukpo
+
+En plus de la valeur sociale du travail, nombre d'actifs[^27] cherchent maintenant à se *sentir utiles*, à *avoir du sens* dans ce qu'ils font : à la fin d'une journée passée face à notre écran et en réunions interminables, qu'ai-je accompli ? Que reste-t-il de concret ?
+
+### Qu'est-ce qu'un bon travail ?{#bon-travail}
+
+La séparation entre métiers de bureau et métiers de terrain, employés qualifiés et opérateurs, cols blancs et cols bleus, ceux qui réfléchissent et ceux qui font, ne me semble pas saine.
+
+Les premiers peuvent trouver que leur travail est un bullshit job[^28] alors que les seconds peuvent se retrouver à réaliser de petites tâches divisées, une organisation héritée du taylorisme, qui ne permet pas d'observer le résultat ou de pouvoir choisir la manière de faire.
+
+Ces deux problèmes sont en fait les deux faces de la même pièce "division technique du travail" et j'aime beaucoup à ce sujet l'analyse du juriste Alain Supiot basée sur le travail de l'OIT[^29] et rapportée par l'ex-trader et vulgarisateur économie-finance Gilles Mitteau. La définition qu'il rapporte est la suivante :
+
+> ***Un travail humain, c'est quelque chose qui est dans ma tête avant d'être dans le monde et [ensuite] je réalise que c'est dans le monde.***[^30]
+>
+> — Gilles Mitteau
+
+Le travail à la chaîne, par exemple, provoque un déni de la pensée de l'ouvrier, considère l'humain comme une machine. Ça n'est donc pas un travail humain au sens de cette définition parce qu'on ne permet pas à l'employé de réfléchir à la manière de faire.
+
+Gilles Mitteau propose un second exemple de travail inhumain : les bullshit jobs. Dans ce cas, c'est l'impact sur le monde qui est absent : on manipule des concepts, on modélise la réalité dans des feuilles Excel mais on est en fait coupé de la réalité.
+
+Si le travail dans l'entreprise ne correspond pas à la définition donnée plus haut, il propose de revoir l'organisation du travail pour que ça le devienne.
+
+Bien sûr, correspondre à cette définition n'implique pas nécessairement de bonnes conditions de travail, je pense notamment au burn out bénévole[^31] ou à la charge mentale du travail domestique.
+
+### Renoncer à ses rêves ?
+
+Si on veut tenir compte des limites planétaires, améliorer son autonomie ou questionner le besoin dans ses achats, est-ce qu'on doit renoncer à ses rêves ?
+
+Le récit dominant encourage à posséder une belle voiture, des vêtements de marque, une maison ultramoderne (au moins !), à voyager régulièrement dans des pays lointains, à envier les produits de luxe, ... Ce récit passe, morceau par morceau, par un produit mis en avant par la pub, une villa californienne dans laquelle se déroule un film, une destination au soleil partagée sur les réseaux sociaux, la remarque d'une amie "qu'est-ce que tu as de nouveau à te mettre ?", ...
+
+Tout cet environnement nous fait rêver. On espère ressembler à celles et ceux qui "réussissent". Et, encore une fois, cette fiction commune nous donne la solution : il suffit de travailler beaucoup pour gagner beaucoup d'argent. Vous le méritez. Même si ce mythe du self-made man (ou le rêve américain) s'avère être empiriquement faux[^32], ou du moins exceptionnel, il peut quand même donner de l'espoir en montrant que "ça arrive".
+
+Face à cela, j'ai fait face à deux questions : si j'abandonne ce rêve, cela signifie-t-il que je baisse les bras, que je manque de motivation ? Si je veux respecter les limites planétaires, dois-je abandonner mes rêves ?
+
+Dans les deux cas, ma réponse est clairement non. Il ne s'agit pas de ne plus avoir de rêve, mais de considérer en avoir de différents.
+
+Au-delà de l'échelle individuelle, Cyril Dion défend l'idée d'une « bataille culturelle » en s'appuyant sur « une vision écologique désirable de l'avenir »[^33] Changer les décors des films, les tendances Instagram, la grille de lecture du journal télé, ...
+
+Pour moi, un voyage aux Maldives précipite leur submersion prochaine[^34], un yacht est le signe d'exploitation des inégalités et une agriculture high-tech montre une déconnexion avec la réalité physique de notre monde.
+
+Je rêve de retaper une petite maison dans un cadre luxuriant, d'apprendre à voler (en parapente ?), de fabriquer de la pâte à tartiner avec des noisettes que j'aurai fait pousser, d'aller en concerts, de boire des coups entre potes et de voyager en Corse ou aux Amériques à la voile[^35] (si jamais vous cherchiez des idées :wink:)
+
+## Premiers enseignements
+
+J'ai fait le tour jusqu'ici de ce que je constate du travail et de son organisation dans notre société. À la lumière des enjeux écologiques contemporains, notamment, j'ai commencé à esquisser ce vers quoi nous pourrions aller. Nous allons voir maintenant les divers enseignements et ce que j'en tire.
+
+### Donner du sens à son travail
+
+Entre les organisations qui ne tiennent pas du tout compte des limites planétaires et les bullshit jobs, la quête de sens dans le travail devient primordiale.
+
+En premier lieu, l'idée est donc de trouver ou se construire un *bon travail*[*](#bon-travail) qui, en plus d'être rémunérateur (on y reviendra), ait une réelle utilité sociétale à nos yeux et permette un épanouissement personnel.
+
+Mon ancien métier, dans la robotique était passionnant, stimulant, amusant, confortable et rémunérateur. Mais il n'avait pas de sens ! Sous la promesse de faire baisser dans un avenir lointain la mortalité sur les routes (que de jus de cerveaux, de centaines d'ingénieurs, de ressources, d'énergie pour un résultat bien incertain, il y a probablement plus simple !), je me suis aperçu que l'intérêt économique était de libérer du temps de cerveau de conducteur disponible[^36] et de virer chauffeur de taxis et camionneurs pour les remplacer par des taxis et camions autonomes, provoquant un effet rebond[^15] probablement énorme. Bref, un job positif sous bien des aspects mais néfaste à la société ne me convenait pas.
+
+J'ai donc réfléchi à ce que je pouvais faire, un peu à la manière de l'ikigai[^37] est voilà à ce à quoi je suis abouti :
+
+> *Sensibiliser aux enjeux écologiques contemporains, inventer et partager des solutions low tech*[^1]
+
+En tout cas, les métiers pleins de sens ne manquent pas : il y a les métiers Playmobil (vous savez : le paysan, la médecin, le mécanicien, la navigatrice, l'instituteur, ...), mais bien d'autres encore, peu importe [la forme](#forme). Ils sont peut-être moins présents en entreprise et bien plus en associations, souvent bénévolement (cf. [*Avoir plusieurs métiers*](#plusieurs-metiers)). Les métiers indépendants, sans patron, attirent mais demandent souvent beaucoup d'énergie et d'esprit entrepreneurial. À vous de choisir la réponse qui vous convient !
+
+Mais au-delà du sens de notre travail, je pense qu'il est important qu'il se déroule dans un cadre sain.
+
+### En collectif, revoir l'organisation du travail
+
+Face aux limites des formes de travail contemporaines, salariat et auto-entreprenariat notamment (cf. [*Sous quelle forme travailler ?*](#forme)), je pense qu'il est bon de répartir différemment les tâches et le pouvoir dans l'entreprise pour que tout le monde puisse avoir un *bon travail*[*](#bon-travail).
+
+Conséquence de cela, le travailleur doit, pour moi, retrouver la possession de ses outils de travail. Le livreur à vélo doit posséder le vélo *et* le système de mise en relation avec les clients, comme le font les transporteurs urbains Toutenvélo[^38]. Les travailleurs d'une usine doivent s'approprier leurs machines et gérer collectivement la production, comme le font les ouvriers de Vio.Me en Grèce[^39]. L'entreprise, au contraire de ce que beaucoup aimeraient croire, n'est pas un lieu purement rationnel, où les chiffres dictent la trajectoire la plus optimisée. C'est une communauté politique, car elle fait travailler ensemble des salariés, de l'encadrement, des consommateurs, des usagers et des propriétaires[^26]. Tous doivent participer à la gestion de l'entreprise.
+
+Le fonctionnement en coopérative me semble puissant pour partager les outils de production et le pouvoir entre les acteurs touchés. Cependant, l'exemple des mégacoopératives agricoles qui échappent aux agriculteurs et prennent l'ascendant sur eux m'incite à penser qu'une limite d'échelle est à donner. Les coopératives du réseau Toutenvélo sont ainsi limitées à l'échelle de leur zone urbaine tout en bénéficiant de la richesse des liens avec les autres villes.
+
+De plus, un fonctionnement coopératif ou en réseau améliore la résilience de l'organisation et limite les déplacements de biens et de personnes.
+
+Par ailleurs, on peut également revoir l'organisation du travail qui ne rentrent pas dans une logique marchande. Pour prendre soin de nos vieux (note : pourquoi ce mot est-il devenu péjoratif ?), nous pouvons nous organiser à l'échelle de la famille et "rendre visible", comme on le verra plus loin, ce travail. À une échelle plus large, pour éviter de limiter ces métiers au bénévolat, ils devraient être supportés collectivement par la société. Mais je dépasse ici le cadre de cet article.
+
+### Travailler moins
+
+À production égale, face au chômage et à la robotisation, la quantité de travail nécessaire diminue. Si, en plus, on décide de produire et consommer moins, cela s'accentuera.
+
+Si l'on avait deux fois moins de travail à réaliser, on pourrait décider de le répartir entre tou·te·s. Mais la réponse capitaliste est décevante : la moitié des travailleurs perdrait leur travail et l'autre partie continuerait de travailler. Avec moins de travail, on aurait toujours de la fatigue, des burn-outs et une bonne partie de la population marginalisée. Mais c'est un choix de société, ça n'est pas nécessaire !
+
+Cette expérience de pensée existe en fait déjà : on n'aurait besoin que de 5 à 10% de la force de travail pour produire les biens dont nous avons besoin. Une semaine de 15h serait largement suffisante.[^10]
+
+Il y a une activité qui vous passionne, pleine de sens mais de laquelle il est difficile de vivre et à laquelle vous n'apportez que peu de temps ? Est-ce que vous ne pourriez pas réduire votre travail rémunéré pour vous y consacrer un peu plus ? Ça n'est pas forcément facile ou même possible, mais ça vaut le coup d'essayer.
+
+Cette réduction du temps d'emploi nous permettrait en tout cas d'en disposer de plus pour nous-même, pour réaliser des activités productives ou non.
+
+### Multiplier les activités
+
+Impossible pour une famille de vivre convenablement en autarcie. Pensez à la culture et à la transformation des céréales par exemple : cela demanderait beaucoup de compétences, mais aussi beaucoup d'outils qui ne seraient utilisés qu'une fraction du temps. 
+
+Pourtant, gagner en autonomie est nécessaire. Dans cet objectif, deux choses me semblent indispensables : **multiplier ses activités pour gagner en résilience individuellement** et **créer du lien pour gagner en résilience collectivement**. La complémentarité est clé.
+
+À l'échelle individuelle, nous pouvons réaliser ce qui nécessite peu d'investissement matériel : cultiver ses fruits et légumes, conserver ses récoltes, élever des poules, réparer ses objets, coudre, transformer un peu d'énergie, ... On peut également développer des activités qui demandent plus de moyens ou de compétences : construire ou rénover sa maison, fabriquer ses meubles, travailler le métal, ...
+
+À plusieurs, on peut mettre en commun du matériel (pressoir à fruits ou à noix, moulin, batteuse à céréales et légumineuses, ...), des lieux équipés (atelier de menuiserie ou de travail du métal[^40]), des commandes (Groupement d'Achat Service Épicerie ou supermarché coopératif par exemple) et on peut bien évidemment s'échanger biens et services (des tomates contre une garde d'enfant, un coup de main pour des travaux qu'on revaudra la prochaine fois, ...).
+
+> *— Allô, pourrais-je parler au docteur Untel ?
+> — Il fait sa moisson, puis-je prendre un message ?*
+>
+> Perrine et Charles Hervé-Gruyer[^41]
+
+À vous de décider par quoi vous commencez ! Qu'est-ce qu'il vous plairait de faire qu'aujourd'hui vous achetez ?
+
+### Gagner moins
+
+Il y a un effet collatéral à faire soi-même : vous réduisez votre budget !
+
+Plutôt que de dédier votre temps à un travail spécifique pour obtenir une masse d'argent permettant d'acheter ce qui remplira tous vos besoins, considérez faire vous-même et réduire par là votre dépendance à un revenu important.
+
+J'en conviens, mon titre est un peu provocateur : il faut pouvoir vivre de son travail ! Être peu payé sous prétexte que son métier est passionnant ou utile (prof, chercheur, etc) n'est pas admissible ! Mais si vous n'avez pas de soucis pour boucler les fins de mois, posez-vous la question de ce que vous avez besoin de gagner pour vivre.
+
+La baisse de quantité de travail global comme la fin du consumérisme peuvent être corrélés à une diminution des revenus. Cela n'implique pas de la pauvreté ou des inégalités[^21], qui sont plutôt dues au capitalisme. Il existe des solutions, à l'échelle des sociétés, pour résoudre ces paradoxes, mais cela est hors du cadre de cet article.
+
+
+
+Il y a une confusion qui m'a longtemps posé question : est-ce que si je travaille bénévolement, c'est un travail ou un loisir ? Qu'est-ce qui définit le travail ?
+
+Et de la même manière, quelle différence y a-t-il entre emploi et travail ? Comment avoir une bonne séparation vie privée/vie professionnelle ?
+
+Pour répondre à toutes ces questions, j'ai besoin de définir correctement chacun de ces mots.
+
+## Redéfinir le sens des mots pour changer le travail
+
+### Emploi
+
+De nos jours souvent synonyme de travail, l'emploi a en fait une signification distincte :
+
+> ***[L'emploi, c'est] travailler dans un marché formel.***
+>
+> *Il y a un capitaliste, il y a un travailleur, il y a un accord professionnel formel selon lequel le travailleur va travailler 8h pour un salaire donné. Vendre des boites d'allumette dans la rue, c'est du travail, ça n'est pas de l'emploi.*[^10]
+>
+> — Robert Pollin
+
+En étant microentrepreneur, je suis donc techniquement à la fois travailleur et sans emploi !
+
+### Être indépendant
+
+Je trouve que la définition du travailleur indépendant comme étant son propre patron est assez limitée. Les livreurs à vélo seraient "indépendants" parce qu'ils font des factures à leur plateforme à la place de recevoir une feuille de paie, sans avoir leur mot à dire sur leurs tarifs ou l'évolution de la plateforme. Cela correspondrait assez bien à cette définition :
+
+> *Travailleur indépendant : Qui travaille à son compte et qui n’a pas d’employé sous sa responsabilité.*
+>
+> — [Dictionnaire Usito](https://usito.usherbrooke.ca/d%C3%A9finitions/travailleur#ee3f1bb2cbf3cc52)
+
+J'irais plus loin que cette définition, comme le fait le Larousse :
+
+> *Travailleur non salarié qui effectue, moyennant rémunération, un travail pour autrui réalisé en toute indépendance et avec des moyens propres.*
+>
+> — [Dictionnaire Larousse](https://www.larousse.fr/dictionnaires/francais/ind%C3%A9pendant/42535#42441)
+
+*« En toute indépendance et avec des moyens propres »*, c'est, je pense, clé pour que l'indépendant ne soit pas dans un salariat déguisé.
+
+### Travail
+
+Difficile de définir le travail et plusieurs définitions me semblent pertinentes. Je vais donc plutôt vous les exposer et mettre en évidence leurs spécificités.
+
+> *Activité humaine exigeant **un effort soutenu, qui vise à la modification des éléments naturels, à la création ou à la production de nouvelles choses, de nouvelles idées**.*
+>
+> — [Dictionnaire Usito](https://usito.usherbrooke.ca/d%C3%A9finitions/travail_1)
+
+Première chose à remarquer, un travail n'est pas lié à une rémunération ou à un emploi. D'ailleurs :
+
+> *[Le travail, dans un sens très large, est] une activité faite pour interagir avec son milieu afin de le modifier pour satisfaire certains de ses besoins.*
+>
+> *Evidemment, **le travail a existé de tout temps et il n'est même pas spécifique à l'être humain**.*
+>
+> *Ce qui est spécifique à l'être humain, c'est d'avoir des idées sur le travail et d'avoir des sociétés qui l'organisent de manière spécifique.*[^42]
+>
+> — Christophe Darmengeat
+
+Je préfère définir le travail comme l'activité réalisée, car elle permet de reconnaître le bénévolat ou le travail domestique comme tel, plutôt que la construction moderne qu'on en a fait, trop spécifique :
+
+> *On a l'impression que le travail se définit par l'activité réalisée, mais en réalité, ça n'est pas du tout comme ça qu'on le comptabilise. [Ce qu'on appelle travail] c'est la présence d'une hiérarchie, d'une contrainte, et d'une transaction monétaire.*[^43]
+>
+> — Gilles Mitteau
+
+Pourquoi inclure le travail non rémunéré ? Parce qu'il représente, dans nos sociétés contemporaines et selon l'économiste américain Robert Pollin, au moins un tiers du travail ! [^42][^44] Ça n'est pas une activité annexe, il faut reconnaître ces réels apports à la société (et la charge mentale qui en découle).
+
+Comment savoir si une activité est du travail si on n'est pas payé·e pour ? On peut utiliser la règle du tiers :
+
+> ***Si un tiers peut être rémunéré pour réaliser l’activité concernée, on considère qu’il s’agit d’un travail**. Par conséquent, la cuisine, le ménage, la garde des enfants, la lessive, la promenade  du  chien  et  le  jardinage  sont  tous  des exemples  de  travail  non  rémunéré.  À l’inverse, on ne peut pas payer un tiers pour regarder un film, jouer au tennis ou lire un livre  en  silence  pour  son  propre  compte,  étant  donné  que  les  bénéfices  de  ces  activités reviennent à celui qui les réalise (le tiers) et non à celui qui l’aurait embauché (Ironmonger, 1996). C’est pourquoi ces activités sont considérées comme des loisirs.*
+>
+> *Certaines formes de travail non rémunéré, comme le fait de jouer avec ses enfants, de promener  son  chien,  de  cuisiner  ou  d’entretenir  son  jardin,  sont  souvent  agréables[...].  Cette satisfaction est un bénéfice qui ne peut être transféré à un tiers. C’est pour cette raison que **le niveau de satisfaction éprouvée par la personne qui réalise l’activité ne peut être utilisé comme critère de distinction entre travail et loisirs** (Hill, 1979).*[^44]
+
+Eh, oui, **on travaille sans être payé·e depuis des lustres !** Dingue, non ?
+
+De plus, Marx fait remarquer que **le travail est à la fois intellectuel et physique**, qui fait donc penser à la définition d'un travail humain qu'on a vue plus haut (cf. [*Qu'est-ce qu'un bon travail ?*](#bon-travail)) :
+
+> ***Un travail humain, c'est quelque chose qui est dans ma tête avant d'être dans le monde et [ensuite] je réalise que c'est dans le monde.***[^30]
+
+Dans la même idée, la philosophe Simon Weil disait :
+
+> *C'est par le travail que la raison saisit le monde même, et s'empare de l'imagination folle.*[^45]
+>
+> — Simone Weil
+
+Comme le fait remarquer Alain Supiot, cette définition *« montre cette double fonction du travail humain qui est **une fonction de transformation du monde, mais aussi de domestication, de maîtrise de soi** »*[^42].
+
+Avant de terminer, il me reste une question : que faire du point de vue de la théorie économique sur le travail ?
+
+> *« **Le travail n'est perçu que de façon négative. Il n'y a que deux sources de satisfaction**, "d'utilité" dans notre jargon [...] : **la consommation et le loisir**. Le travail est une perte de temps et une fatigue, une source de désutilité, mais qui est *évidemment* utile puisque c'est ce qui va lui permettre d'avoir un salaire pour financer ses dépenses de consommation »*[^42]
+>
+> — Olivier Favereau
+
+Comment ? C'est à cause d'une définition incomplète que certain·es ne peuvent pas comprendre qu'il puisse y avoir une envie d'épanouissement, de reconnaissance hors rémunération de la part des travailleur·euses ? Décidément, cette opposition du travail et du loisir ne me convient pas.
+
+### Loisir
+
+Le loisir n'est pas caractérisé par la réalisation d'activités non productives ! En cela, il n'est pas opposé au travail :
+
+> *1. **Temps dont on a la libre disposition pour faire qqch**.*
+>
+> *2. Espace de temps habituellement libre que laissent les occupations et les contraintes de la vie courante.*
+>
+> — [Dictionnaire Usito](https://usito.usherbrooke.ca/d%C3%A9finitions/loisir)
+
+Il arrive une fois terminé le travail nécessaire, contraint.
+
+> *Le « temps libre » n’est rien d’autre que du temps qui ne coûte rien aux patrons.*[^46]
+>
+> — Bob Black
+
+Si je passe du temps à construire une cabane-bureau : est-ce du travail ou du loisir ? Selon les définitions que j'ai données, c'est les deux ! Je peux en effet payer un tiers pour la construire, c'est un travail, et je la fais sur mon temps de loisir, car je n'y suis pas contraint, je pourrais travailler dans la maison.
+
+On peut donc utiliser son temps de loisir pour travailler, faire du sport, de la musique, lire, se reposer, méditer, ...
+
+## Passer à l'action
+
+### Utiliser d'autres mots
+
+Dans la continuité de la partie précédente, je me dis que si j'utilisais certains mots plutôt que d'autres, cela m'aiderait à changer ma manière de penser. Voici ce que je compte utiliser :
+
+- Je dirai ***oisiveté*** pour qualifier le loisir studieux, l'éloignement du quotidien et des affaires. C'est une valeur à revendiquer que les latins appelaient *otium*.
+- Pour rendre visibles les tâches quotidiennes, je dirai plutôt ***travail domestique***.
+- Plutôt que de mentir par omission, je dirai à mes clients que je ***pars en vacances***.
+- Si on me demande mon ***métier***, je dirai que j'en ai plusieurs (cf. [*Avoir plusieurs métiers*](#plusieurs-métiers))
+
+Pour une liste utile en entreprise, vous pouvez vous inspirer des [remarques de Danièle Linhart](https://youtu.be/Dpzv8H16R-Q?t=268).
+
+### Séparer travail et vie personnelle
+
+Comment avec une bonne séparation vie pro/vie perso ? C'est quelque chose d'assez sain à avoir mais difficile à mettre en place quand on est indépendant et qu'on travaille beaucoup à la maison.
+
+Je vois trois grands types de séparations, passons-les en revue ainsi que les actions associées qui peuvent aider.
+
+#### Séparation temporelle
+
+- **Définir un moment pour le travail** : de 9h à 18h avec une pause d'une heure pour manger, par exemple. Je ne tiens pas compte du travail domestique quotidien (préparer le repas, etc) mais j'inclue le travail domestique général (conserves de sauce tomate et ratatouille en été, travaux sur la maison, fabriquer une remorque à vélo, ...). J'ai mis une limite assez faible pour garder un œil sur mes heures bénévoles et éviter de me faire dépasser de travail. Je compte 5 jours par semaine pour l'instant (du lundi au vendredi) mais je passerai peut-être à 6 jours par semaine, en cas de gros travaux par exemple. Je vais essayer de garder un jour d'oisiveté ou de repos par semaine, ça me paraît important.
+- **"Célébrer" le temps de travail** : marquer clairement le début et la fin de journée pour éviter de faire des mélanges. Pour l'instant, le début de journée c'est pour moi l'allumage de l'ordinateur (je ne l'allume plus pendant le petit déj !) et à la fin de journée je dis quelque chose comme "et c'est une fin de journée !" (comme dans les tournages). Mais j'ai encore du mal à terminer ma journée !
+- **Compter les "RTT"** : attraper un train à 6h du matin pour une intervention lointaine, un rendez-vous en soirée, un atelier le week-end... Et mon planning de travail est cassé ! De fait, je compte le temps que je passe en "heures supplémentaires" et je les compense par des "Rattrapages du Temps de Travail". Pour cela, j'utilise un outil, appelé Clockify, qui me permet également de savoir combien je passe de temps sur chaque projet et qui m'évite le "multitasking", les journées hachées, à partir dans tous les sens.
+
+#### Séparation spatiale
+
+Je travaille actuellement dans le salon. Quand je suis tout seul, ça n'est pas gênant mais à plusieurs, la cohabitation n'est pas facile. La solution n'est pas compliquée :
+
+- **Définir des lieux dédiés au travail** : un bureau, un atelier, etc.
+
+#### Droit à la déconnexion
+
+Comment éviter de répondre au téléphone ou aux mails pendant les vacances ? Avoir deux téléphones (ou un téléphone à deux SIM) pourrait être une solution mais je n'ai pas ça pour l'instant. Plus simplement :
+
+- **Ne pas ouvrir les applications professionnelles et ne pas répondre au téléphone** : sauf si c'est vraiment indispensable, dans ce cas compter des heures sup'.
+
+### Avoir plusieurs métiers{#plusieurs-metiers}
+
+Pour jongler entre différents projets freelance rémunérés, des projets de travail non rémunéré (comme cet article !), du bénévolat dans différentes associations, des chantiers participatifs pour apprendre des techniques de construction et bientôt une maison à rénover, un jardin à cultiver et des solutions low-tech à inventer : comment jongler entre ces différents métiers, différentes facettes avec chacune sa temporalité ?
+
+Déjà, comme je l'ai dit plus haut : **limiter le temps de travail total**. On n'est pas à la minute prêt mais il ne faut pas accepter de travail sans limite, quitte à laisser tomber des idées ou mieux à les refuser avant de commencer.
+
+En deuxième : **organiser son temps pour éviter de jongler**. Aujourd'hui, je consacre la journée à la rédaction de cet article, demain matin sera dédiée à un projet pour un client et j'aurai d'ailleurs un appel à ce sujet, j'avancerai mon atelier de sensibilisation sur la philosophie low-tech demain après-midi, etc... Au début, je prenais le travail comme il venait, souvent en réaction à un mail ou à un appel, mais c'est beaucoup plus fatiguant. Je m'organise chaque début de mois, pour anticiper ce qui arrive dans les grandes lignes, et je planifie ensuite ce que je fais quelques jours à l'avance.
+
+### Se présenter
+
+Un sacré défi quand on a plusieurs activités : se présenter succinctement ! "Et toi, tu fais quoi dans la vie ?"
+
+Voilà mes pistes de solutions pour préparer son "pitch" :
+
+- **Rendre visible** : rappelez-vous, vous n'êtes pas votre travail rémunéré ! Je pense qu'il est important de dire ce qui nous occupe, qu'on soit payé·e pour ou non. "Je suis bénévole", "je construis ma maison" ou "je suis papa/homme au foyer et ..." !
+- **Montrer la multiplicité** : ça m'arrive de dire tout simplement "j'ai deux métiers" ou "je fais plusieurs choses". Mais je m'embourbe souvent dans les explications qui suivent !
+- **Simplifier la réalité en fonction de qui pose la question** (et de la longueur de la réponse attendue) : pour éviter le bourbier, je commence souvent mes explications selon la facette la plus adaptée sur le moment, en fonction de mes interlocuteurs, du contexte, etc. "Mon activité principale est de sensibiliser aux enjeux climat, biodiversité, etc" ou "je suis vidéaste" ou "je fais beaucoup de bénévolat"...
+- **Compléter sa réponse si l'interlocuteur creuse** : c'est seulement à ce moment-là que j'explique ma démarche globale et ce qui relie en fait le côté ingénieur du côté vidéaste. C'est aussi lié à mon parcours, j'explique régulièrement les deux en même temps.
+- **Utiliser du vocabulaire connu** et le combiner pour nommer une nouvelle idée : « pour l'instant *ce qui me fait manger/ce avec quoi je gagne de l'argent* c'est [...] et je suis aussi *bénévole à temps partiel* mais dès que j'ai un atelier je me mettrai *ingénieur-artisan* »*
+
+## Pistes de réflexion à creuser{#pistes}
+
+- Utilitarisme et économie du bien être : est-ce que maximiser le bonheur de la population peut-être un bon objectif en tant que collectif/pays ? Si l'argent n'est pas un bon indicateur du bonheur, comment estimer celui-ci ?
+- Lister les chouettes métiers d'un monde low tech (et qu'on peut faire dès maintenant)
+- Lire l'*Éloge de l'oisiveté* de Bertrand Russell (qui est pourtant plus court que cet article...), *Le Droit à la paresse*  de Paul Lafargue et/ou *L’Abolition du travail* de Bob Black
+
+## Pour aller plus loin{#plus}
+
+- **Regardez l'excellente série documentaire d'Arte *Travail, Salaire, Profit***, réalisée par Bertrand Rothé et Gérard Mordillat, disponible sur [Youtube](https://www.youtube.com/playlist?list=PLCwXWOyIR22vbrvodniv5e0eKjCrb7mj3) (52 minutes, 6 épisodes). Ils interrogent des chercheurs sur les évolutions de l'organisation du travail et de l'économie qui a abouti à ce que nous connaissons aujourd'hui.
+- **Assistez au spectacle *Eloge de l'oisiveté***, de et par Dominique Rongvaux (50 minutes). Il questionne avec humour notre relation au travail et à l'activisme. Il n'y a malheureusement plus de représentations, mais le spectacle est disponible en intégralité sur [Youtube](https://www.youtube.com/watch?v=7KpxsqwNF0o).
+- **Lisez l'article *Libérer le travail, le choc des utopies ?*** de Clément Quintard, dans le hors série n°10 de Socialter. [Disponible en ligne](https://www.socialter.fr/article/liberer-le-travail-le-choc-des-utopies).
+- **Suivez le média Bon Pote**, qui a notamment [parlé de décroissance avec Timothée Parrique](https://bonpote.com/imaginer-leconomie-de-demain-la-decroissance-par-timothee-parrique/), docteur en économie et spécialiste du sujet, dans un entretien passionnant.
+- **Suivez le vulgarisateur économie/finance [Heu?réka sur Youtube](https://www.youtube.com/channel/UC7sXGI8p8PvKosLWagkK9wQ)**. Une mine d'or pour comprendre ce monde obscur : comment est créée la monnaie ? Est-ce qu'on a besoin de croissance pour vivre ? Est-ce qu'une crise comme celle de 2008 peut à nouveau subvenir ? En quoi consiste la réforme des retraites ? Voir également le live [*Finance verte VS décroissance !*](https://youtu.be/RAvW7LIML60) sur la chaîne du Vortex.
+
+## Sources et notes
+
+[^1]: La low tech en deux mots, c'est « faire moins, mais mieux ». Plus longuement, c'est une philosophie, une approche, qui aide à répondre sobrement aux enjeux écologiques contemporains. Elle permet de jauger une solution en posant trois questions principales : est-ce utile ? Est-ce durable, écologiquement et humainement ? Est-ce accessible, d'un point de vue financier, matériel, mais aussi d'accès à la connaissance, au savoir faire ?
+
+[^2]: [Mission d'information de la conférence des Présidents "Résilience nationale" : table ronde MM. Arthur Keller, Thierry Ribault, et Freddy Vinet](http://videos.assemblee-nationale.fr/video.11094908_60f92e5125b4d.resilience-nationale--table-ronde-reunissant-enseignant-chercheur-et-professeur-22-juillet-2021?timecode=409590) — Arthur Keller, 22/07/2021
+[^3]: [*Petit traité de résilience locale*](https://www.eclm.fr/livre/petit-traite-de-resilience-locale/) — Agnès Sinaï, Raphaël Stevens, Hugo Carton, Pablo Servigne, éditions Charles Leopold Mayer, 2015
+[^4]: Voir à ce sujet la définition des besoins humains fondamentaux par l'économiste et environnementaliste chilien Manfred Max-Neef
+[^5]: Dans une économie de libre échange, chaque pays a intérêt à se spécialiser dans l'activité pour laquelle il excelle le plus et à délaisser les autres. Le pays possède donc un avantage comparatif pour cette production. En France, nous avons un avantage comparatif à produire du vin mais pas des téléphones.
+[^6]: [*Vers la résilience alimentaire : faire face aux menaces globales à l'échelle des territoires*](https://resiliencealimentaire.org/#guide), deuxième édition — Les Greniers d'Abondance, 2020.
+[^7]: [*Éloge de l'oisiveté*](https://www.youtube.com/watch?v=7KpxsqwNF0o) — Spectacle de Dominique Rongvaux, 2011
+[^8]: [*L’extraordinaire productivité d’un petit potager de 50 m2 : un exemple pour nourrir la ville de demain ?*](https://www.bastamag.net/L-extraordinaire-productivite-d-un-petit-potager-de-50-m2-un-exemple-pour) — Simon Gouin, Basta!, 2016
+[^9]: *Libérer le travail, le choc des utopies ?* — Clément Quintard, Socialter HS n°10 "Libérer le temps", 2021
+[^10]: [*Travail, Salaire, Profit, épisode 2 : emploi*](https://www.youtube.com/watch?v=0-rOqywzWEY), extraits à [4 min](https://www.youtube.com/watch?v=0-rOqywzWEY&t=241s), [7min](https://youtu.be/0-rOqywzWEY?t=437), [16 min](https://www.youtube.com/watch?v=0-rOqywzWEY&t=988s), [26 min](https://www.youtube.com/watch?v=0-rOqywzWEY&?t=1599), [40 min](https://youtu.be/0-rOqywzWEY?t=2400) — Série documentaire de Bertrand Rothé et Gérard Mordillat, ARTE, 2019
+[^11]: Ce chiffre ne tient pas compte des jardiniers amateurs qui produisent dans leur potager, qui représentent 19% de la population selon l'étude Jardivert/IFOP 2010, mais produisent une part mineure de la nourriture.
+[^12]: [*Évolution de la population agricole en France depuis 1900* ](https://www.persee.fr/doc/pop_0032-4663_1963_num_18_3_10600) — Alfred Sauvy, "Population, 18ᵉ année, n°3", 1963
+[^13]: [*Une personne sur six n’utilise pas Internet, plus d’un usager sur trois manque de compétences numériques de base* ](https://www.insee.fr/fr/statistiques/4241397) — Stéphane Legleye, Annaïck Rolland, INSEE, 2019
+[^14]: [*Energy balances, France, year 2019* ](https://www.iea.org/data-and-statistics/data-tables?country=FRANCE&energy=Balances&year=2019) — International Energy Agency
+[^15]: Quand vous économisez de l’espace, du temps, de l’énergie, de l’argent en faisant une innovation, cet espace vide va avoir tendance à se combler. Ce paradoxe de Jevons, ou effet rebond, a également lieu quand on s’attaque à l’efficacité énergétique ou à nos pollutions : [*« une baisse au niveau de la consommation unitaire [...] entraîne une hausse de la consommation globale à cause d’un changement de comportement »*](https://atterrissage.org/technologies-societe-durable-65514b474700) (Damien Detcherry)
+
+[^16]: [*Reconsidérer la richesse, Mission « Nouveaux facteurs de richesse »* ](https://www.vie-publique.fr/rapport/25440-reconsiderer-la-richesse-rapport-final-de-la-mission-nouveaux-facteurs), à la demande de Guy HASCOËT, Secrétaire d’Etat à l’économie solidaire — Patrick VIVERET, INSEE, 2002
+[^17]: *Décroissance* — Guy Roustang dans le *Dictionnaire de l'Autre Économie*, sous la direction de Jean-Louis Laville et Antonio David Cattani, 2005
+[^18]: [*Impact de pollution de l'air ambiant sur la mortalité en France métropolitaine* ](https://www.santepubliquefrance.fr/determinants-de-sante/pollution-et-sante/air/documents/enquetes-etudes/impact-de-pollution-de-l-air-ambiant-sur-la-mortalite-en-france-metropolitaine.-reduction-en-lien-avec-le-confinement-du-printemps-2020-et-nouvelle) — Santé publique France, 2021
+[^19]: [*Statistical Review of World Energy* ](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html) — bp, 2021
+[^20]: [*Decoupling debunked – Evidence and arguments against green growth as a sole strategy for sustainability* ](https://eeb.org/library/decoupling-debunked/) — European Environmental Bureau, 2019
+[^21]: [*Imaginer l’économie de demain : la décroissance, par Timothée Parrique* ](https://bonpote.com/imaginer-leconomie-de-demain-la-decroissance-par-timothee-parrique/) — Bon Pote, 2020
+[^22]: [*Travail, Salaire, Profit, épisode 3 : salaire*](https://www.youtube.com/watch?v=pBHsV1Vr10w), extraits à [7 min](https://youtu.be/pBHsV1Vr10w?t=417), [31 min](https://www.youtube.com/watch?v=pBHsV1Vr10w&t=1743s), [39 min](https://youtu.be/pBHsV1Vr10w?t=2390) — Série documentaire de Bertrand Rothé et Gérard Mordillat, ARTE, 2019
+[^23]: « La dissonance cognitive est la tension interne propre au système de pensées, croyances, émotions et attitudes (cognitions) d'une personne lorsque plusieurs d'entre elles entrent en contradiction l'une avec l'autre » — [Dissonance cognitive](https://fr.wikipedia.org/wiki/Dissonance_cognitive), Wikipedia
+[^24]: [*Low-Tech : le paradoxe de l’entrepreneuriat* ](https://ingenieurs-engages.org/2019/12/low-tech-le-paradoxe-de-lentrepreneuriat/) — Ingénieur·es Engagé·es, 2019
+
+[^25]: [*CAC 40 : des profits sans lendemain ?* ](https://www.oxfamfrance.org/rapports/cac-40-des-profits-sans-lendemain/) — Oxfam, 2020
+[^26]: [*Travail, Salaire, Profit, épisode 5 : capital*](https://www.youtube.com/watch?v=_p8upOtnNFw), extraits à [33 min](https://youtu.be/_p8upOtnNFw?t=1977), [39 min](https://youtu.be/_p8upOtnNFw?t=2354) — Série documentaire de Bertrand Rothé et Gérard Mordillat, ARTE, 2019
+[^27]: 20 000 personnes font partie de [la communauté *paumé.e.s* de makesense sur Facebook](https://www.facebook.com/groups/257362941667861/?ref=br_rs), "où se rencontrent des personnes qui traversent une période de turbulences existentielles". Ce mouvement a conduit a donné lieu à la parution d'un [*Guide des paumé·e·s ; pour celles et ceux qui ont envie de tout plaquer*](https://www.placedeslibraires.fr/livre/9782501159012-le-guide-des-paume-e-s-pour-celles-et-ceux-qui-ont-envie-de-tout-plaquer-make-sense-aurore-le-bihan-lucie-chartouny/), éditions Marabout, 2021
+[^28]: "*Bullshit jobs*" est une expression utilisée par l'anthropologue David Graeber dans le livre du même nom désignant les emplois de bureau inutiles. 
+[^29]: OIT : Organisation Internationale du Travail. Il est fait mention de *travail réellement humain* dans [la constitution de l'organisation](https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:62:0::NO::P62_LIST_ENTRIE_ID:2453907), qui a été établi en 1919.
+[^30]: [*Finance verte VS décroissance !*](https://youtu.be/RAvW7LIML60?t=4019), extraits à [18 min](https://youtu.be/_p8upOtnNFw?t=1977) et [1 h 58 min](https://youtu.be/_p8upOtnNFw?t=2354) — Live Youtube du Vortex, 2021
+[^31]: C'est quelque chose que j'ai pu observer dans mes expériences associatives et qui a notamment été rapporté par [Amnesty International](https://www.amnesty.fr/refugies-et-migrants/actualites/le-burn-out-des-benevoles) et [la blogueuse Emma Luche](https://www.amnesty.fr/refugies-et-migrants/actualites/le-burn-out-des-benevoles).
+[^32]: [*Crainte du déclassement : la fin de l’ascenseur social ?* ](https://www.vie-publique.fr/eclairage/272088-crainte-du-declassement-la-fin-de-lascenseur-social) — Vie Publique, 2019
+[^33]: [*Petit Manuel De Resistance Contemporaine* ](https://www.leslibraires.fr/livre/13608572-petit-manuel-de-resistance-contemporaine-cyril-dion-actes-sud) — Cyril Dion, éditions Actes Sud, 2018
+[^34]: [*Les Maldives menacées par la montée des eaux*](https://www.nationalgeographic.fr/environnement/les-maldives-menacees-par-la-montee-des-eaux) — Arnaud Sacleux, National Geographic, 2018
+[^35]: La jeune coopérative de voyage à voiles Sailcoop proposera des lignes de transport à la voile dès la fin 2021. Plus d'informations : [sailcoop.fr](https://www.sailcoop.fr/fr/)
+[^36]: D'après une expression de Patrick Lay, alors PDG de TF1 : *« Ce que nous vendons à Coca-Cola, c'est du temps de cerveau humain disponible »*
+[^37]: L'ikigai est une méthode tirée d'un concept japonais qui aide à chercher sa voie en trouvant ce qui répond aux quatre questions : qu'est-ce que j'aime faire ? À quoi est-ce que je suis bon·ne ? De quoi est-ce que le monde a besoin ? Pour quoi puis-je être payé·e ? On trouve de jolis diagrammes résumant cette méthode sur le net.
+[^38]: Toutenvélo est un réseau de société coopératives indépendantes de livraisons, courses et déménagements à vélo. Plus d'informations : [toutenvelo.fr](http://www.toutenvelo.fr) 
+[^39]: [*Démocratie(s) ?*](https://youtu.be/RAvW7LIML60?t=4019) — Film documentaire de Henri Poulain, Julien Goetz et Sylvain Lapoix, 2018
+[^40]: On peut prendre l'exemple de l'[atelier de menuiserie Au Fil du Bois](https://www.facebook.com/aufilduboisrouen/), près de Rouen, ou de l'[Atelier du Soleil et du Vent](https://atelierdusoleiletduvent.org), près de Poitiers, qui mutualisent du matériel entre les professionnels, présents la semaine, et les particuliers, présents le week-end.
+[^41]: [*Permaculture ; Guérir la Terre, nourrir les Hommes* ](https://www.leslibraires.fr/livre/13608572-petit-manuel-de-resistance-contemporaine-cyril-dion-actes-sud) — Perrine et Charles Hervé-Gruyer, éditions Actes Sud, 2014
+[^42]: [*Travail, Salaire, Profit, épisode 1 : travail*](https://www.youtube.com/watch?v=Dpzv8H16R-Q), extraits à [5 min](https://youtu.be/Dpzv8H16R-Q?t=326), [8 min](https://youtu.be/Dpzv8H16R-Q?t=491), [13 min](https://youtu.be/Dpzv8H16R-Q?t=810) — Série documentaire de Bertrand Rothé et Gérard Mordillat, ARTE, 2019
+[^43]: [*Réforme des retraites, partie 7 : Retraites et idéologie*](https://www.youtube.com/watch?v=DZCLz4Qs-b8), extrait à [4 min 33](https://www.youtube.com/watch?v=DZCLz4Qs-b8&t=273s) — Heu?reka, 2020
+[^44]: [*Cuisiner, s'occuper des enfants, construire ou réparer ; Le travail non rémunéré à travers le monde* ](https://www.oecd-ilibrary.org/social-issues-migration-health/panorama-de-la-societe-2011/cuisiner-s-occuper-des-enfants-construire-ou-reparer_soc_glance-2011-3-fr), chapitre 1 — OCDE, 2011
+[^45]: [*Sur la science*](http://classiques.uqac.ca/classiques/weil_simone/sur_la_science/sur_la_science.html) — Simone Weil, 1932 à 1942
+[^46]: [*L'Abolition du travail*](https://fr.wikisource.org/wiki/L%E2%80%99Abolition_du_travail) — Bob Black, 1985
