@@ -46,3 +46,7 @@ blockquote {
 	border-left: double 3px var(--highlight-color);
 	padding-left: 1.5em;
 }
+
+iframe {
+	width: 100%;
+}
