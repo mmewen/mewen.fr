@@ -30,13 +30,31 @@ Ces questions me préoccupent depuis quelques années sans vraiment que j'y trou
 
 (Comme précisé en ouverture de [ce blog](/blog/), je n'ai pas l'intention de donner des vérités absolues et figées, mais d'offrir des pistes de réflexions. J'adorerais entendre les vôtres !)
 
+1. [Les challenges du travail](#challenges)
+· [La place de l'ingénieur](#inge)
+· [La richesse de la diversité](#diversite)
+· [Résilience individuelle](#resilience)
+· [Vivre pour travailler ?](#vivre-pour-travailler)
+· [Les paradoxes de la mécanisation](#mecanisation)
+· [Toujours croître ?](#croissance)
+· [Sous quelle forme travailler ?](#forme)
+· [Utilité sociétale et reconnaissance](#utilite-societale)
+· [Qu'est-ce qu'un bon travail ?](#bon-travail)
+· [Renoncer à ses rêves ?](#reves)
+2. [Premiers enseignements](#enseignements)
+3. [Redéfinir le sens des mots pour changer le travail](#redefinitions)
+4. [Passer à l'action](#action)
+5. [Pistes de réflexion à creuser](#pistes)
+6. [Pour aller plus loin](#plus)
+7. [Sources et notes](#sources)
+
 ----
 
 Text:
 
-## Les challenges du travail
+## Les challenges du travail{#challenges}
 
-### La place de l'ingénieur
+### La place de l'ingénieur{#inge}
 
 *« Pour vous, qu'est-ce qu'un ingénieur ? »* Voilà une question qu'on m'a posée à 18 ans pour intégrer le supérieur. *« L'ingénieur est un inventeur qui permet de faire du profit. »* C'est la réponse à laquelle j'ai abouti. Autrement dit, le but de ces inventions est de permettre de gagner de l'argent. Tant mieux si, dans la bataille, on a résolu plein de problèmes, facilité la vie des gens, évité des morts, donné du travail aux habitants de notre ville, favorisé une faune et une flore riche, utilisé peu de ressources, ... Ou pas. Finalement peu importe, tant que ça permet de faire du profit.
 
@@ -46,7 +64,7 @@ En janvier 2020, je suis retourné dans mon école d'ingénieur pour participer 
 
 (image: si90_poster_v3-extrait.svg)
 
-### La richesse de la diversité
+### La richesse de la diversité{#diversite}
 
 Si je n'ai pas besoin d'être ingénieur à temps plein, est-ce que je pourrais en profiter pour avoir plusieurs métiers ? Est-ce que le pays gagnerait à avoir un ou une président·e qui soit également menuisier, ou professeur ? Des paysans philosophes et des chirurgiens chanteurs de rocks ?
 
@@ -107,7 +125,7 @@ De plus, je trouve absurde de se définir par ce pour quoi on est payé pour ré
 
 Le travail salarié à temps plein est donc une habitude, une construction, dans laquelle rentre en jeux une pression sociale forte : *« travaille bien à l'école »*, *« fais des études pour bien gagner ta vie »*, *« ok, tu peux être musicien/chanteuse/acteur/écrivaine/athlète, mais d'abord passe un vrai diplôme »*, ... À partir du moment où cette pression sociale dessert notre épanouissement, je pense qu'il est bon de la remettre en question.
 
-### Les paradoxes de la mécanisation
+### Les paradoxes de la mécanisation{#mecanisation}
 
 À l'écoute des médias au sujet de l'emploi, nous semblons mener un unique combat : la réduction du chômage. Cependant, le combat mené dans la plupart des entreprises est inverse : réduire le nombre de personnes nécessaires pour éviter d'être "surstaffé", quand bien même l'entreprise est parfaitement rentable. Les deux catégories de moyens à disposition sont de faire augmenter l'efficacité par employé et de remplacer les employés par des machines, des robots.
 
@@ -203,7 +221,7 @@ Si le travail dans l'entreprise ne correspond pas à la définition donnée plus
 
 Bien sûr, correspondre à cette définition n'implique pas nécessairement de bonnes conditions de travail, je pense notamment au burn out bénévole[^31] ou à la charge mentale du travail domestique.
 
-### Renoncer à ses rêves ?
+### Renoncer à ses rêves ?{#reves}
 
 Si on veut tenir compte des limites planétaires, améliorer son autonomie ou questionner le besoin dans ses achats, est-ce qu'on doit renoncer à ses rêves ?
 
@@ -221,11 +239,11 @@ Pour moi, un voyage aux Maldives précipite leur submersion prochaine[^34], un y
 
 Je rêve de retaper une petite maison dans un cadre luxuriant, d'apprendre à voler (en parapente ?), de fabriquer de la pâte à tartiner avec des noisettes que j'aurai fait pousser, d'aller en concerts, de boire des coups entre potes et de voyager en Corse ou aux Amériques à la voile[^35] (si jamais vous cherchiez des idées :wink:)
 
-## Premiers enseignements
+## Premiers enseignements{#enseignements}
 
 J'ai fait le tour jusqu'ici de ce que je constate du travail et de son organisation dans notre société. À la lumière des enjeux écologiques contemporains, notamment, j'ai commencé à esquisser ce vers quoi nous pourrions aller. Nous allons voir maintenant les divers enseignements et ce que j'en tire.
 
-### Donner du sens à son travail
+### Donner du sens à son travail{#travail-avec-du-sens}
 
 Entre les organisations qui ne tiennent pas du tout compte des limites planétaires et les bullshit jobs, la quête de sens dans le travail devient primordiale.
 
@@ -241,7 +259,7 @@ En tout cas, les métiers pleins de sens ne manquent pas : il y a les métiers P
 
 Mais au-delà du sens de notre travail, je pense qu'il est important qu'il se déroule dans un cadre sain.
 
-### En collectif, revoir l'organisation du travail
+### En collectif, revoir l'organisation du travail{#organisation-du-travail}
 
 Face aux limites des formes de travail contemporaines, salariat et auto-entreprenariat notamment (cf. [*Sous quelle forme travailler ?*](#forme)), je pense qu'il est bon de répartir différemment les tâches et le pouvoir dans l'entreprise pour que tout le monde puisse avoir un *bon travail*[*](#bon-travail).
 
@@ -253,7 +271,7 @@ De plus, un fonctionnement coopératif ou en réseau améliore la résilience de
 
 Par ailleurs, on peut également revoir l'organisation du travail qui ne rentrent pas dans une logique marchande. Pour prendre soin de nos vieux (note : pourquoi ce mot est-il devenu péjoratif ?), nous pouvons nous organiser à l'échelle de la famille et "rendre visible", comme on le verra plus loin, ce travail. À une échelle plus large, pour éviter de limiter ces métiers au bénévolat, ils devraient être supportés collectivement par la société. Mais je dépasse ici le cadre de cet article.
 
-### Travailler moins
+### Travailler moins{#travailler-moins}
 
 À production égale, face au chômage et à la robotisation, la quantité de travail nécessaire diminue. Si, en plus, on décide de produire et consommer moins, cela s'accentuera.
 
@@ -265,7 +283,7 @@ Il y a une activité qui vous passionne, pleine de sens mais de laquelle il est 
 
 Cette réduction du temps d'emploi nous permettrait en tout cas d'en disposer de plus pour nous-même, pour réaliser des activités productives ou non.
 
-### Multiplier les activités
+### Multiplier les activités{#multiplier-activites}
 
 Impossible pour une famille de vivre convenablement en autarcie. Pensez à la culture et à la transformation des céréales par exemple : cela demanderait beaucoup de compétences, mais aussi beaucoup d'outils qui ne seraient utilisés qu'une fraction du temps. 
 
@@ -282,7 +300,7 @@ Pourtant, gagner en autonomie est nécessaire. Dans cet objectif, deux choses me
 
 À vous de décider par quoi vous commencez ! Qu'est-ce qu'il vous plairait de faire qu'aujourd'hui vous achetez ?
 
-### Gagner moins
+### Gagner moins{#gagner-moins}
 
 Il y a un effet collatéral à faire soi-même : vous réduisez votre budget !
 
@@ -300,9 +318,9 @@ Et de la même manière, quelle différence y a-t-il entre emploi et travail ? C
 
 Pour répondre à toutes ces questions, j'ai besoin de définir correctement chacun de ces mots.
 
-## Redéfinir le sens des mots pour changer le travail
+## Redéfinir le sens des mots pour changer le travail{#redefinitions}
 
-### Emploi
+### Emploi{#emploi}
 
 De nos jours souvent synonyme de travail, l'emploi a en fait une signification distincte :
 
@@ -314,7 +332,7 @@ De nos jours souvent synonyme de travail, l'emploi a en fait une signification d
 
 En étant microentrepreneur, je suis donc techniquement à la fois travailleur et sans emploi !
 
-### Être indépendant
+### Être indépendant{#independant}
 
 Je trouve que la définition du travailleur indépendant comme étant son propre patron est assez limitée. Les livreurs à vélo seraient "indépendants" parce qu'ils font des factures à leur plateforme à la place de recevoir une feuille de paie, sans avoir leur mot à dire sur leurs tarifs ou l'évolution de la plateforme. Cela correspondrait assez bien à cette définition :
 
@@ -330,7 +348,7 @@ J'irais plus loin que cette définition, comme le fait le Larousse :
 
 *« En toute indépendance et avec des moyens propres »*, c'est, je pense, clé pour que l'indépendant ne soit pas dans un salariat déguisé.
 
-### Travail
+### Travail{#travail}
 
 Difficile de définir le travail et plusieurs définitions me semblent pertinentes. Je vais donc plutôt vous les exposer et mettre en évidence leurs spécificités.
 
@@ -384,7 +402,7 @@ Avant de terminer, il me reste une question : que faire du point de vue de la th
 
 Comment ? C'est à cause d'une définition incomplète que certain·es ne peuvent pas comprendre qu'il puisse y avoir une envie d'épanouissement, de reconnaissance hors rémunération de la part des travailleur·euses ? Décidément, cette opposition du travail et du loisir ne me convient pas.
 
-### Loisir
+### Loisir{#loisir}
 
 Le loisir n'est pas caractérisé par la réalisation d'activités non productives ! En cela, il n'est pas opposé au travail :
 
@@ -404,9 +422,9 @@ Si je passe du temps à construire une cabane-bureau : est-ce du travail ou du l
 
 On peut donc utiliser son temps de loisir pour travailler, faire du sport, de la musique, lire, se reposer, méditer, ...
 
-## Passer à l'action
+## Passer à l'action{#action}
 
-### Utiliser d'autres mots
+### Utiliser d'autres mots{#autres-mots}
 
 Dans la continuité de la partie précédente, je me dis que si j'utilisais certains mots plutôt que d'autres, cela m'aiderait à changer ma manière de penser. Voici ce que je compte utiliser :
 
@@ -417,7 +435,7 @@ Dans la continuité de la partie précédente, je me dis que si j'utilisais cert
 
 Pour une liste utile en entreprise, vous pouvez vous inspirer des [remarques de Danièle Linhart](https://youtu.be/Dpzv8H16R-Q?t=268).
 
-### Séparer travail et vie personnelle
+### Séparer travail et vie personnelle{#separation-travail-perso}
 
 Comment avec une bonne séparation vie pro/vie perso ? C'est quelque chose d'assez sain à avoir mais difficile à mettre en place quand on est indépendant et qu'on travaille beaucoup à la maison.
 
@@ -449,7 +467,7 @@ Déjà, comme je l'ai dit plus haut : **limiter le temps de travail total**. On 
 
 En deuxième : **organiser son temps pour éviter de jongler**. Aujourd'hui, je consacre la journée à la rédaction de cet article, demain matin sera dédiée à un projet pour un client et j'aurai d'ailleurs un appel à ce sujet, j'avancerai mon atelier de sensibilisation sur la philosophie low-tech demain après-midi, etc... Au début, je prenais le travail comme il venait, souvent en réaction à un mail ou à un appel, mais c'est beaucoup plus fatiguant. Je m'organise chaque début de mois, pour anticiper ce qui arrive dans les grandes lignes, et je planifie ensuite ce que je fais quelques jours à l'avance.
 
-### Se présenter
+### Se présenter{#se-presenter}
 
 Un sacré défi quand on a plusieurs activités : se présenter succinctement ! "Et toi, tu fais quoi dans la vie ?"
 
@@ -475,7 +493,7 @@ Voilà mes pistes de solutions pour préparer son "pitch" :
 - **Suivez le média Bon Pote**, qui a notamment [parlé de décroissance avec Timothée Parrique](https://bonpote.com/imaginer-leconomie-de-demain-la-decroissance-par-timothee-parrique/), docteur en économie et spécialiste du sujet, dans un entretien passionnant.
 - **Suivez le vulgarisateur économie/finance [Heu?réka sur Youtube](https://www.youtube.com/channel/UC7sXGI8p8PvKosLWagkK9wQ)**. Une mine d'or pour comprendre ce monde obscur : comment est créée la monnaie ? Est-ce qu'on a besoin de croissance pour vivre ? Est-ce qu'une crise comme celle de 2008 peut à nouveau subvenir ? En quoi consiste la réforme des retraites ? Voir également le live [*Finance verte VS décroissance !*](https://youtu.be/RAvW7LIML60) sur la chaîne du Vortex.
 
-## Sources et notes
+## Sources et notes{#sources}
 
 [^1]: La low tech en deux mots, c'est « faire moins, mais mieux ». Plus longuement, c'est une philosophie, une approche, qui aide à répondre sobrement aux enjeux écologiques contemporains. Elle permet de jauger une solution en posant trois questions principales : est-ce utile ? Est-ce durable, écologiquement et humainement ? Est-ce accessible, d'un point de vue financier, matériel, mais aussi d'accès à la connaissance, au savoir faire ?
 
