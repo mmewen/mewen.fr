@@ -3,7 +3,7 @@
 from pathlib import Path
 import re, unicodedata, os
 
-KIRBY_TALE_ROOT = Path("content/4_blog/1_conte")
+KIRBY_TALE_ROOT = Path("content/4_blog/conte")
 RAW_TALE_ROOT = Path("tale")
 KIRBY_SEPARATOR = """
 
