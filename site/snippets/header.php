@@ -21,7 +21,7 @@
   if ($page->id() == "home") {
     $title = $site->title();
   } else {
-    $title = $site->title()." - ".$page->title();
+    $title = $page->title()." - ".$site->title();
   }
   $title = html($title);
 
