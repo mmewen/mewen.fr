@@ -1,6 +1,12 @@
 title: Blog post
 preset: page
 fields:
+  cover:
+    label: Couverture
+    type: files
+    multiple: false
+    query: page.images
+    search: false
   published:
     label: Publié le
     type: date
