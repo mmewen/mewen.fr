@@ -19,7 +19,14 @@
 
   <?php
   $first = true;
-  $project_lists = [[$page->project_list_1_title(), $page->project_list_1()],[$page->project_list_2_title(), $page->project_list_2()]];
+  $project_lists = [];
+  
+  if ($page->project_list_1_title() != "") {
+    $project_lists[] = [$page->project_list_1_title(), $page->project_list_1()];
+  }
+  if ($page->project_list_2_title() != "") {
+    $project_lists[] = [$page->project_list_2_title(), $page->project_list_2()];
+  }
   foreach ($project_lists as [$project_title, $project_list]): ?>
     <section class="projects">
       <h1><?= $project_title ?></h1>
@@ -38,7 +45,7 @@
 
     <?php if ($first):
         $first = false; ?>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0NLV5fBy1uk?controls=2&autoplay=0&fs=0&iv_load_policy=3&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 0 auto; display: block; max-width: 100%;"></iframe>
+        <?= $page->custom_block() ?>
     <?php endif ?>
 
   <?php endforeach ?>

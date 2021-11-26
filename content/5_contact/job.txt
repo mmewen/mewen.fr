@@ -1,0 +1,51 @@
+Title: Contact
+
+----
+
+Presentation: 
+
+----
+
+Cover:
+
+- imgp1530.png
+
+----
+
+Share-image: 
+
+----
+
+Text: 
+
+----
+
+Contact-text:
+
+Je suis basé à Brest et mobile dans toute la France. N'hésitez pas à me contacter pour toute question ou demande !
+
+(link: https://www.youtube.com/user/Mmewen text: Youtube) · Facebook (link: https://www.facebook.com/Mewen-Vid%C3%A9aste-105057877735885/ text: côté vidéaste) et (link: https://www.facebook.com/Mewen-Ing%C3%A9nieur-d%C3%A9serteur-et-low-tech-101637652336554 text: côté ingénieur) · (link: https://www.linkedin.com/in/mewenmichel/ text: Linkedin)
+
+----
+
+Quotes: 
+
+----
+
+Project-list-1-title: 
+
+----
+
+Project-list-1: 
+
+----
+
+Custom-block: 
+
+----
+
+Project-list-2-title: 
+
+----
+
+Project-list-2: 

@@ -1,4 +1,4 @@
-title: Job Page
+title: Engineer Job
 preset: page
 fields:
   presentation:
@@ -53,6 +53,9 @@ fields:
       details:
         label: Détails
         type: textarea
+  custom_block :
+    label: Bloc HTML personnalisé
+    type: text
   project_list_2_title:
     label: Titre de la liste 2
     type: text
