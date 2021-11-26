@@ -12,7 +12,9 @@ Capturez ces émotions dans un film ! Je le réalise pour vous.
 
 ----
 
-Cover: - img_20200512_181055_hdr-edit.png
+Cover:
+
+- img_20200512_181055_hdr-edit.png
 
 ----
 
@@ -30,7 +32,7 @@ Text:
 
 Contact-text:
 
-Je suis basé à Rouen et mobile dans toute la France.
+Je suis basé à Brest et mobile dans toute la France.
 
 Entrons en contact !
 
