@@ -55,27 +55,50 @@ Project-list-1:
   title: Sensibiliser aux enjeux environnementaux
   subtitle: "Diffuser les connaissances scientifiques pour bien connaître le climat, l'énergie, la biodiversité et les ressources rares afin de pouvoir agir efficacement."
   details: |
-    - Conférence *"Face aux limites planétaires : pensez low tech !"*
-    - Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat) dont la (link: https://www.rentreeclimat.org/ text: Rentrée Climat) (NEOMA, ENSICAEN, IFE et UFR Santé Rouen...)
-    - Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
-    - Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
+    #### Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
+    Comprenez les causes et conséquences concrètes des dérèglements climatiques de manière collaborative et ludique. Engagement professionnel et bénévole.
+    *DREAL Normandie, NEOMA, ENSICAEN, ESITC, UniLaSalle, Vitibot, UFR Santé Rouen...*
+    
+    #### Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
+    Découvrez la biodiversité, les pressions qui pèsent sur elle et les conséquences de son érosion à partir des données scientifiques de l'IPBES.
+    *NEOMA, ateliers grand public, ...*
+    
+    #### Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
 - 
   title: Partager la philosophie low-tech
   subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
   details: |
-    - Atelier participatif "*Transition vers des technologies sobres et durables*" *(en création)*
-    - Projets [vidéo](/video) pour des initiatives à impact positif
-    - Écrits sur le thème du numérique low tech : (link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)
-    - Co-organisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
+    #### Atelier participatif "*Votre futur sera-t-il low-tech ?*"
+    Quelles solutions pour un monde durable ? Comprenez en équipe les limites planétaires, découvrez une approche de recherche de solutions novatrice et durable et projetez-vous pour passer à l’action !
+    *Académie du Climat - Mairie de Paris, ateliers grand public, ...*
+    
+    #### Conférences et tables rondes
+    
+    #### Projets vidéo
+    Je mets en lumière des initiatives à impact positif avec [mon côté vidéaste](/video).
+    
+    #### Écrits
+    Articles et guides notamment sur le thème du numérique low tech ((link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: guide Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)).
+    
+    #### Coorganisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
+    Événement de découverte de la démarche par la pratique, en lien avec les acteurs locaux.
 - 
   title: Imaginer et construire
   subtitle: >
     ... une société future souhaitable et
     soutenable.
   details: |
-    - [*« Conte d'un futur souhaitable »*](/blog/conte)
-    - Chantiers participatifs : production de semences céréalière, bâtiments durables, ...
-    - Transformation alimentaire locale, bio et à l'énergie solaire avec [Neoloco](https://neoloco.fr/)
+    #### Exercice de projection : [*« Conte d'un futur souhaitable »*](/blog/conte)
+    
+    #### Chantiers participatifs, travaux manuels
+    Production de semences céréalières, rénovation durable du bâtiment, travail du métal et du bois...
+    
+    #### Transformation alimentaire par une technologie appropriée
+    Participation ponctuelle à l'activité artisanale [Neoloco](https://neoloco.fr/) près de Rouen : locale, bio et à l'énergie solaire.
+
+----
+
+Custom-block: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0NLV5fBy1uk?controls=2&autoplay=0&fs=0&iv_load_policy=3&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 0 auto; display: block; max-width: 100%;"></iframe>
 
 ----
 
