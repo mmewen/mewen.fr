@@ -24,6 +24,14 @@
 </nav> -->
 
 <main>
+
+  <section class="cover-container">
+    <?php if($image = $page->cover()->toFile()): ?>
+      <div class="o-blue">
+        <img src="<?= $image->url() ?>"></div>
+    <?php endif ?>
+  </section>
+
   <section class="intro">
     <?php if ($page->parent()->template() != "blog"): ?>
       <h2><?= $page->parent()->title()->html() ?></h2>
