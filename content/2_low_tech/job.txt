@@ -68,7 +68,7 @@ Project-list-1:
   title: Partager la philosophie low-tech
   subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
   details: |
-    #### Atelier participatif "*Votre futur sera-t-il low-tech ?*"
+    #### Atelier participatif "*(file: plaquette-atelier-futur-low-tech-xs.pdf text:Votre futur sera-t-il low-tech ?)*"
     Quelles solutions pour un monde durable ? Comprenez en équipe les limites planétaires, découvrez une approche de recherche de solutions novatrice et durable et projetez-vous pour passer à l’action !
     *Académie du Climat - Mairie de Paris, ateliers grand public, ...*
     
