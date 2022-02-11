@@ -80,14 +80,21 @@ Project-title: Portfolio
 Projects:
 
 - 
-  title: Noël en Alsace
-  description: "Entre la Forêt Noire et les Vosges, le début de l'hiver sent le pain d'épices et le vin chaud..."
-  published: 2020-01-23
+  title: >
+    Je construis mon séchoir solaire —
+    Terre vivante
+  description: >
+    Fruits secs, bouillon instantané de
+    légumes, tomates séchées, .... Un
+    séchoir solaire pour conserver les
+    récoltes de son jardin de manière
+    économe en énergie !
+  published: 2022-02-11
   client: ""
   thumbnail:
-    - vignette-noel-en-alsace-l.jpg
-  youtube: ""
-  peertube: 13b59cb1-2c32-44ac-9a2e-990a3092f020
+    - sechoir.jpg
+  youtube: 1Qbc_2oXVjw
+  peertube: ""
   facebook: ""
 - 
   title: 'Lyon & la Fête des Lumières'
