@@ -56,7 +56,7 @@ Project-list-1:
   subtitle: "Diffuser les connaissances scientifiques pour bien connaître le climat, l'énergie, la biodiversité et les ressources rares afin de pouvoir agir efficacement."
   details: |
     #### Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
-    Comprenez les causes et conséquences concrètes des dérèglements climatiques de manière collaborative et ludique. Engagement professionnel et bénévole.
+    Comprenez les causes et conséquences concrètes des dérèglements climatiques de manière collaborative et ludique. Formateur agréé. Engagement professionnel et bénévole.
     *DREAL Normandie, NEOMA, ENSICAEN, ESITC, UniLaSalle, Vitibot, UFR Santé Rouen...*
     
     #### Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
