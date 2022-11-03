@@ -57,11 +57,11 @@ Project-list-1:
   details: |
     #### Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
     Comprenez les causes et conséquences concrètes des dérèglements climatiques de manière collaborative et ludique. Formateur agréé. Engagement professionnel et bénévole.
-    *DREAL Normandie, NEOMA, ENSICAEN, ESITC, UniLaSalle, Vitibot, UFR Santé Rouen...*
+    *Crédit Mutuel de Bretagne, DREAL Normandie, NEOMA, ENSICAEN, UniLaSalle, Vitibot...*
     
     #### Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
     Découvrez la biodiversité, les pressions qui pèsent sur elle et les conséquences de son érosion à partir des données scientifiques de l'IPBES.
-    *NEOMA, ateliers grand public, ...*
+    *Ville de Lannion, Crédit Mutuel ARKEA, NEOMA, ateliers grand public, ...*
     
     #### Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
 - 
