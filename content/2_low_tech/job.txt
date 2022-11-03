@@ -1,0 +1,132 @@
+Title: Ambassadeur low tech
+
+----
+
+Presentation:
+
+Nous sommes à l'ère d'un décalage préoccupant entre l'impact des activités humaines et la capacité écologique d’absorption de notre planète.
+
+Ingénieur, optimiste, curieux et acteur de la transition, je m'engage pour que les humains réduisent leur empreinte avant d'y être contraints et deviennent plus résilients, plus résistants aux chocs, face aux défis à venir.
+
+----
+
+Cover:
+
+- fresque.png
+
+----
+
+Share-image: 
+
+----
+
+Text: 
+
+----
+
+Contact-text:
+
+Vous souhaitez sensibiliser aux enjeux environnementaux 🌍 ? Découvrir l'univers de la low tech 💡 ? Envisager votre organisation en version durable 🌱 ?
+
+Parlez-moi de votre intention !
+
+----
+
+Quotes:
+
+- 
+  text: -
+  person: -
+  company: Vitibot
+- 
+  text: -
+  person: -
+  company: La Bascule
+
+----
+
+Project-list-1-title: Mes axes de travail
+
+----
+
+Project-list-1:
+
+- 
+  title: Sensibiliser aux enjeux environnementaux
+  subtitle: "Diffuser les connaissances scientifiques pour bien connaître le climat, l'énergie, la biodiversité et les ressources rares afin de pouvoir agir efficacement."
+  details: |
+    #### Atelier (link: https://www.fresqueduclimat.org/ text: Fresque du Climat)
+    Comprenez les causes et conséquences concrètes des dérèglements climatiques de manière collaborative et ludique. Formateur agréé. Engagement professionnel et bénévole.
+    *DREAL Normandie, NEOMA, ENSICAEN, ESITC, UniLaSalle, Vitibot, UFR Santé Rouen...*
+    
+    #### Atelier (link: https://www.fresquedelabiodiversite.org/ text: Fresque de la Biodiversité)
+    Découvrez la biodiversité, les pressions qui pèsent sur elle et les conséquences de son érosion à partir des données scientifiques de l'IPBES.
+    *NEOMA, ateliers grand public, ...*
+    
+    #### Sensibilisation bénévole dans l'association agricole et citoyenne [Triticum](https://www.triticum.fr/)
+- 
+  title: Partager la philosophie low-tech
+  subtitle: "... et comment la mettre en œuvre à l'échelle collective ou d'une entreprise."
+  details: |
+    #### Atelier participatif "*(file: plaquette-atelier-futur-low-tech-xs.pdf text:Votre futur sera-t-il low-tech ?)*"
+    Quelles solutions pour un monde durable ? Comprenez en équipe les limites planétaires, découvrez une approche de recherche de solutions novatrice et durable et projetez-vous pour passer à l’action !
+    *Académie du Climat - Mairie de Paris, ateliers grand public, ...*
+    
+    #### Conférences et tables rondes
+    
+    #### Projets vidéo
+    Je mets en lumière des initiatives à impact positif avec [mon côté vidéaste](/video).
+    
+    #### Écrits
+    Articles et guides notamment sur le thème du numérique low tech ((link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: guide Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)).
+    
+    #### Coorganisation de la [Semaine des Alternatives et des Low Tech 2020](https://www.facebook.com/events/3085727241522174/)
+    Événement de découverte de la démarche par la pratique, en lien avec les acteurs locaux.
+- 
+  title: Imaginer et construire
+  subtitle: >
+    ... une société future souhaitable et
+    soutenable.
+  details: |
+    #### Exercice de projection : [*« Conte d'un futur souhaitable »*](/blog/conte)
+    
+    #### Chantiers participatifs, travaux manuels
+    Production de semences céréalières, rénovation durable du bâtiment, travail du métal et du bois...
+    
+    #### Transformation alimentaire par une technologie appropriée
+    Participation ponctuelle à l'activité artisanale [Neoloco](https://neoloco.fr/) près de Rouen : locale, bio et à l'énergie solaire.
+
+----
+
+Custom-block: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0NLV5fBy1uk?controls=2&autoplay=0&fs=0&iv_load_policy=3&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 0 auto; display: block; max-width: 100%;"></iframe>
+
+----
+
+Project-list-2-title: Travaillons ensemble si vous voulez...
+
+----
+
+Project-list-2:
+
+- 
+  title: >
+    Améliorer votre résilience et être
+    plus sobre
+  subtitle: "Mieux résister aux chocs, à l'échelle de votre organisation ou de votre territoire."
+  details: ""
+- 
+  title: >
+    Innover avec une approche ingénieur low
+    tech
+  subtitle: 'Développer des produits ou  services en accord avec la finitude de notre monde : plus simples, plus  sobres et plus accessibles.'
+  details: ""
+- 
+  title: Faire infuser des idées nouvelles
+  subtitle: "... pour susciter l'engagement et sensibiliser vos équipes."
+  details: ""
+- 
+  title: Basculer votre activité en mode durable
+  subtitle: >
+    ... par des actions concrètes et
+    valorisables.
+  details: ""

@@ -8,13 +8,9 @@
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'debug' => false,
-    'url' => 'https://www.mewen.fr',
-    'locale' => 'fr_FR.UTF-8',
+    'debug' => true,
+    'url' => 'http://192.168.1.40',
     'panel' =>[
         'install' => true
-    ],
-    'markdown' => [
-        'extra' => true
     ]
 ];

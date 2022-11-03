@@ -1,4 +1,4 @@
-title: Engineer Job
+title: Video job
 preset: page
 fields:
   presentation:
@@ -10,6 +10,9 @@ fields:
     multiple: false
     query: page.images
     search: false
+  video-cover:
+    label: Couverture vidéo
+    type: text
   share_image:
     label: Image de partage
     type: files
@@ -36,40 +39,54 @@ fields:
       company:
         label: Entreprise
         type: text
-  project_list_1_title:
-    label: Titre de la liste 1
-    type: text
-    default: Axes de travail
-  project_list_1:
-    label: Liste de projets 1
+  skills:
+    label: Compétences
     type: structure
     fields:
       title:
         label: Titre
         type: text
-      subtitle:
-        label: Sous-titre
-        type: text
-      details:
-        label: Détails
+      description:
+        label: Description
         type: textarea
-  custom_block :
-    label: Bloc HTML personnalisé
+      picture:
+        label: Icône
+        type: files
+        multiple: false
+        query: page.images
+        search: false
+  project_title:
+    label: Titre des projets
     type: text
-  project_list_2_title:
-    label: Titre de la liste 2
-    type: text
-    default: Axes de travail
-  project_list_2:
-    label: Liste de projets 2
+    default: Projets
+  projects:
+    label: Projets
     type: structure
     fields:
       title:
         label: Titre
         type: text
-      subtitle:
-        label: Sous-titre
-        type: text
-      details:
-        label: Détails
+      description:
+        label: Description
         type: textarea
+      published:
+        label: Publié le
+        type: date
+      client:
+        label: Client
+        type: text
+      thumbnail:
+        label: Vignette
+        type: files
+        multiple: false
+        query: page.images
+        search: false
+      youtube:
+        label: Youtube ID
+        type: text
+      peertube:
+        label: Peertube ID
+        type: text
+      facebook:
+        label: Facebook ID
+        type: text

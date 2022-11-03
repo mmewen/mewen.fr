@@ -1,0 +1,35 @@
+.articles {
+	margin: 3em 0;
+}
+
+@media screen and (min-width: 40rem) {
+	.articles {
+		margin-left: 4em;
+		margin-right: 4em;
+	}
+}
+
+.articles .article+.article {
+	border-top: 1px dashed var(--color);
+	padding-top: 1rem;
+}
+
+.article {
+	position: relative;
+}
+
+.article h3 {
+	display: inline;
+}
+
+.article span {
+	float: right;
+}
+
+.article p {
+	font-style: italic;
+}
+
+#outro {
+	margin-top: 3em;
+}

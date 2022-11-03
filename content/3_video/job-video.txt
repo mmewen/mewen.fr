@@ -1,0 +1,137 @@
+Title: Vidéaste
+
+----
+
+Presentation:
+
+Vous souhaitez exposer le charme d'un bâtiment, d'un lieu ou d'une région 🏞 ?
+Mettre en lumière un évènement 🎆 ?
+Partager une initiative positive 💡 ?
+
+Capturez ces émotions dans un film ! Je le réalise pour vous.
+
+----
+
+Cover:
+
+- img_20200512_181055_hdr-edit.png
+
+----
+
+Video-cover: L5H3C8nZ2Ys
+
+----
+
+Share-image: 
+
+----
+
+Text: 
+
+----
+
+Contact-text:
+
+Je suis basé à Brest et mobile dans toute la France.
+
+Entrons en contact !
+
+----
+
+Quotes: 
+
+----
+
+Skills:
+
+- 
+  title: Scénario
+  description: >
+    Histoire, objectifs, cible et style de
+    la vidéo
+  picture:
+    - 001-script.svg
+- 
+  title: Tournage
+  description: "Souplesse et qualité d'un matériel professionnel léger"
+  picture:
+    - 002-movie-clapper-open.svg
+- 
+  title: Montage et motion design
+  description: >
+    Mise en valeur du sujet par une finition
+    soignée
+  picture:
+    - 004-video-edition-1.svg
+- 
+  title: Bande son
+  description: >
+    Bruitages, musique dédiée ou voix-off
+    pour une ambiance immersive
+  picture:
+    - 005-microphone.svg
+
+----
+
+Project-title: Portfolio
+
+----
+
+Projects:
+
+- 
+  title: >
+    Je construis mon séchoir solaire —
+    Terre vivante
+  description: >
+    Fruits secs, bouillon instantané de
+    légumes, tomates séchées, .... Un
+    séchoir solaire pour conserver les
+    récoltes de son jardin de manière
+    économe en énergie !
+  published: 2022-02-11
+  client: ""
+  thumbnail:
+    - sechoir.jpg
+  youtube: 1Qbc_2oXVjw
+  peertube: ""
+  facebook: ""
+- 
+  title: 'Lyon & la Fête des Lumières'
+  description: "Quand arrive l'hiver, les bouchons et traboules du centre de Lyon s'animent à la tombée de la nuit : les lumières sont revenues faire la fête !"
+  published: 2020-01-23
+  client: ""
+  thumbnail:
+    - lyon-et-la-fete-des-lumieres-l.jpg
+  youtube: BGg8_icCP_4
+  peertube: ""
+  facebook: ""
+- 
+  title: "30' pour présenter Green Motor"
+  description: |
+    🌱 Présenter une idée nouvelle
+    ⏱ en 30 secondes chrono
+    🚷 sans pouvoir filmer
+    
+    Défi relevé avec cette vidéo en motion design !
+  published: 2020-03-23
+  client: Green Motor
+  thumbnail:
+    - green-motor-l.jpg
+  youtube: YHBer3tTdDQ
+  peertube: ""
+  facebook: ""
+- 
+  title: La résilience alimentaire
+  description: |
+    L'association (link: https://www.triticum.fr/ text: Triticum) tire la sonnette d'alarme : la sécurité alimentaire de Rouen, comme toutes les métropoles françaises, est compromise.
+    
+    Petit récapitulatif en motion design
+  published: 2020-04-20
+  client: Triticum
+  thumbnail:
+    - moulin-l.jpg
+  youtube: ""
+  peertube: ""
+  facebook: >
+    https://www.facebook.com/associationtriticum/videos/234863244238173

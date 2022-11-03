@@ -1,0 +1,52 @@
+.breadcrumb ol {
+	list-style: none;
+}
+
+.breadcrumb ol li {
+	display: inline;
+}
+
+.breadcrumb ol li+li:before {
+  padding: 8px;
+  content: "\2192";
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+.intro span+span:before {
+	padding: 0.2em;
+	content: "\0000B7";
+}
+
+#previous-post, #next-post {
+	font-style: italic;
+}
+
+.blog-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#previous-post::before {
+	content: '←';
+}
+
+#next-post::after {
+	content: '→';
+}
+
+.footnote-ref {
+	margin: 0 0.2em;
+}
+
+blockquote {
+	border-left: double 3px var(--highlight-color);
+	padding-left: 1.5em;
+}
+
+iframe {
+	width: 100%;
+}

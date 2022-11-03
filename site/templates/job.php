@@ -17,6 +17,39 @@
     <?php endif ?>
   </section>
 
+  <?php
+  $first = true;
+  $project_lists = [];
+  
+  if ($page->project_list_1_title() != "") {
+    $project_lists[] = [$page->project_list_1_title(), $page->project_list_1()];
+  }
+  if ($page->project_list_2_title() != "") {
+    $project_lists[] = [$page->project_list_2_title(), $page->project_list_2()];
+  }
+  foreach ($project_lists as [$project_title, $project_list]): ?>
+    <section class="projects">
+      <h1><?= $project_title ?></h1>
+      <div class="flex align-start space-around">
+        <?php
+        $projects = $project_list->toStructure();
+        foreach ($projects as $project): ?>
+        <article class="project d6 m12 text">
+          <h2><?= $project->title() ?></h2>
+          <i><?= $project->subtitle() ?></i>
+          <p><?= $project->details()->kt() ?></p>
+        </article>
+        <?php endforeach ?>
+      </div>
+    </section>
+
+    <?php if ($first):
+        $first = false; ?>
+        <?= $page->custom_block() ?>
+    <?php endif ?>
+
+  <?php endforeach ?>
+
   <section class="text">
     <?= $page->text()->kt() ?>
   </section>
@@ -29,68 +62,6 @@
       <?= html::tel($site->phone()) ?>
     </div>
   </section>
-
-
-  <section class="projects">
-    <h1><?= $page->project_title()->html() ?></h1>
-    <?php
-    $projects = $page->projects()->toStructure();
-    foreach ($projects as $project): ?>
-    <article class="project flex strech">
-      <div class="player d8 m12 load-resource" data-youtube-id="<?= $project->youtube() ?>" data-peertube-id="<?= $project->peertube() ?>">
-        <img src="<?= $project->thumbnail()->toFile()->url() ?>">
-      </div>
-      <div class="fill project-description">
-        <h2><?= $project->title() ?></h2>
-        <?= $project->description()->kt() ?>
-        <div class="project-info note"><?= $project->client() ?></div>
-        <time class="project-info note"><?= $project->published()->toDate('m/Y') ?></time>
-      </div>
-    </article>
-    <?php endforeach ?>
-  </section>
 </main>
-
-<script type="text/javascript">
-function loadResource(e) {
-  let resourceType = null;
-  let resourceSource = "";
-  let resourceElement = null;
-  if (!!e.target.getAttribute('data-youtube-id')) {
-    resourceType = "youtube";
-    resourceSource = e.target.getAttribute('data-youtube-id');
-  } else if (!!e.target.getAttribute('data-peertube-id')) {
-    resourceType = "peertube";
-    resourceSource = e.target.getAttribute('data-peertube-id');
-  }
-
-  if (resourceType === "youtube" || resourceType === "peertube") {
-    resourceElement = document.createElement("iframe");
-    resourceElement.classList.add("video");
-    let url = "";
-    if (resourceType === "youtube") {
-      url = "https://www.youtube.com/embed/" + resourceSource;
-      resourceElement.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
-    } else if (resourceType === "peertube") {
-      url = "https://peertube.social/videos/embed/" + resourceSource;
-      resourceElement.setAttribute("sandbox", "allow-same-origin allow-scripts");
-    }
-    url += "?autoplay=1";
-    resourceElement.setAttribute("src", url);
-    resourceElement.setAttribute("frameborder", "0");
-    resourceElement.setAttribute("allowfullscreen", null);
-  }
-
-  if (!!resourceElement) {
-    e.target.appendChild(resourceElement);
-    e.target.onclick = null;
-    resourceElement.onload = () => {
-      e.target.classList.add("resource-loaded");
-    };
-  }
-}
-
-document.querySelectorAll(".load-resource").forEach(item => item.onclick = loadResource);
-</script>
 
 <?php snippet('footer') ?>

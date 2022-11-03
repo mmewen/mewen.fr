@@ -2,7 +2,7 @@
 
 body {
   --background-color: #202225;
-  --secondary-background-color: rgba(255, 253, 245, 0.1);
+  --secondary-background-color: rgba(255, 253, 245, 0.06);
   --color: rgba(255, 255, 255, 0.87);
   --highlight-color: #2875BB;
 }
@@ -38,6 +38,22 @@ a {
   text-decoration: none;
 }
 
+a.external:after {
+  content: '\2197';
+  padding: 0 0.2em;
+  font-size: small;
+  vertical-align: top;
+}
+
+h2 {
+  font-size: larger;
+}
+
+h3 {
+  font-size: large;
+}
+
+
 /*strong, b {
   font-weight: 500;
 }*/
@@ -56,6 +72,10 @@ img {
 
 .header {
   margin-bottom: 1.5rem;
+  padding: 0.6em 1.2em 1em 1.2em;
+  background-color: var(--background-color);
+  transition: opacity 0.2s;
+  border-radius: 0.5em;
 }
 
 .header a {
@@ -69,14 +89,28 @@ img {
 
 .header .logo {
   display: block;
-  margin-bottom: 1.5rem;
   padding: .5rem 0;
+}
+
+
+@media screen and (min-width: 40rem) {
+  .header .logo {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+  }
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .menu a {
@@ -106,7 +140,7 @@ main {
 }
 
 .intro {
-  padding: 10vh 0;
+  padding: 3vh 0 7vh 0;
   text-align: center;
 }
 
@@ -140,11 +174,16 @@ main {
 }
 .text a {
   position: relative;
-  white-space: nowrap;
+  /*white-space: nowrap;
+  display: inline-block;*/
+  white-space: wrap;
   font-weight: 500;
   z-index: 1;
-  display: inline-block;
   border-bottom: 2px solid var(--highlight-color);
+  transition: border-width 0.1s linear;
+}
+.text a:hover {
+  border-bottom: 4px solid var(--highlight-color);
 }
 .text figure {
   padding-top: 1.5rem;

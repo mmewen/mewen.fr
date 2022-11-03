@@ -49,5 +49,21 @@
     <?php endif ?> -->
   </footer>
 
+  <script type="text/javascript">
+    var urls = document.querySelectorAll('a');
+
+    const reHttp = /^http/;
+    const reLocal = new RegExp(window.location.href.split('//')[1].split('/')[0]);
+
+    for (url in urls) {
+      var isHttp = reHttp.exec(urls[url].href) !== null;
+      var isOutbound = reLocal.exec(urls[url].href) == null;
+
+      if (isHttp && isOutbound) {
+        urls[url].classList.add('external');
+      }
+    }
+  </script>
+
 </body>
 </html>

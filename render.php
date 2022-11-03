@@ -6,11 +6,14 @@ $kirby = new Kirby([
     'roots' => [
         'index'  => __DIR__,
         'assets' => __DIR__ . '/assets',
-        'media' => __DIR__ . '/media',
-        'static' => __DIR__ . '/static'
+        'static' => $static = __DIR__ . '/static',
+        'media' => $static . '/media',
     ],
     'urls' => [
         'index' => '/'
+    ],
+    'markdown' => [
+        'extra' => true
     ]
 ]);
 
@@ -30,6 +33,8 @@ function recurse_copy($src,$dst) {
     closedir($dir); 
 }
 
+setlocale(LC_ALL, 'fr_FR.UTF-8'); // because of some weird bug with strftime at render.
+
 // Render all the pages
 foreach ($kirby->site()->index() as $page) {
 
@@ -46,18 +51,15 @@ foreach ($kirby->site()->index() as $page) {
     // Copy the page files
     foreach ($page->files() as $page_file) {
         $page_file->publish();
-        $dst = $kirby->root('static') . $page_file->url();
-        $dst_dir = dirname($dst);
-        if (!is_dir($dst_dir)) {
-            mkdir($dst_dir, 0744, TRUE);
-        }
-        copy($kirby->root() . $page_file->url(), $dst); 
     }
 
 }
 
 // Copy the assets
 recurse_copy($kirby->root('assets'), $kirby->root('static') . '/assets');
+
+// Copy robots.txt
+copy("robots.txt", "static/robots.txt"); 
 
 // End
 echo 'Your static site has been generated in ' . $kirby->root('static');

@@ -1,0 +1,10 @@
+title: Blog page
+preset: page
+fields:
+  presentation:
+    label: Présentation
+    type: textarea
+  outro:
+    label: Texte de fin
+    type: textarea
+    size: large

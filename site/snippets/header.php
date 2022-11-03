@@ -14,13 +14,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
 
-  <!-- The title tag we show the title of our site and the title of the current page -->
-  <title><?= $site->title() ?> <?= $page->title() ?></title>
+  <?php
+  // Prepare title
+  if ($page->id() == "home") {
+    $title = $site->title();
+  } else {
+    $title = $page->title()." - ".$site->title();
+  }
+  $title = html($title);
 
-  <!-- Stylesheets can be included using the `css()` helper. Kirby also provides the `js()` helper to include script file. 
-        More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers -->
+  // Prepare image
+  if ($page->share_image()->toFile()) {
+    $image = $page->share_image()->toFile()->url();
+  } else if ($page->cover()->toFile()) {
+    $image = $page->cover()->toFile()->url();
+  } else {
+    $image = 'assets/images/default.jpg';
+  }
+  $image = Url::makeAbsolute($image);
+  ?>
+  <title><?= $title ?></title>
+  <meta property="description" content="<?= $site->description() ?>" />
+
+  <!-- Social media meta data -->
+  <meta property="og:site_name" content="<?= $site->title() ?>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="<?= $image ?>" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:fb:admins" content="105057877735885" />
+  <meta property="fb:app_id" content="251220228247710" />
+  <meta property="og:url" content="<?= Url::makeAbsolute(Url::path($page->url(), false, true)) ?>" />
+  <meta property="og:title" content="<?= $title ?>" />
+  <meta property="og:description" content="<?= $site->description() ?>" />
+  <meta name="twitter:title" content="<?= $title ?>" />
+  <meta name="twitter:card" content="<?= $site->description() ?>" />
+
   <?= css(['assets/css/index.css', 'assets/css/flex.css', 'assets/css/overlay.css', '@auto']) ?>
 
 </head>
@@ -28,14 +58,10 @@
 
   <div class="page">
     <header class="header">
-      <!-- In this link we call `$site->url()` to create a link back to the homepage -->
-      <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a>
+      <a class="logo" href="<?= $site->url() ?>"><!-- <?= $site->title() ?> --></a>
 
       <nav id="menu" class="menu">
         <?php 
-        // In the menu, we only fetch listed pages, i.e. the pages that have a prepended number in their foldername
-        // We do not want to display links to unlisted `error`, `home`, or `sandbox` pages
-        // More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
         foreach ($site->children()->listed() as $item): ?>
         <?= $item->title()->link() ?>
         <?php endforeach ?>
