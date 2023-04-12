@@ -74,9 +74,6 @@ Project-list-1:
     
     #### Conférences et tables rondes
     
-    #### Projets vidéo
-    Je mets en lumière des initiatives à impact positif avec [mon côté vidéaste](/video).
-    
     #### Écrits
     Articles et guides notamment sur le thème du numérique low tech ((link: https://www.nwx.fr/guide-numerique-responsable-nwx/ text: guide Normandy Web Xperts), (link: http://www.notrecop21.fr/la-coalition-numerique-responsable text: coalition Métropole Rouen Normandie x ADEME x Pôle Emploi x NWX)).
     
@@ -88,7 +85,9 @@ Project-list-1:
     ... une société future souhaitable et
     soutenable.
   details: |
-    #### Exercice de projection : [*« Conte d'un futur souhaitable »*](/blog/conte)
+    
+    #### Coopérative d'ingénierie artisanale, [l'Atelier Tro-heol](https://www.atelier-troheol.bzh)
+    Atelier d'étude et de conception de solutions sobres pour et avec des pros.
     
     #### Chantiers participatifs, travaux manuels
     Production de semences céréalières, rénovation durable du bâtiment, travail du métal et du bois...
